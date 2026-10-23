@@ -1,0 +1,14 @@
+[
+ {"id": "t01", "persona": "在海岸城上班的程序员，下班和同事吃饭", "cons": [{"type": "area", "value": "海岸城", "how": "say"}, {"type": "category", "value": "火锅", "how": "say"}, {"type": "budget", "value": 100, "how": "ask"}]},
+ {"id": "t02", "persona": "周末和女朋友逛深圳湾万象城", "cons": [{"type": "area", "value": "深圳湾万象城", "how": "say"}, {"type": "scene", "value": "约会", "how": "say"}, {"type": "category", "value": "西餐|意大利|法国|牛排|披萨|意面|意粉|Pasta|pasta|西餐厅", "how": "ask"}]},
+ {"id": "t03", "persona": "广州来的游客，想吃地道粤菜", "cons": [{"type": "category", "value": "粤菜|广东菜|烧鹅|点心|早茶|茶楼", "how": "say"}, {"type": "area", "value": "海岸城", "how": "ask"}, {"type": "budget", "value": 150, "how": "ask"}]},
+ {"id": "t04", "persona": "科技园的打工人，午饭预算紧", "setup": ["记住我人均一般不超过八十"], "cons": [{"type": "area", "value": "南山科技园", "how": "say"}, {"type": "category", "value": "面|粉|米线|快餐|饭", "how": "say"}, {"type": "budget", "value": 80, "how": "memory"}]},
+ {"id": "t05", "persona": "爱吃寿司的大学生", "cons": [{"type": "area", "value": "海岸城", "how": "say"}, {"type": "category", "value": "日料|日本料理|寿司", "how": "say"}, {"type": "budget", "value": 120, "how": "ask"}]},
+ {"id": "t06", "persona": "住在海岸城附近的上班族", "setup": ["记住我常去海岸城"], "cons": [{"type": "category", "value": "韩餐|韩国料理|韩料|韩式", "how": "say"}, {"type": "area", "value": "海岸城", "how": "memory"}, {"type": "budget", "value": 100, "how": "ask"}]},
+ {"id": "t07", "persona": "要请客户吃饭的销售", "cons": [{"type": "area", "value": "深圳湾万象城", "how": "say"}, {"type": "scene", "value": "商务", "how": "say"}, {"type": "category", "value": "粤菜|广东菜|潮汕|潮菜", "how": "ask"}]},
+ {"id": "t08", "persona": "带爸妈出来吃饭的年轻人", "cons": [{"type": "scene", "value": "带老人", "how": "say"}, {"type": "area", "value": "海岸城", "how": "ask"}]},
+ {"id": "t09", "persona": "一个人吃饭、只想快点吃完的上班族", "cons": [{"type": "area", "value": "海岸城", "how": "say"}, {"type": "budget", "value": 60, "how": "say"}, {"type": "category", "value": "茶餐厅|快餐|米线|面|粉", "how": "ask"}]},
+ {"id": "t10", "persona": "常吃日料的白领", "setup": ["记住我人均一般不超过一百五"], "cons": [{"type": "area", "value": "深圳湾万象城", "how": "say"}, {"type": "category", "value": "日料|日本料理|寿司|丼", "how": "say"}, {"type": "budget", "value": 150, "how": "memory"}]},
+ {"id": "t11", "persona": "科技园加班后想吃顿热乎的", "cons": [{"type": "area", "value": "南山科技园", "how": "say"}, {"type": "category", "value": "火锅", "how": "say"}, {"type": "budget", "value": 80, "how": "ask"}]},
+ {"id": "t12", "persona": "下午想找地方坐坐的自由职业者", "cons": [{"type": "area", "value": "海岸城", "how": "ask"}, {"type": "category", "value": "甜品|咖啡|下午茶|茶饮|奶茶|蛋糕|烘焙", "how": "say"}]}
+]

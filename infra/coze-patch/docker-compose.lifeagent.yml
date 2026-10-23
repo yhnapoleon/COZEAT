@@ -1,0 +1,4 @@
+# 在原来的 compose 命令后面再加一个 -f 这个文件，coze-server 就换成打了检索补丁的镜像；去掉就回滚到官方镜像。
+services:
+  coze-server:
+    image: coze-studio-server:la-v0.5.1-p1

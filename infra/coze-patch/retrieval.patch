@@ -1,0 +1,86 @@
+diff --git a/backend/domain/knowledge/service/retrieve.go b/backend/domain/knowledge/service/retrieve.go
+index a2c7d942..8025f522 100644
+--- a/backend/domain/knowledge/service/retrieve.go
++++ b/backend/domain/knowledge/service/retrieve.go
+@@ -20,6 +20,7 @@ import (
+ 	"context"
+ 	"fmt"
+ 	"regexp"
++	"sort"
+ 	"strconv"
+ 	"sync"
+ 	"unicode/utf8"
+@@ -280,6 +281,11 @@ func (k *knowledgeSVC) retrieveChannels(ctx context.Context, req *RetrieveContex
+ 			searchstore.WithPartitions(partitions),
+ 			retriever.WithDSLInfo(dsl.DSL()),
+ 		}
++		// lifeagent patch: pass the node's top_k down; otherwise milvus uses its package const topK = 4
++		// and elasticsearch uses 10, whatever the node is configured with
++		if req.Strategy != nil && req.Strategy.TopK != nil && *req.Strategy.TopK > 0 {
++			opts = append(opts, retriever.WithTopK(int(*req.Strategy.TopK)))
++		}
+ 		if info.DocumentType == knowledgeModel.DocumentTypeTable && !k.enableCompactTable {
+ 			var matchCols []string
+ 			for _, col := range info.TableColumns {
+@@ -716,6 +722,27 @@ func (k *knowledgeSVC) packResults(ctx context.Context, retrieveResult []*schema
+ 			Score: sliceScoreMap[slices[i].ID],
+ 		})
+ 	}
++	// lifeagent patch: MGetSlices is `WHERE id IN (...)` with no ORDER BY, so results came back in storage
++	// order. Restore the order of retrieveResult (already sorted by the reranker). Don't sort by Score: in
++	// hybrid mode it mixes BM25 scores (>1) with normalized vector scores (0..1).
++	rankOf := make(map[int64]int, len(retrieveResult))
++	for i, doc := range retrieveResult {
++		if id, perr := strconv.ParseInt(doc.ID, 10, 64); perr == nil {
++			if _, ok := rankOf[id]; !ok {
++				rankOf[id] = i
++			}
++		}
++	}
++	rank := func(r *knowledgeModel.RetrieveSlice) int {
++		if r.Slice == nil {
++			return -1
++		}
++		if v, ok := rankOf[r.Slice.ID]; ok {
++			return v
++		}
++		return len(rankOf)
++	}
++	sort.SliceStable(results, func(i, j int) bool { return rank(results[i]) < rank(results[j]) })
+ 	err = k.sliceRepo.IncrementHitCount(ctx, sliceIDs.ToSlice())
+ 	if err != nil {
+ 		logs.CtxWarnf(ctx, "increment hit count failed: %v", err)
+diff --git a/backend/infra/document/rerank/impl/rrf/rrf.go b/backend/infra/document/rerank/impl/rrf/rrf.go
+index 4981786e..fa0a24d7 100644
+--- a/backend/infra/document/rerank/impl/rrf/rrf.go
++++ b/backend/infra/document/rerank/impl/rrf/rrf.go
+@@ -46,9 +46,12 @@ func (r *rrfReranker) Rerank(ctx context.Context, req *rerank.Request) (*rerank.
+ 		for rank := range resultList {
+ 			result := resultList[rank]
+ 			if result != nil && result.Document != nil {
++				// lifeagent patch: standard RRF sums 1/(k+rank) over all lists (upstream kept the max, so hybrid
++				// search just interleaved the two channels). Keep the first list's Data so MinScore still compares
++				// against the vector channel's normalized score when a slice appears in both lists.
+ 				score := 1.0 / (float64(rank) + float64(r.k))
+-				if score > id2Score[result.Document.ID] {
+-					id2Score[result.Document.ID] = score
++				id2Score[result.Document.ID] += score
++				if _, ok := id2Data[result.Document.ID]; !ok {
+ 					id2Data[result.Document.ID] = result
+ 				}
+ 			}
+@@ -58,8 +61,13 @@ func (r *rrfReranker) Rerank(ctx context.Context, req *rerank.Request) (*rerank.
+ 	for _, data := range id2Data {
+ 		sorted = append(sorted, data)
+ 	}
++	// lifeagent patch: break ties by ID so equal-score order is deterministic (map iteration is random)
+ 	sort.Slice(sorted, func(i, j int) bool {
+-		return id2Score[sorted[i].Document.ID] > id2Score[sorted[j].Document.ID]
++		si, sj := id2Score[sorted[i].Document.ID], id2Score[sorted[j].Document.ID]
++		if si != sj {
++			return si > sj
++		}
++		return sorted[i].Document.ID < sorted[j].Document.ID
+ 	})
+ 	topN := int64(len(sorted))
+ 	if req.TopN != nil && ptr.From(req.TopN) != 0 && ptr.From(req.TopN) < topN {

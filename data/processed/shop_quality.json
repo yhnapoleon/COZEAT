@@ -1,0 +1,2848 @@
+{
+ "B0GDODOEK9": {
+  "aspects": {
+   "口味": {
+    "score": 3.5,
+    "n": 2
+   },
+   "环境": {
+    "score": 2.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.4,
+  "notes": [
+   "xfc792ca8",
+   "xdf4db8f7"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.93
+ },
+ "B0LK0X8XT7": {
+  "aspects": {
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": null,
+  "notes": [
+   "x81bb45e0"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.8
+ },
+ "B0JU1ARAAC": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xdf4db8f7",
+   "x2623e442"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.94
+ },
+ "B0L06ROHT7": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 2
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 5.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 2
+   },
+   "排队": {
+    "score": 2.2,
+    "n": 2
+   }
+  },
+  "ugc_score": 8.1,
+  "notes": [
+   "x6c8c3bc1",
+   "xcd6bf122"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.56
+ },
+ "B0J24L4XZ1": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x5823ff04"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0KDLHQDQX": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFJYH97B": {
+  "aspects": {
+   "口味": {
+    "score": 3.3,
+    "n": 3
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 2
+   },
+   "排队": {
+    "score": 2.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 5.2,
+  "notes": [
+   "x43632f87",
+   "xc3366cd7"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.94
+ },
+ "B0GKBKDAXY": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFKVBAKS": {
+  "aspects": {
+   "性价比": {
+    "score": 4.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xd1897baf",
+   "x9765edc4"
+  ],
+  "n_notes": 2,
+  "n_ad": 1,
+  "cred": 0.27
+ },
+ "B0JG35W1WZ": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xcbd801ab"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0LKJL2H0V": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFJ8E3JX": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0LRTUAD99": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x208abc25"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.0
+ },
+ "B0KGXMSYWM": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFJC28SR": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x2623e442"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0KGHAVCGX": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFFCSXCN": {
+  "aspects": {
+   "口味": {
+    "score": 2.5,
+    "n": 2
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.6,
+  "notes": [
+   "x77215a7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0L39SSIGL": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 2
+   },
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0KA7ODIAD": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x8ef533ad"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.15
+ },
+ "B0FFK2BZ5G": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0LU1SF0WH": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFJGB4CQ": {
+  "aspects": {
+   "口味": {
+    "score": 4.7,
+    "n": 2
+   },
+   "排队": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 9.2,
+  "notes": [
+   "x68999e4"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0LK7L3MKL": {
+  "aspects": {
+   "口味": {
+    "score": 3.7,
+    "n": 5
+   },
+   "环境": {
+    "score": 4.3,
+    "n": 4
+   },
+   "服务": {
+    "score": 2.7,
+    "n": 2
+   },
+   "性价比": {
+    "score": 5.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 1.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 7.3,
+  "notes": [
+   "x30b9fb16",
+   "x474b3295",
+   "x43d9e839",
+   "x6b722b34"
+  ],
+  "n_notes": 4,
+  "n_ad": 2,
+  "cred": 0.33
+ },
+ "B0H0K9SBL9": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0L0YH6WAC": {
+  "aspects": {
+   "口味": {
+    "score": 4.6,
+    "n": 4
+   },
+   "环境": {
+    "score": 2.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 1.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 4.8,
+  "notes": [
+   "x34ea2400",
+   "xdf77a56f",
+   "xfa020ce0",
+   "xf8191744"
+  ],
+  "n_notes": 4,
+  "n_ad": 3,
+  "cred": 0.34
+ },
+ "B0I3GUIB0K": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0L2HCBD0U": {
+  "aspects": {
+   "口味": {
+    "score": 3.7,
+    "n": 4
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 4.6,
+  "notes": [
+   "xd86f1491",
+   "x6644e27e",
+   "x838f9279",
+   "xe8d24759"
+  ],
+  "n_notes": 4,
+  "n_ad": 0,
+  "cred": 0.7
+ },
+ "B0MD4XKI9Z": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0L0A5BS36": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 2.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 3.3,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0H1L7G8M4": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFGMAL4V": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0KKV17RQ6": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0MDGHQUI1": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFGSSCMH": {
+  "aspects": {
+   "口味": {
+    "score": 2.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0FFK2M39L": {
+  "aspects": {
+   "口味": {
+    "score": 4.2,
+    "n": 3
+   }
+  },
+  "ugc_score": 8.0,
+  "notes": [
+   "x43632f87",
+   "xf640746d",
+   "x2385d1d9"
+  ],
+  "n_notes": 3,
+  "n_ad": 1,
+  "cred": 0.45
+ },
+ "B0MDAO4P6E": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0MRGAM62E": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xdc2f7a0e"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0MBXUZ6HF": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 2.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 8.8,
+  "notes": [
+   "xdc2f7a0e",
+   "x17236a30"
+  ],
+  "n_notes": 2,
+  "n_ad": 2,
+  "cred": 0.15
+ },
+ "B0L2TK2SZB": {
+  "aspects": {
+   "口味": {
+    "score": 4.3,
+    "n": 2
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.9,
+  "notes": [
+   "xdc2f7a0e"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0KBNAJ31Y": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xdc2f7a0e"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0L36Z9ZP4": {
+  "aspects": {
+   "口味": {
+    "score": 4.3,
+    "n": 3
+   }
+  },
+  "ugc_score": 8.2,
+  "notes": [
+   "xdc2f7a0e",
+   "x487c6517",
+   "x6644e27e"
+  ],
+  "n_notes": 3,
+  "n_ad": 1,
+  "cred": 0.28
+ },
+ "B0L36H97MB": {
+  "aspects": {
+   "口味": {
+    "score": 4.5,
+    "n": 2
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.1,
+  "notes": [
+   "x9092b284",
+   "xec1d0114"
+  ],
+  "n_notes": 2,
+  "n_ad": 2,
+  "cred": 0.14
+ },
+ "B0FFLEJZJS": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xce012841"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0L2BSJK2X": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x59313fcf"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.18
+ },
+ "B0FFHQJG0D": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xdf4db8f7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.98
+ },
+ "B0JRBMMND2": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xdf4db8f7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.98
+ },
+ "B0MRLZ3LP1": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.8,
+  "notes": [
+   "x46b8854b"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.32
+ },
+ "B0K0KRBJ2I": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 5.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 9.2,
+  "notes": [
+   "x2d0e7691"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.08
+ },
+ "B0H125A3PY": {
+  "aspects": {
+   "口味": {
+    "score": 1.9,
+    "n": 2
+   }
+  },
+  "ugc_score": 2.2,
+  "notes": [
+   "xcbd801ab",
+   "x29759f09"
+  ],
+  "n_notes": 2,
+  "n_ad": 1,
+  "cred": 0.55
+ },
+ "B0I637Y03K": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.8,
+  "notes": [
+   "xcbd801ab"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0MUGXPBNX": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0G35UWBSV": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "x888b928e"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.4
+ },
+ "B0JAARJY6P": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "x888b928e",
+   "x842d3899"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.31
+ },
+ "B0L1B9Z9VH": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xfe2c8d21"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0K117PCJI": {
+  "aspects": {
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 1.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 3.8,
+  "notes": [
+   "xfe2c8d21",
+   "xf8f21aa0"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.92
+ },
+ "B0HBPCCZYN": {
+  "aspects": {
+   "环境": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xfe2c8d21"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0IRU768LT": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 3.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.7,
+  "notes": [
+   "x1387867b"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.7
+ },
+ "B0KAPUJZE4": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x1387867b"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.7
+ },
+ "B0L06ZMA0Y": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x1fc7d668"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.8
+ },
+ "B0K07KBF65": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x659cd1f"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.28
+ },
+ "B0FFIR6826": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x659cd1f"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.28
+ },
+ "B0JRTL7DRI": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x659cd1f"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.28
+ },
+ "B0KUN5LBX0": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.8,
+  "notes": [
+   "x77215a7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0LDJ9WK03": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x77215a7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0FFJIMQ3Q": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x77215a7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0L39RRUI4": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x543ba2b"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.4
+ },
+ "B0FFH06GJK": {
+  "aspects": {
+   "口味": {
+    "score": 4.4,
+    "n": 2
+   },
+   "服务": {
+    "score": 2.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.5,
+  "notes": [
+   "x8dc38093",
+   "x458aa5b9"
+  ],
+  "n_notes": 2,
+  "n_ad": 1,
+  "cred": 0.35
+ },
+ "B0L2HCAU26": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 1.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 2.5,
+  "notes": [
+   "x8dc38093"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.5
+ },
+ "B0FFIINSAQ": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x68999e4"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0FFLDD659": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x68999e4"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B02F38TE2T": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.8,
+  "notes": [
+   "x68999e4"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0KGUC30VO": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "x68999e4"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.14
+ },
+ "B0LKJZ1FYN": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 2.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 5.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.7,
+  "notes": [
+   "x8d08f6c6"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.1
+ },
+ "B0LRA4ZCUB": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 1.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.8,
+  "notes": [
+   "x69058685"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.58
+ },
+ "B0LRFO8UDL": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 2.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 1.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "x69058685"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.58
+ },
+ "B0L6HZG5I2": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 1.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x69058685"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.58
+ },
+ "B0JGU1APPN": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xc56488fa"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.92
+ },
+ "B0K30UL5S6": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xd99fc481"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.92
+ },
+ "B0MD649W0P": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xd99fc481"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.92
+ },
+ "B0HK0HBMSC": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x586a747e"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.12
+ },
+ "B0FFK64L2W": {
+  "aspects": {
+   "口味": {
+    "score": 4.2,
+    "n": 4
+   }
+  },
+  "ugc_score": 8.0,
+  "notes": [
+   "x9a01b90f",
+   "x29759f09",
+   "xf640746d",
+   "x2385d1d9"
+  ],
+  "n_notes": 4,
+  "n_ad": 1,
+  "cred": 0.58
+ },
+ "B0L2HCAMRD": {
+  "aspects": {
+   "口味": {
+    "score": 4.8,
+    "n": 3
+   },
+   "环境": {
+    "score": 4.5,
+    "n": 2
+   }
+  },
+  "ugc_score": 9.1,
+  "notes": [
+   "x9a01b90f",
+   "xd86f1491",
+   "x1bce7eea",
+   "xf640746d"
+  ],
+  "n_notes": 4,
+  "n_ad": 0,
+  "cred": 0.65
+ },
+ "B0LDR5GPZ4": {
+  "aspects": {
+   "口味": {
+    "score": 3.5,
+    "n": 2
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "x9a01b90f",
+   "xd86f1491"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.93
+ },
+ "B0L3SB2FO0": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x9a01b90f",
+   "x487c6517"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.57
+ },
+ "B0L2HCAMR0": {
+  "aspects": {
+   "口味": {
+    "score": 3.7,
+    "n": 5
+   },
+   "环境": {
+    "score": 2.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 1.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 3.9,
+  "notes": [
+   "x9a01b90f",
+   "xd86f1491",
+   "x3d5c5d6c",
+   "x994d008d"
+  ],
+  "n_notes": 4,
+  "n_ad": 0,
+  "cred": 0.83
+ },
+ "B0L2HCAH7B": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "x9a01b90f"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0LKDCNJ7F": {
+  "aspects": {
+   "口味": {
+    "score": 3.4,
+    "n": 3
+   },
+   "环境": {
+    "score": 3.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 2
+   },
+   "排队": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 4.5,
+  "notes": [
+   "xd1c355fe",
+   "x5e734eda",
+   "x2f05719e"
+  ],
+  "n_notes": 3,
+  "n_ad": 1,
+  "cred": 0.53
+ },
+ "B0H377D1LS": {
+  "aspects": {
+   "口味": {
+    "score": 2.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 2.5,
+  "notes": [
+   "xd1c355fe"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.2
+ },
+ "B0JA15J1PB": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 2.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 3.3,
+  "notes": [
+   "x29759f09"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.97
+ },
+ "B0JARSXUI1": {
+  "aspects": {
+   "口味": {
+    "score": 1.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 0.0,
+  "notes": [
+   "x29759f09"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.97
+ },
+ "B0FFKQOD3T": {
+  "aspects": {
+   "口味": {
+    "score": 2.5,
+    "n": 2
+   },
+   "服务": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 4.6,
+  "notes": [
+   "x29759f09",
+   "x2623e442"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.94
+ },
+ "B0K6X7S1HW": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x2623e442",
+   "x77ebe520"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.62
+ },
+ "B0HR9K4U3J": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "x2623e442"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0J245NAAS": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x2623e442"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0M61LKE66": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "x2623e442"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0HR4H0105": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "x2623e442"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0JD0MLXSR": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x2623e442"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0FFJ396YQ": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "x2623e442"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0KK1SE7OO": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "x2623e442"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0L2OAVRI1": {
+  "aspects": {
+   "口味": {
+    "score": 3.5,
+    "n": 2
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.4,
+  "notes": [
+   "xd86f1491",
+   "xfe8fbea8"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0L2HCB6EC": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xd86f1491"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0L2HCAU1M": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x6644e27e"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.45
+ },
+ "B0L0MR9LWF": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xf640746d"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.3
+ },
+ "B0FFK9DZVI": {
+  "aspects": {
+   "口味": {
+    "score": 4.5,
+    "n": 2
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.1,
+  "notes": [
+   "xf640746d",
+   "xb53e09bb"
+  ],
+  "n_notes": 2,
+  "n_ad": 1,
+  "cred": 0.25
+ },
+ "B0L2HCB0D5": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xf640746d"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.3
+ },
+ "B0FFL7S9QZ": {
+  "aspects": {
+   "口味": {
+    "score": 3.4,
+    "n": 2
+   },
+   "环境": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.0,
+  "notes": [
+   "xf640746d",
+   "xb51fbbae"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.57
+ },
+ "B0L2BZJD33": {
+  "aspects": {
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": null,
+  "notes": [
+   "x77ebe520"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.35
+ },
+ "B0L2HCAH6E": {
+  "aspects": {
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": null,
+  "notes": [
+   "x77ebe520"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.35
+ },
+ "B0G25OZ0JN": {
+  "aspects": {
+   "排队": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": null,
+  "notes": [
+   "x77ebe520"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.35
+ },
+ "B0L2HCAU1A": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x2f05719e"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.75
+ },
+ "B0MUY7R0QG": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.8,
+  "notes": [
+   "x2f05719e"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.75
+ },
+ "B0L2HCB0BM": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x2f05719e"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.75
+ },
+ "B0LKTUWEKY": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 2
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x2f05719e"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.75
+ },
+ "B0L0RU5CGX": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x994d008d"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.78
+ },
+ "B0M6OCMB78": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x2c8b8ec7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0KGFAY78V": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x2c8b8ec7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0I1FCMX6H": {
+  "aspects": {
+   "口味": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 2.5,
+  "notes": [
+   "x2c8b8ec7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0L2HCAU1E": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x2c8b8ec7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0MD6P9YQ4": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x2c8b8ec7"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0LKL799OZ": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xd0056e99"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.55
+ },
+ "B0L2HCBD2C": {
+  "aspects": {
+   "口味": {
+    "score": 2.3,
+    "n": 2
+   },
+   "环境": {
+    "score": 3.4,
+    "n": 2
+   },
+   "服务": {
+    "score": 2.3,
+    "n": 2
+   },
+   "性价比": {
+    "score": 1.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 3.1,
+  "notes": [
+   "xed9e682d"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.97
+ },
+ "B0J3U5Z4WL": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x53271ab5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.3
+ },
+ "B0I0OC4OU2": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xb53e09bb"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.2
+ },
+ "B0IUCR74HD": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "xb53e09bb"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.2
+ },
+ "B0HR4SZ76Z": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xb53e09bb"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.2
+ },
+ "B0FFLMSJSX": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xb53e09bb"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.2
+ },
+ "B0L2HCB0CC": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x9c238bc"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.85
+ },
+ "B0L2HCB0C3": {
+  "aspects": {
+   "服务": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xf1e1cfab"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.9
+ },
+ "B0K0YLKTUY": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 2.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 3.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 1.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x6251a5a2"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0MA26NVLK": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x71a8c362",
+   "xca643df5"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.8
+ },
+ "B0KKROYRCD": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x71a8c362",
+   "xca643df5"
+  ],
+  "n_notes": 2,
+  "n_ad": 0,
+  "cred": 0.8
+ },
+ "B0G10CEZNL": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x71a8c362"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.65
+ },
+ "B0FFJYMJRQ": {
+  "aspects": {
+   "环境": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x81bb45e0"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.8
+ },
+ "B0LDLCTT7V": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "x8a26c371"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0FFKJT47T": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xe0a1d253"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.99
+ },
+ "B0K1R172QL": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xe0a1d253"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.99
+ },
+ "B0LDFCWUJB": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x632f0d06"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.18
+ },
+ "B0FFHJXG92": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x632f0d06"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.18
+ },
+ "B0FFH0HUJW": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "x5bb4bb5b"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.08
+ },
+ "B0K2AHY4Z6": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "xe8d24759"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.7
+ },
+ "B0L0F984AW": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "x638c3465"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.92
+ },
+ "B02F37UQ3F": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "x638c3465"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.92
+ },
+ "B0LKLL9BNB": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 2.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "x725196ca"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.82
+ },
+ "B0FFHJMIXO": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [
+   "xbbaf7bcc"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0J0GDBMCI": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0KDTCFNNB": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0LGDSEE2J": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0LU1G5IPG": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0J37CWN8Q": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0L2Z53EQ3": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0KDTCHDJX": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0K2G5DNW3": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0JKG77Y2C": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0IDRUN80G": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "xca643df5"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0MUJASAXX": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [
+   "xc5eea766"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.08
+ },
+ "B0J0R9KUUE": {
+  "aspects": {},
+  "ugc_score": null,
+  "notes": [
+   "x8f2ced9d"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0MDJOKJUR": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 1.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "x715e8891"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.88
+ },
+ "B0FFI5COXF": {
+  "aspects": {
+   "口味": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 5.0,
+  "notes": [
+   "xe626b839"
+  ],
+  "n_notes": 1,
+  "n_ad": 0,
+  "cred": 0.95
+ },
+ "B0LDAHFXKT": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 2.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 3.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 6.2,
+  "notes": [
+   "xffe5010e"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.0
+ },
+ "B0L0G74QV5": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "环境": {
+    "score": 5.0,
+    "n": 1
+   },
+   "排队": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.8,
+  "notes": [
+   "x5c278a02"
+  ],
+  "n_notes": 1,
+  "n_ad": 1,
+  "cred": 0.0
+ },
+ "B0L3PDGO6P": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0L2HCAU1G": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0L2BZJJJN": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "服务": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.3,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0M6CNT55K": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 4.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 7.5,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0L025NBZE": {
+  "aspects": {
+   "口味": {
+    "score": 4.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 8.8,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0MDRHBMCC": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   },
+   "性价比": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0L0ODHYA1": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ },
+ "B0L2HCBD21": {
+  "aspects": {
+   "口味": {
+    "score": 5.0,
+    "n": 1
+   }
+  },
+  "ugc_score": 10.0,
+  "notes": [],
+  "n_notes": 0,
+  "n_ad": 0,
+  "cred": null
+ }
+}

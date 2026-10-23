@@ -1,0 +1,40 @@
+# 服务层：LLM 网关 + sidecar。Coze Studio 在另一套 compose 里，经 host.docker.internal 访问这里。
+# 启动：docker compose -f infra/docker-compose.yml --env-file infra/.env up -d
+name: lifeagent
+
+services:
+  litellm:
+    image: ghcr.io/berriai/litellm:v1.102.2   # 锁定版本；PyPI 1.82.7/1.82.8 曾被投毒，只用官方镜像
+    command: ["--config", "/app/config.yaml", "--port", "4000"]
+    volumes:
+      - ./litellm.yaml:/app/config.yaml:ro
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      ARK_API_KEY: ${ARK_API_KEY}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY}
+    ports:
+      - "4000:4000"
+    restart: unless-stopped
+
+  sidecar:
+    build: ../sidecar
+    environment:
+      LLM_BASE_URL: http://litellm:4000/v1
+      LLM_API_KEY: ${LITELLM_MASTER_KEY}
+      DECIDER_MODEL: deepseek-flash   # 10-20 起；换回 Claude 写 claude-opus-5-5
+      SIDECAR_TOKEN: ${SIDECAR_TOKEN}
+      AMAP_WEB_SERVICE_KEY: ${AMAP_WEB_SERVICE_KEY}
+      BOCHA_API_KEY: ${BOCHA_API_KEY}   # 榜单搜索 /hot，约 0.036 元/次，按天缓存
+      # 长期记忆整理：会话安静 MEM_IDLE_S 秒后经 Coze OpenAPI 跑 WF-consolidate（id 从 lifeagent_ids.json 读）
+      COZE_BASE: http://host.docker.internal:8888
+      COZE_PAT: ${COZE_PAT}
+      MEM_IDLE_S: "120"
+    volumes:
+      - ../data/sidecar:/data
+      - ../lifeagent_ids.json:/app/ids.json:ro
+    ports:
+      - "8090:8090"
+    depends_on:
+      - litellm
+    restart: unless-stopped

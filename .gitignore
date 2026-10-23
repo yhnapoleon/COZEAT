@@ -1,0 +1,26 @@
+# 密钥与本地账号
+infra/.env
+.env
+local-account.txt
+lifeagent_ids.json
+
+# 本机数据：抓取原文和图片、浏览器登录态、sidecar 的 SQLite
+data/raw/
+data/browser/
+data/sidecar/
+data/processed/*.bak
+data/processed/*.before_*
+
+# 评测原始结果（报告在 eval/reports/）
+eval/runs/
+
+# 前端构建产物、依赖；录好的视频
+web/node_modules/
+web/dist/
+demo/videos/
+demo/scripts/*.bak.json
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

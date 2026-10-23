@@ -1,0 +1,14 @@
+# 只重编 coze-server 二进制，其余沿用本机在跑的官方镜像（v0.5.1，2026-02-05 构建）。
+# 构建上下文是打好 retrieval.patch 的 coze-studio v0.5.1 源码根目录，见同目录 README.md。
+FROM golang:1.24-alpine AS builder
+# "|" 分隔：前一个代理出任何错都换下一个（","只在 404/410 时换）；goproxy.cn 下大包偶尔中途断开，再整体重试 3 次
+ENV GOPROXY="https://goproxy.cn|https://goproxy.io|https://proxy.golang.org|direct"
+WORKDIR /app
+RUN apk add --no-cache git gcc libc-dev
+COPY backend/go.mod backend/go.sum ./
+RUN for i in 1 2 3; do go mod download && exit 0; echo "go mod download 第 $i 次失败，重试"; sleep 5; done; exit 1
+COPY backend/ ./
+RUN go build -ldflags="-s -w" -o /app/opencoze main.go
+
+FROM cozedev/coze-studio-server:latest
+COPY --from=builder /app/opencoze /app/opencoze

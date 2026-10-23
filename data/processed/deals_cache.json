@@ -1,0 +1,7786 @@
+{
+ "real:B0FFFCSXCN": {
+  "h": "7c5dc63755",
+  "deals": []
+ },
+ "real:B0LU1SF0WH": {
+  "h": "457d8a79d6",
+  "deals": []
+ },
+ "real:B0L0A5BS36": {
+  "h": "061577ac78",
+  "deals": []
+ },
+ "real:B0FFGMAL4V": {
+  "h": "b782593970",
+  "deals": []
+ },
+ "real:B0KKV17RQ6": {
+  "h": "5464945942",
+  "deals": [
+   {
+    "name": "两人餐",
+    "price": 188,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-10",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0FFJYH97B": {
+  "h": "20e109e300",
+  "deals": [
+   {
+    "name": "双人套餐",
+    "price": 199,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-04",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0LRTUAD99": {
+  "h": "2cfa8630a2",
+  "deals": []
+ },
+ "real:B0J24L4XZ1": {
+  "h": "50da25a2a2",
+  "deals": [
+   {
+    "name": "四人餐",
+    "price": null,
+    "orig_price": null,
+    "people": 4,
+    "src": "小红书 2026-10",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0LK7L3MKL": {
+  "h": "b29fa0504b",
+  "deals": []
+ },
+ "real:B0JG35W1WZ": {
+  "h": "4f0d61bf1b",
+  "deals": [
+   {
+    "name": "岩烤牛排双人餐",
+    "price": 298,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-08",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0L0YH6WAC": {
+  "h": "dcb2a1a0ee",
+  "deals": [
+   {
+    "name": "100 元代金券",
+    "price": 68,
+    "orig_price": 100,
+    "people": null,
+    "src": "小红书 2025-11",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0MRLZ3LP1": {
+  "h": "20afbbae56",
+  "deals": [
+   {
+    "name": "一人食小笼包套餐",
+    "price": 26.3,
+    "orig_price": null,
+    "people": 1,
+    "src": "小红书 2026-08",
+    "synthetic": false
+   }
+  ]
+ },
+ "syn:B0FFF01LPP": {
+  "h": "75789d9e11",
+  "deals": [
+   {
+    "name": "2人优选超值牛排双人餐",
+    "content": "招牌牛排+羊排+吞拿鱼沙律+咖啡+汽水",
+    "price": 148,
+    "orig_price": 218,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚西餐套餐，含招牌牛排羊排",
+    "content": "招牌牛排×2+羊排+吞拿鱼沙律+咖啡×2+汽水×2",
+    "price": 288,
+    "orig_price": 418,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFIR6826": {
+  "h": "69259bc127",
+  "deals": [
+   {
+    "name": "潮汕鲜切牛肉双人餐",
+    "content": "清汤锅底+鲜切吊龙+匙仁+手打牛肉丸+牛筋丸+时蔬拼盘",
+    "price": 158,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人鲜切牛肉欢聚套餐",
+    "content": "清汤锅底+鲜切吊龙+匙柄+嫩肉+五花趾+手打牛肉丸",
+    "price": 328,
+    "orig_price": 488,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JA5MNE7D": {
+  "h": "d1ff70797f",
+  "deals": [
+   {
+    "name": "美式咖啡单人下午茶",
+    "content": "美式咖啡+巧克力曲奇",
+    "price": 12,
+    "orig_price": 18,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "15元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 11,
+    "orig_price": 15,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MGTO8PN0": {
+  "h": "f14003e4c2",
+  "deals": [
+   {
+    "name": "酸嘢甘草水果单人餐",
+    "content": "酸嘢芒果+酸嘢菠萝+甘草油柑+甘草番石榴",
+    "price": 19,
+    "orig_price": 28,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "酸嘢甘草水果双人餐",
+    "content": "酸嘢芒果+酸嘢木瓜+酸嘢李子+甘草菠萝+甘草油柑",
+    "price": 36,
+    "orig_price": 52,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFF01NVI": {
+  "h": "21f5979c61",
+  "deals": [
+   {
+    "name": "台式鸡排单人餐",
+    "content": "台式鸡排+卤肉饭+烫青菜+绿豆汤",
+    "price": 19,
+    "orig_price": 28,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "鸡排红烧肉双人餐",
+    "content": "台式鸡排+红烧肉+卤蛋+烫青菜+米饭×2+绿豆汤×2",
+    "price": 39,
+    "orig_price": 58,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MA26NMS4": {
+  "h": "68ebd6d610",
+  "deals": [
+   {
+    "name": "地道重庆江湖菜双人餐",
+    "content": "招牌尖椒鸡+毛血旺+干煸四季豆+米饭×2",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人江湖聚会套餐",
+    "content": "招牌尖椒鸡+毛血旺+辣子肥肠+水煮鱼片+手撕包菜+米饭×4",
+    "price": 268,
+    "orig_price": 398,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L07C2TW8": {
+  "h": "40ed04188c",
+  "deals": [
+   {
+    "name": "芋泥鲜奶茶单人下午茶",
+    "content": "芋泥鲜奶茶+手打柠檬茶",
+    "price": 13,
+    "orig_price": 19,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 14,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38OE0C": {
+  "h": "a16f1eff44",
+  "deals": [
+   {
+    "name": "单人下午茶套餐",
+    "content": "拿铁+提拉米苏+黄油曲奇",
+    "price": 29,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "40元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 30,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJDOBS6": {
+  "h": "1116cbee99",
+  "deals": [
+   {
+    "name": "居酒屋双人约会套餐",
+    "content": "刺身拼盘+寿喜锅+日式炸鸡块+炒饭+椰子水×2",
+    "price": 198,
+    "orig_price": 298,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I1PPLGH3": {
+  "h": "4b82ea36bf",
+  "deals": [
+   {
+    "name": "咖喱鸡扒蛋包饭单人餐",
+    "content": "咖喱鸡扒蛋包饭+咖喱鱼丸+冻柠茶",
+    "price": 39,
+    "orig_price": 56,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "午市特惠超值双人套餐",
+    "content": "香辣肥肠鸡煲+咖喱牛腩+咖喱鱼丸+冻柠茶×2",
+    "price": 88,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJ8E3JX": {
+  "h": "4b9342cdd7",
+  "deals": [
+   {
+    "name": "地道川味双人餐",
+    "content": "老妈蹄花+蒜泥白肉+拌鲫鱼+红糖糍粑+米饭×2",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人川味聚会套餐",
+    "content": "老妈蹄花+拌鲫鱼+粉蒸排骨（精排）+蒜泥白肉+红糖糍粑+米饭×4",
+    "price": 258,
+    "orig_price": 378,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MDDXQP49": {
+  "h": "f7376c3c6b",
+  "deals": [
+   {
+    "name": "芒果绵绵冰单人餐",
+    "content": "芒果绵绵冰+芋圆+珍珠+炼乳",
+    "price": 29,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 36,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L1C96SU7": {
+  "h": "93c215e574",
+  "deals": [
+   {
+    "name": "山坑鲩鱼鱼生双人餐",
+    "content": "招牌鲩鱼鱼生+凉拌鱼皮+炸鱼腩+佐料拼盘+鱼骨粥",
+    "price": 268,
+    "orig_price": 398,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人鱼生欢聚套餐",
+    "content": "招牌鲩鱼鱼生（大份）+凉拌鱼皮+椒盐鱼骨+鱼片粥+凉拌时蔬+佐料拼盘",
+    "price": 528,
+    "orig_price": 788,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0GDODOEK9": {
+  "h": "346df73448",
+  "deals": [
+   {
+    "name": "韩式炸鸡烤肉双人餐",
+    "content": "韩式炸鸡+无骨鸡爪+烤五花肉+大酱汤+米饭×2",
+    "price": 118,
+    "orig_price": 168,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会套餐",
+    "content": "韩式炸鸡+烤牛肉+烤五花肉+辣炒鸡爪+石锅拌饭+部队锅",
+    "price": 228,
+    "orig_price": 338,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I3GUIB0K": {
+  "h": "176c60bd67",
+  "deals": [
+   {
+    "name": "傣味烤鱼双人餐",
+    "content": "傣味烤鱼+香茅草烤肉+云南小锅米线+凉拌米干",
+    "price": 128,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人云南风味聚餐套餐",
+    "content": "傣味烤鱼+香茅草烤肉+螺蛳粉+云南小锅米线+菠萝饭+牛肉撒撇",
+    "price": 258,
+    "orig_price": 378,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0GKRRE73W": {
+  "h": "e3373048cd",
+  "deals": [
+   {
+    "name": "泰式风味双人餐",
+    "content": "泰式柠檬鱼+碳烤猪颈肉+泰式菠萝炒饭+生菜包",
+    "price": 118,
+    "orig_price": 168,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人泰式欢聚套餐",
+    "content": "泰式柠檬鱼+碳烤猪颈肉+泰式冬阴功汤+泰式菠萝炒饭+生菜包+泰式青柠汁",
+    "price": 238,
+    "orig_price": 338,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K09RX47B": {
+  "h": "6e08117dea",
+  "deals": [
+   {
+    "name": "单人老友粉套餐",
+    "content": "南宁老友粉+卤蛋+炸腐竹",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "广西风味双人餐",
+    "content": "南宁老友粉+柳州螺蛳粉+卤蛋+炸腐竹+酸梅汤",
+    "price": 39,
+    "orig_price": 54,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LBLGIA0P": {
+  "h": "460e8dcacb",
+  "deals": [
+   {
+    "name": "单人招牌米粉套餐",
+    "content": "桂林米粉+卤蛋+酸豆角",
+    "price": 18,
+    "orig_price": 24,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人嗦粉套餐",
+    "content": "桂林米粉+酸辣粉+卤蛋+锅烧+豆浆",
+    "price": 36,
+    "orig_price": 48,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L1J78WRU": {
+  "h": "1524772898",
+  "deals": [
+   {
+    "name": "韩式中华料理双人餐",
+    "content": "韩式炸酱面+海鲜炒码面+糖醋肉+辣炒年糕",
+    "price": 108,
+    "orig_price": 158,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会套餐",
+    "content": "糖醋肉+韩式炸鸡+韩式炸酱面+海鲜炒码面+辣炒年糕+海鲜葱饼",
+    "price": 228,
+    "orig_price": 318,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I0K70ZIB": {
+  "h": "4affde630b",
+  "deals": [
+   {
+    "name": "单人醒神套餐",
+    "content": "烤坚果拿铁+黄油可颂",
+    "price": 19,
+    "orig_price": 28,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 16,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L39RRUI4": {
+  "h": "e1f432211b",
+  "deals": [
+   {
+    "name": "单人招牌牛肉饭套餐",
+    "content": "招牌牛肉饭+溏心蛋+时蔬+例汤",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人牛肉饭套餐",
+    "content": "招牌牛肉饭+番茄牛肉饭+溏心蛋+凉拌小菜+例汤",
+    "price": 39,
+    "orig_price": 54,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K6PSS54R": {
+  "h": "ef5a88b1c0",
+  "deals": [
+   {
+    "name": "单人生吐司尝鲜套餐",
+    "content": "棉花糖生吐司+原味生吐司+鲜牛奶",
+    "price": 45,
+    "orig_price": 62,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFH06R5C": {
+  "h": "188754ac48",
+  "deals": [
+   {
+    "name": "单人下午茶套餐",
+    "content": "焦糖玛奇朵（大杯）+芝士火腿可颂",
+    "price": 27,
+    "orig_price": 38,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 25,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJ0Y9TK": {
+  "h": "d604fd6887",
+  "deals": [
+   {
+    "name": "单人招牌牛肉米粉套餐",
+    "content": "招牌牛肉米粉+卤蛋+油炸香干",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "邵阳风味双人餐",
+    "content": "招牌牛肉米粉+红烧肉米粉+卤蛋+猪血丸子+豆奶",
+    "price": 46,
+    "orig_price": 64,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFH06GJK": {
+  "h": "3f1dfa2272",
+  "deals": [
+   {
+    "name": "单人港式经典套餐",
+    "content": "焗鸡扒饭+冻奶茶+菠萝油",
+    "price": 42,
+    "orig_price": 58,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "港味双人餐",
+    "content": "鲜虾云吞捞面+干炒牛河+铁板姜葱鲜牛肉+菠萝油+冻奶茶",
+    "price": 89,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFHQJG0D": {
+  "h": "be958239e2",
+  "deals": [
+   {
+    "name": "潮汕鲜牛肉双人餐",
+    "content": "牛骨清汤锅底+吊龙伴+嫩肉+五花趾+牛筋丸生丸+蔬菜拼盘",
+    "price": 168,
+    "orig_price": 238,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人鲜切牛肉欢聚套餐",
+    "content": "吊龙伴+五花趾+嫩肉+胸口油+牛筋丸生丸+蔬菜拼盘",
+    "price": 328,
+    "orig_price": 468,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJUPR5F": {
+  "h": "8556ba11fa",
+  "deals": [
+   {
+    "name": "单人下午茶套餐",
+    "content": "海苔肉松小贝+芋泥麻薯+蛋挞",
+    "price": 29,
+    "orig_price": 39,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 29,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFG8AW5J": {
+  "h": "dfede22a73",
+  "deals": [
+   {
+    "name": "地道川味双人餐",
+    "content": "水煮鱼+辣子鸡+麻婆豆腐+回锅肉+米饭",
+    "price": 128,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会川菜套餐",
+    "content": "水煮鱼+辣子鸡+毛血旺+回锅肉+麻婆豆腐+米饭",
+    "price": 258,
+    "orig_price": 368,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJ7VA15": {
+  "h": "8a68e6898c",
+  "deals": [
+   {
+    "name": "陨石厚乳拿铁单杯",
+    "content": "陨石厚乳拿铁（大杯）",
+    "price": 10,
+    "orig_price": 15,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "SOE耶加雪菲美式单杯",
+    "content": "SOE耶加雪菲美式（大杯）",
+    "price": 9,
+    "orig_price": 13,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFH06GJR": {
+  "h": "10adf93156",
+  "deals": [
+   {
+    "name": "单人招牌肠粉套餐",
+    "content": "招牌牛肉肠粉+皮蛋瘦肉粥+豆浆",
+    "price": 18,
+    "orig_price": 25,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人肠粉套餐",
+    "content": "招牌牛肉肠粉+鲜虾肠粉+瘦肉鸡蛋肠粉+皮蛋瘦肉粥+豆浆",
+    "price": 39,
+    "orig_price": 52,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFHQ9UKJ": {
+  "h": "707090e00b",
+  "deals": [
+   {
+    "name": "【示例数据】单人下午茶套餐",
+    "content": "肠仔包+提拉米苏+霸王杯一颗柠檬茶",
+    "price": 28,
+    "orig_price": 38,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 24,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJPH0MS": {
+  "h": "0f9109ba21",
+  "deals": [
+   {
+    "name": "【示例数据】双人臻选龙虾火锅套餐",
+    "content": "龙虾花椒鸡汤+避风塘阿拉斯加蟹+澳洲龙虾滑+纯进口牛肉",
+    "price": 598,
+    "orig_price": 868,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】4人聚会豪华套餐，包间可用",
+    "content": "龙虾花椒鸡汤+避风塘阿拉斯加蟹+澳洲龙虾滑+纯进口牛肉+时令蔬菜拼盘+手工面",
+    "price": 1288,
+    "orig_price": 1888,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFGMAL4V": {
+  "h": "d993d2c83f",
+  "deals": [
+   {
+    "name": "【示例数据】单人轻享套餐",
+    "content": "羽衣纤体瓶+咸酪碎银子+免费加小料",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】25元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 19,
+    "orig_price": 25,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFKX3MOZ": {
+  "h": "355b78d62d",
+  "deals": [
+   {
+    "name": "【示例数据】午市特惠单人餐",
+    "content": "招牌草本汤+小炒黄牛肉+家常小菜+米饭",
+    "price": 28,
+    "orig_price": 38,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】超值双人餐",
+    "content": "招牌草本汤+小炒黄牛肉+家常豆腐+清炒时蔬+米饭×2",
+    "price": 56,
+    "orig_price": 78,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFH06R52": {
+  "h": "c43635e750",
+  "deals": [
+   {
+    "name": "【示例数据】单人精选铁板烧套餐",
+    "content": "挪威三文鱼排+日式烤生蚝+泰式黑虎虾+铁板时蔬",
+    "price": 188,
+    "orig_price": 258,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】双人约会铁板烧套餐",
+    "content": "挪威三文鱼排+日式烤生蚝+烤银鳕鱼+铁板鹅肝+泰式黑虎虾",
+    "price": 358,
+    "orig_price": 518,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38TEU9": {
+  "h": "3a5e3efc03",
+  "deals": [
+   {
+    "name": "【示例数据】双人寿司套餐",
+    "content": "精选寿司拼盘+肥牛寿司+三文鱼刺身+炸天妇罗+味噌汤×2",
+    "price": 148,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFIXBNL4": {
+  "h": "cb137e5fc5",
+  "deals": [
+   {
+    "name": "【示例数据】单人花甲套餐",
+    "content": "招牌花甲(小份)+花甲粉+卤蛋+柠檬茶",
+    "price": 26,
+    "orig_price": 36,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】双人花甲畅吃套餐",
+    "content": "招牌花甲(大份)+花甲粉×2+卤鸡爪+柠檬茶×2",
+    "price": 52,
+    "orig_price": 72,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFGSSCMH": {
+  "h": "838d79b5b0",
+  "deals": [
+   {
+    "name": "【示例数据】单人招牌牛排套餐",
+    "content": "王品招牌牛排+奶油蘑菇汤+田园沙拉+提拉米苏+餐后饮品",
+    "price": 238,
+    "orig_price": 328,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】双人约会牛排套餐",
+    "content": "王品招牌牛排×2+奶油蘑菇汤×2+田园沙拉+提拉米苏×2+餐后饮品×2",
+    "price": 498,
+    "orig_price": 698,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KA1CRH4X": {
+  "h": "e57044c023",
+  "deals": [
+   {
+    "name": "【示例数据】单人早餐套餐",
+    "content": "饭团+关东煮+茶叶蛋+豆浆",
+    "price": 12,
+    "orig_price": 16,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 16,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFF43WR2": {
+  "h": "a96e3aedb4",
+  "deals": [
+   {
+    "name": "【示例数据】鲜青椒爽麻烤鱼双人餐",
+    "content": "鲜青椒爽麻烤鱼+配菜三拼+凉拌小菜+米饭×2+酸梅汤×2",
+    "price": 168,
+    "orig_price": 238,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】3-4人聚会烤鱼套餐",
+    "content": "麻辣江团+蒜香味烤鱼+配菜四拼+小吃拼盘+米饭×4",
+    "price": 328,
+    "orig_price": 458,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38Z8P1": {
+  "h": "173f6fb4f9",
+  "deals": [
+   {
+    "name": "【示例数据】双人寿司套餐",
+    "content": "摩托罗拉拼芝士+芝士鳗鱼卷+芒果花之恋+炙烤系列拼盘+味噌汤×2",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】3-4人欢聚寿司套餐",
+    "content": "摩托罗拉拼芝士+芝士鳗鱼卷×2+芒果花之恋+榴莲芝士卷+炙烤系列拼盘",
+    "price": 248,
+    "orig_price": 358,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKJ71WX3": {
+  "h": "bd5ac88880",
+  "deals": [
+   {
+    "name": "【示例数据】单人奶皮子酸奶套餐",
+    "content": "招牌手工奶皮子酸奶+原味奶皮子+坚果碎加料",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 15,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFH3DSAL": {
+  "h": "3657eabf44",
+  "deals": [
+   {
+    "name": "【示例数据】单人披萨套餐",
+    "content": "玛格丽特披萨+香脆薯条+干姜水",
+    "price": 78,
+    "orig_price": 108,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】2人优选超值披萨套餐",
+    "content": "牛仔披萨+双椒黑橄榄pizza+凯撒沙拉+干姜水+苏打水",
+    "price": 168,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LDJ9WK03": {
+  "h": "1152c281dc",
+  "deals": [
+   {
+    "name": "【示例数据】单人煲仔饭套餐",
+    "content": "腊味煲仔饭+例汤+白灼青菜",
+    "price": 32,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】超值双人餐",
+    "content": "腊味煲仔饭+滑鸡煲仔饭+白灼菜心+例汤×2",
+    "price": 68,
+    "orig_price": 92,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L39SSIGL": {
+  "h": "4b7233208a",
+  "deals": [
+   {
+    "name": "【示例数据】地道川味双人火锅套餐",
+    "content": "牛油老火锅锅底+鲜毛肚+嫩牛肉+鲜鸭肠+黄喉+素菜拼盘",
+    "price": 148,
+    "orig_price": 218,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】4人聚会老火锅套餐",
+    "content": "牛油老火锅锅底+鲜毛肚+嫩牛肉+鲜鸭肠+手打虾滑+素菜拼盘",
+    "price": 288,
+    "orig_price": 418,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L36H97MB": {
+  "h": "e523f17389",
+  "deals": [
+   {
+    "name": "地道湘味双人餐",
+    "content": "辣椒炒肉+剁椒鱼头+小炒黄牛肉+长沙臭豆腐+米饭2份",
+    "price": 138,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚湘菜套餐",
+    "content": "剁椒鱼头+辣椒炒肉+小炒黄牛肉+长沙臭豆腐+手撕包菜+米饭4份",
+    "price": 268,
+    "orig_price": 368,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38JBVY": {
+  "h": "4e05387e1d",
+  "deals": [
+   {
+    "name": "双人超值回转寿司套餐",
+    "content": "三文鱼刺身+鳗鱼寿司+北极贝+三文鱼腩+芒果布丁",
+    "price": 99,
+    "orig_price": 138,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F37U9MC": {
+  "h": "e1d712715a",
+  "deals": [
+   {
+    "name": "2人江南风味优选套餐",
+    "content": "龙井虾仁皇+传统东坡肉+招牌杭椒牛柳+老杭州生煎包",
+    "price": 238,
+    "orig_price": 328,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会杭帮菜套餐，包间可用",
+    "content": "糖醋排骨+招牌杭椒牛柳+龙井虾仁皇+传统东坡肉+老杭州生煎包",
+    "price": 468,
+    "orig_price": 658,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JK1AEPCQ": {
+  "h": "929a2b25b4",
+  "deals": [
+   {
+    "name": "单人腊肠煲仔饭套餐",
+    "content": "腊肠煲仔饭+蛋卷+例汤",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "午市特惠超值双人套餐",
+    "content": "腊肠煲仔饭2份+蛋卷+白灼菜心+例汤2份",
+    "price": 45,
+    "orig_price": 62,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFH0KLWH": {
+  "h": "3d12442b9a",
+  "deals": [
+   {
+    "name": "招牌焗猪扒单人餐",
+    "content": "厚切一哥焗猪扒饭+鲜虾云吞+冰镇奶茶",
+    "price": 32,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "港式茶餐厅双人餐",
+    "content": "新西兰牛排+脆皮烧春鸡+鲜虾云吞+冰镇奶茶2杯",
+    "price": 62,
+    "orig_price": 82,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LK0X8XT7": {
+  "h": "de2cbb9671",
+  "deals": [
+   {
+    "name": "现炒黄牛肉双人餐",
+    "content": "现炒黄牛肉+辣椒炒肉+擂辣椒皮蛋+红糖糍粑+米饭2份",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人湘味聚会套餐",
+    "content": "现炒黄牛肉+剁椒鱼头+辣椒炒肉+擂辣椒皮蛋+红糖糍粑+米饭4份",
+    "price": 258,
+    "orig_price": 358,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JU1ARAAC": {
+  "h": "d8ecba77b0",
+  "deals": [
+   {
+    "name": "双人寿司约会套餐",
+    "content": "炙烤牛肉寿司+三文鱼寿司+金枪鱼寿司+甜虾寿司+茶碗蒸",
+    "price": 168,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L06ROHT7": {
+  "h": "087697f1ce",
+  "deals": [
+   {
+    "name": "【新店开业】双人臻选日料套餐",
+    "content": "刺身拼盘+日式烤鸡串+寿喜烧+天妇罗拼盘+抹茶冰淇淋",
+    "price": 258,
+    "orig_price": 358,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "300元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 238,
+    "orig_price": 300,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KDLHQDQX": {
+  "h": "f8aa5008b1",
+  "deals": [
+   {
+    "name": "双人鲜切牛肉火锅套餐",
+    "content": "鲜切黄牛肉+手打牛肉丸+毛肚+鸭血+蔬菜拼盘",
+    "price": 238,
+    "orig_price": 328,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人宵夜聚会火锅套餐",
+    "content": "鲜切黄牛肉+吊龙+手打牛肉丸+毛肚+鸭血+蔬菜拼盘",
+    "price": 468,
+    "orig_price": 658,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0GKBKDAXY": {
+  "h": "c2ee5fab24",
+  "deals": [
+   {
+    "name": "客家风味双人餐",
+    "content": "古法手撕盐焗鸡(半只)+客家酿豆腐+鸡汤苦麦菜+客语土猪汤",
+    "price": 168,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚客家菜套餐",
+    "content": "古法手撕盐焗鸡(整只)+客家酿豆腐+鸡汤苦麦菜+客语土猪汤+梅菜扣肉",
+    "price": 338,
+    "orig_price": 468,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKJL2H0V": {
+  "h": "0776622cd2",
+  "deals": [
+   {
+    "name": "单人腊味煲仔饭套餐",
+    "content": "腊味煲仔饭+白灼菜心+例汤",
+    "price": 36,
+    "orig_price": 48,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "煲仔饭超值双人餐",
+    "content": "腊味煲仔饭+滑鸡煲仔饭+豉汁排骨+白灼菜心+例汤2份",
+    "price": 69,
+    "orig_price": 92,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LRTUAD99": {
+  "h": "576cec0da9",
+  "deals": [
+   {
+    "name": "贵州酸汤牛肉双人餐",
+    "content": "招牌酸汤牛肉+贵州辣子鸡+凉拌折耳根+时令蔬菜+杨枝甘露",
+    "price": 168,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会酸汤牛肉套餐",
+    "content": "招牌酸汤牛肉+贵州辣子鸡+糟辣脆皮鱼+凉拌折耳根+时令蔬菜+杨枝甘露",
+    "price": 338,
+    "orig_price": 468,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJC28SR": {
+  "h": "ee7e32dc2c",
+  "deals": [
+   {
+    "name": "2人优选鱼鲜日料套餐",
+    "content": "三文鱼刺身+鱼鲜拼盘+肥牛+土豆泥+椰子冻",
+    "price": 188,
+    "orig_price": 258,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KGHAVCGX": {
+  "h": "b65bf749af",
+  "deals": [
+   {
+    "name": "地道川味老火锅双人餐",
+    "content": "老火锅锅底+黄喉丝丝+荠菜开口虾滑+鲜切牛肉+毛肚",
+    "price": 138,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人老火锅聚会套餐",
+    "content": "老火锅锅底+黄喉丝丝+荠菜开口虾滑+鲜切牛肉+毛肚+鸭血",
+    "price": 288,
+    "orig_price": 398,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFFCSXCN": {
+  "h": "7d7bbfc0e0",
+  "deals": [
+   {
+    "name": "招牌猪扒米线单人餐",
+    "content": "阿一猪扒酸辣米线+酥炸云吞+龙凤柠檬可乐",
+    "price": 36,
+    "orig_price": 48,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "米线超值双人餐",
+    "content": "阿一猪扒酸辣米线+番茄汤咸猪手汤米线+酥炸韭菜饺子+酥炸云吞+龙凤柠檬可乐2杯",
+    "price": 72,
+    "orig_price": 96,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KA7ODIAD": {
+  "h": "cf31f6f94b",
+  "deals": [
+   {
+    "name": "地道韩式烤肉双人餐",
+    "content": "招牌烤肉拼盘+浇汁瘦牛肉+鱼饼炒年糕+大酱汤+米饭2份",
+    "price": 168,
+    "orig_price": 238,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人聚会烤肉套餐",
+    "content": "招牌烤肉拼盘+浇汁瘦牛肉+鱼饼炒年糕+海鲜葱饼+部队火锅+米饭4份",
+    "price": 328,
+    "orig_price": 468,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFK2BZ5G": {
+  "h": "2d22aefae8",
+  "deals": [
+   {
+    "name": "2人优选印度风味套餐",
+    "content": "黄油鸡+咖喱羊肉+蒜香馕+印度香饭+芒果拉西",
+    "price": 158,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LU1SF0WH": {
+  "h": "37d65fa687",
+  "deals": [
+   {
+    "name": "景德镇大排档双人餐",
+    "content": "景德镇冷粉+萝卜饺+炒碱水粑+小炒黄牛肉+米饭2份",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人江西风味欢聚套餐",
+    "content": "瓦罐煨汤+啤酒鸭+小炒黄牛肉+炒碱水粑+萝卜饺+米饭4份",
+    "price": 278,
+    "orig_price": 398,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJGB4CQ": {
+  "h": "f37a7cd581",
+  "deals": [
+   {
+    "name": "经典粤式点心双人餐",
+    "content": "陶陶居大虾饺+黑鱼子香菇烧麦皇+鲜果榴莲天鹅酥+酥皮水牛奶菠萝包+啫啫生菜煲",
+    "price": 188,
+    "orig_price": 268,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚套餐，包间可用",
+    "content": "陶陶居大虾饺+黑鱼子香菇烧麦皇+鲜果榴莲天鹅酥+啫啫生菜煲+脆皮烧鹅+酥皮水牛奶菠萝包",
+    "price": 368,
+    "orig_price": 528,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0H0K9SBL9": {
+  "h": "0c9082335f",
+  "deals": [
+   {
+    "name": "京味烤鸭双人餐",
+    "content": "半只烤鸭+京糕乾隆白菜+小吊梨汤+北京炸酱面",
+    "price": 148,
+    "orig_price": 208,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会套餐，含整只烤鸭",
+    "content": "整只烤鸭+葱爆牛肉+京糕乾隆白菜+小吊梨汤+北京炸酱面",
+    "price": 288,
+    "orig_price": 408,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCBD0U": {
+  "h": "e4b0d8a01e",
+  "deals": [
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "200元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 158,
+    "orig_price": 200,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MD4XKI9Z": {
+  "h": "ece24d7d21",
+  "deals": [
+   {
+    "name": "地道傣味双人餐",
+    "content": "傣味手抓饭+香茅草烤鱼+凉拌撒撇+傣味鬼鸡",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人云南风味欢聚套餐",
+    "content": "傣味手抓饭+香茅草烤鱼+傣味鬼鸡+菠萝饭+汽锅鸡汤+炸牛皮",
+    "price": 248,
+    "orig_price": 358,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L0A5BS36": {
+  "h": "dee70d08e1",
+  "deals": [
+   {
+    "name": "招牌豉油鸡单人餐",
+    "content": "招牌豉油鸡腿饭+白灼菜心+例汤",
+    "price": 42,
+    "orig_price": 58,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "港式烧味双人餐",
+    "content": "半只豉油鸡+白切叉烧+白灼菜心+例汤2份+米饭2份",
+    "price": 88,
+    "orig_price": 126,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0H1L7G8M4": {
+  "h": "86789bca28",
+  "deals": [
+   {
+    "name": "人气双杯单人套餐",
+    "content": "杨枝甘露+茉莉奶白+加料任选1份",
+    "price": 18,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 15,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LK7L3MKL": {
+  "h": "6bf3798445",
+  "deals": [
+   {
+    "name": "创意韩餐双人约会套餐",
+    "content": "芝士年糕排骨+石锅拌饭+海鲜葱饼+韩式炸鸡+大酱汤",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会芝士盛宴套餐",
+    "content": "芝士部队火锅+芝士年糕排骨+韩式炸鸡+海鲜葱饼+石锅拌饭2份",
+    "price": 258,
+    "orig_price": 368,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JD7C8W1O": {
+  "h": "ac977f4e28",
+  "deals": [
+   {
+    "name": "地道川味老火锅双人餐",
+    "content": "老火锅锅底+鲜切牛肉+手打虾滑+鲜毛肚+招牌麻酱+蔬菜拼盘",
+    "price": 178,
+    "orig_price": 258,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LK6ZK3EU": {
+  "h": "492491c427",
+  "deals": [
+   {
+    "name": "经典烤串双人餐",
+    "content": "羊肉串10串+烤羊排+烤馕+烤茄子+烤韭菜",
+    "price": 158,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人撸串欢聚套餐",
+    "content": "羊肉串20串+烤羊排+牛肉串10串+烤馕+烤茄子+烤鸡翅",
+    "price": 318,
+    "orig_price": 458,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MDAO4P6E": {
+  "h": "c25057a7a9",
+  "deals": [
+   {
+    "name": "米汤脆鲩鱼双人餐",
+    "content": "米汤锅底+脆鲩鱼1份+手打虾滑+肥牛卷+蔬菜拼盘",
+    "price": 158,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人米汤鱼火锅套餐",
+    "content": "米汤锅底+脆鲩鱼2份+手打虾滑+肥牛卷+鲜毛肚+蔬菜拼盘",
+    "price": 298,
+    "orig_price": 428,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L36Z9ZP4": {
+  "h": "6e499015d4",
+  "deals": [
+   {
+    "name": "手工意面单人餐",
+    "content": "手工意面任选1份+凯撒沙拉+饮品1杯",
+    "price": 78,
+    "orig_price": 108,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "2人优选超值意大利餐套餐",
+    "content": "手工意面任选2份+凯撒沙拉+炸鱿鱼圈+饮品2杯",
+    "price": 158,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFLEJZJS": {
+  "h": "2db18f4c76",
+  "deals": [
+   {
+    "name": "招牌辣椒炒肉双人餐",
+    "content": "费大厨辣椒炒肉+剁椒鱼头+手撕包菜+柠檬茶2杯+米饭2份",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人湘味家常聚餐套餐",
+    "content": "费大厨辣椒炒肉+剁椒鱼头+小炒黄牛肉+香煎土鸡+柠檬茶4杯+米饭4份",
+    "price": 268,
+    "orig_price": 388,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2BSJK2X": {
+  "h": "cef44c4f66",
+  "deals": [
+   {
+    "name": "单人德式面包下午茶套餐",
+    "content": "德式碱水结+黑麦面包+苹果卷+美式咖啡",
+    "price": 35,
+    "orig_price": 48,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 40,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JRBMMND2": {
+  "h": "290dabd622",
+  "deals": [
+   {
+    "name": "椰子鸡超值双人餐",
+    "content": "文昌走岭鸡(半只)+脆皖鱼+腊味煲仔饭+时蔬拼盘+椰子水",
+    "price": 108,
+    "orig_price": 158,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚椰子鸡套餐",
+    "content": "清远鸡(1只)+海鲜拼盘+脆皖鱼大份+腊味煲仔饭+时蔬拼盘+椰子水",
+    "price": 198,
+    "orig_price": 298,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K0KRBJ2I": {
+  "h": "9d9ff2cc6e",
+  "deals": [
+   {
+    "name": "地道湘味双人餐",
+    "content": "小炒黄牛肉+剁椒鱼头+擂辣椒皮蛋+农家小炒肉+米饭",
+    "price": 168,
+    "orig_price": 238,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会湘菜套餐，包间可用",
+    "content": "小炒黄牛肉+剁椒鱼头+湘西外婆菜+毛氏红烧肉+手撕包菜+米饭",
+    "price": 328,
+    "orig_price": 468,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KA2YFCF3": {
+  "h": "942b7e34ee",
+  "deals": [
+   {
+    "name": "双人臻选湘菜套餐",
+    "content": "小炒黄牛肉+剁椒鱼头+毛氏红烧肉+擂辣椒皮蛋+清炒时蔬",
+    "price": 288,
+    "orig_price": 398,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "200元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 158,
+    "orig_price": 200,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KBXLJ031": {
+  "h": "5bdefba434",
+  "deals": [
+   {
+    "name": "单人早茶点心套餐",
+    "content": "虾饺皇+叉烧包+豉汁蒸凤爪+茶位",
+    "price": 26,
+    "orig_price": 38,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人超值早茶套餐",
+    "content": "虾饺皇+干蒸烧卖+豉汁蒸凤爪+叉烧包+鲜虾肠粉+茶位",
+    "price": 52,
+    "orig_price": 76,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFK64L2W": {
+  "h": "e64663b6e8",
+  "deals": [
+   {
+    "name": "地道川味双人餐",
+    "content": "毛血旺+水煮牛肉+口水鸡+干煸四季豆+米饭",
+    "price": 268,
+    "orig_price": 368,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会川菜套餐",
+    "content": "毛血旺+水煮牛肉+辣子鸡+口水鸡+麻婆豆腐+米饭",
+    "price": 528,
+    "orig_price": 728,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKMD6NTP": {
+  "h": "6d1b6be5ed",
+  "deals": [
+   {
+    "name": "单人意式冰淇淋甜品套餐",
+    "content": "双球意式冰淇淋+威化甜筒+手工巧克力",
+    "price": 45,
+    "orig_price": 58,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 40,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0M6B9IVWV": {
+  "h": "186d6b3c82",
+  "deals": [
+   {
+    "name": "单人日式短蛋糕下午茶",
+    "content": "草莓短蛋糕+季节水果短蛋糕+手冲咖啡",
+    "price": 46,
+    "orig_price": 62,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 40,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J1MHYBPT": {
+  "h": "63c2d8447f",
+  "deals": [
+   {
+    "name": "单人摘星咖啡甜点套餐",
+    "content": "摘星拿铁+摘星芝士蛋糕+黄油可颂",
+    "price": 36,
+    "orig_price": 56,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 37,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J3U5Z4WL": {
+  "h": "d933d7e3a6",
+  "deals": [
+   {
+    "name": "2人优选超值西餐套餐",
+    "content": "招牌牛肉汉堡+澳洲西冷牛排+凯撒沙拉+薯条+饮品2杯",
+    "price": 168,
+    "orig_price": 238,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人欢聚西餐套餐，含招牌牛排汉堡",
+    "content": "澳洲西冷牛排+招牌牛肉汉堡+意式肉酱面+凯撒沙拉+炸鸡翅+饮品4杯",
+    "price": 338,
+    "orig_price": 488,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFK6LKVZ": {
+  "h": "e5895b9a39",
+  "deals": [
+   {
+    "name": "单人欧包早餐套餐",
+    "content": "牛乳欧包+德式香肠卷+巧克力可颂+鲜奶咖啡",
+    "price": 38,
+    "orig_price": 52,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JDLKJ94O": {
+  "h": "f5749d0db3",
+  "deals": [
+   {
+    "name": "单人瑞士巧克力甜品套餐",
+    "content": "招牌鲜巧克力(200g)+松露巧克力4颗+热巧克力",
+    "price": 198,
+    "orig_price": 268,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "200元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 158,
+    "orig_price": 200,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L36Z96O8": {
+  "h": "6b200cf5f5",
+  "deals": [
+   {
+    "name": "单人泰式茶饮小食套餐",
+    "content": "招牌手标泰奶+泰式椰子冻+芒果糯米饭",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 23,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFK1JV42": {
+  "h": "0ab4903e27",
+  "deals": [
+   {
+    "name": "本帮风味双人餐",
+    "content": "招牌红烧肉+葱油鸡+生煎包春卷双拼+清炒时蔬+米饭",
+    "price": 298,
+    "orig_price": 428,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人家庭欢聚上海菜套餐，含红烧鲍鱼",
+    "content": "招牌红烧肉+红烧鲍鱼+葱油鸡+生煎包春卷双拼+油爆河虾+清炒时蔬",
+    "price": 598,
+    "orig_price": 858,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0GRHPQSTY": {
+  "h": "00bbb292ef",
+  "deals": [
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "200元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 158,
+    "orig_price": 200,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K6X7S1HW": {
+  "h": "eb81b027a7",
+  "deals": [
+   {
+    "name": "招牌牛排丼单人餐",
+    "content": "招牌牛排丼+蘑菇烤肉+味噌汤+日式小菜",
+    "price": 68,
+    "orig_price": 98,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人优选丼饭拉面套餐",
+    "content": "招牌牛排丼+烤肉丼+豚骨拉面+蘑菇牛肉+饮品2杯",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JKKXFNSR": {
+  "h": "b9341b1b87",
+  "deals": [
+   {
+    "name": "单人港式下午茶套餐",
+    "content": "菠萝包+葡式蛋挞+虾仁滑蛋多士+港式奶茶",
+    "price": 58,
+    "orig_price": 82,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人茶室超值套餐",
+    "content": "菠萝包+葡式蛋挞+香酥鸡柳+虾仁炒饭+港式奶茶2杯",
+    "price": 118,
+    "orig_price": 168,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0G25OZ0JN": {
+  "h": "7cc0c0a3c1",
+  "deals": [
+   {
+    "name": "单人招牌牛肉河粉套餐",
+    "content": "招牌牛肉河粉+越南炸春卷+越南热咖啡",
+    "price": 49,
+    "orig_price": 72,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人越式下午茶套餐",
+    "content": "生牛肉河粉2碗+越南炸春卷+越式小食拼盘+越南热咖啡2杯",
+    "price": 98,
+    "orig_price": 148,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K0YLKTUY": {
+  "h": "b368dbbb23",
+  "deals": [
+   {
+    "name": "单人和牛寿喜烧套餐",
+    "content": "和牛寿喜烧单人份+时蔬拼盘+生鸡蛋+米饭+前菜",
+    "price": 198,
+    "orig_price": 288,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人关西风寿喜烧臻选套餐",
+    "content": "精选和牛寿喜烧+雪花牛肉+时蔬拼盘+乌冬面+甜品",
+    "price": 398,
+    "orig_price": 568,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFK2M39L": {
+  "h": "4feffb1128",
+  "deals": [
+   {
+    "name": "双人粤味臻选套餐",
+    "content": "炳胜烧味三拼+鲜花椒蒸大黄鱼+时令蔬菜+芝麻糊双皮奶2份",
+    "price": 298,
+    "orig_price": 428,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚套餐，含波士顿龙虾",
+    "content": "炳胜辣蒸波士顿龙虾+均安头菜鲍鱼蒸蚌仔+鲜花椒蒸大黄鱼+炳胜烧味三拼+芝麻糊双皮奶",
+    "price": 598,
+    "orig_price": 868,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFKQOD3T": {
+  "h": "e431a98a73",
+  "deals": [
+   {
+    "name": "双人泰式海鲜套餐",
+    "content": "泰式烤大虾+炭烤鱿鱼+生蚝+冬阴功汤+特色小吃拼盘",
+    "price": 328,
+    "orig_price": 468,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人泰味海鲜聚会套餐",
+    "content": "咖喱蟹肉+泰式烤大虾+生蚝4只+炭烤鱿鱼+特色小吃拼盘+冬阴功汤",
+    "price": 628,
+    "orig_price": 888,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0H3DCTLN2": {
+  "h": "af051c4b3d",
+  "deals": [
+   {
+    "name": "单人咖啡甜点套餐",
+    "content": "拿铁+提拉米苏+黄油可颂",
+    "price": 39,
+    "orig_price": 58,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 38,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0M6Y5RDZ5": {
+  "h": "82fe37da15",
+  "deals": [
+   {
+    "name": "单人紫菜包饭套餐",
+    "content": "经典紫菜包饭+辣炒年糕+大麦茶",
+    "price": 19,
+    "orig_price": 28,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人紫菜包饭分享餐",
+    "content": "金枪鱼紫菜包饭+牛肉紫菜包饭+辣炒年糕+鱼饼串+饮品2杯",
+    "price": 36,
+    "orig_price": 52,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KU3AJID0": {
+  "h": "abe5ce2711",
+  "deals": [
+   {
+    "name": "单人法式甜品下午茶",
+    "content": "精选法式甜品2款+季节水果杯+手冲咖啡或茶饮",
+    "price": 158,
+    "orig_price": 228,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人甜品约会套餐",
+    "content": "招牌甜品拼盘+法式小蛋糕2款+季节水果杯+特调饮品2杯",
+    "price": 298,
+    "orig_price": 428,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MA9D9ETC": {
+  "h": "2220d596df",
+  "deals": [
+   {
+    "name": "单人招牌酸奶碗",
+    "content": "招牌酸奶冰淇淋+新鲜水果配料+坚果碎",
+    "price": 23,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L6P7CG1M": {
+  "h": "5dffba37e9",
+  "deals": [
+   {
+    "name": "单人日式定食套餐",
+    "content": "刺身拼盘+握寿司4贯+天妇罗+味噌汤",
+    "price": 78,
+    "orig_price": 118,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人约会日料套餐",
+    "content": "三文鱼刺身拼盘+握寿司8贯+天妇罗拼盘+烤鳗鱼+味噌汤2份",
+    "price": 168,
+    "orig_price": 238,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JARSXUI1": {
+  "h": "b8343d78d8",
+  "deals": [
+   {
+    "name": "午市单人Omakase",
+    "content": "季节刺身+三文鱼寿司+握寿司8贯+茶碗蒸+味噌汤+甜品",
+    "price": 228,
+    "orig_price": 328,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人臻选Omakase套餐",
+    "content": "季节刺身拼盘+三文鱼寿司+握寿司10贯×2+茶碗蒸+味噌汤+甜品",
+    "price": 438,
+    "orig_price": 628,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K0JHCYK6": {
+  "h": "5e008e5f93",
+  "deals": [
+   {
+    "name": "双人臻选套餐",
+    "content": "招牌烤鸡翅+野生菌炒牛肉+时令蔬菜+米饭2份",
+    "price": 298,
+    "orig_price": 418,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会套餐，包间可用",
+    "content": "招牌烤鸡翅+野生菌汤锅+野生菌炒牛肉+凉拌时蔬+时令蔬菜+米饭4份",
+    "price": 588,
+    "orig_price": 828,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0GKJ90DPP": {
+  "h": "234699b482",
+  "deals": [
+   {
+    "name": "单人咖啡早餐套餐",
+    "content": "海盐焦糖拿铁+黄油可颂+燕麦曲奇",
+    "price": 19,
+    "orig_price": 28,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 15,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0G35UWBSV": {
+  "h": "b72ad410d9",
+  "deals": [
+   {
+    "name": "单人拌饭炸鸡套餐",
+    "content": "金枪鱼牛油果拌饭+炸鸡+味噌汤",
+    "price": 49,
+    "orig_price": 72,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人寿喜锅超值套餐",
+    "content": "寿喜锅+金枪鱼牛油果拌饭+炸鸡+饮品2杯",
+    "price": 108,
+    "orig_price": 158,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFH0ILIX": {
+  "h": "66b02b870b",
+  "deals": [
+   {
+    "name": "焦糖玛奇朵单人下午茶",
+    "content": "焦糖玛奇朵(大杯)+牛角可颂+巧克力曲奇",
+    "price": 32,
+    "orig_price": 45,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "40元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 32,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFKFZVNJ": {
+  "h": "aa2f25441d",
+  "deals": [
+   {
+    "name": "臻选柠檬冷萃单人套餐",
+    "content": "柠檬气泡冷萃+黄油可颂+手工曲奇",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "25元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 19,
+    "orig_price": 25,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KUM54CC1": {
+  "h": "ff986e4359",
+  "deals": [
+   {
+    "name": "招牌鸡腿咖喱饭单人餐",
+    "content": "芝士鸡腿咖喱饭+提拉米苏+圣代",
+    "price": 78,
+    "orig_price": 108,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "日式咖喱超值双人餐",
+    "content": "芝士鸡腿咖喱饭+招牌咖喱饭+提拉米苏+圣代",
+    "price": 158,
+    "orig_price": 218,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38N3X1": {
+  "h": "f35d1c34fb",
+  "deals": [
+   {
+    "name": "海景东北菜双人餐",
+    "content": "酱骨架+锅包肉+茴香饺子+爽口大白菜",
+    "price": 268,
+    "orig_price": 368,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚套餐，含招牌酱骨架",
+    "content": "酱骨架+锅包肉+油豆角排骨+茴香饺子+爽口大白菜",
+    "price": 538,
+    "orig_price": 758,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K0TCMFWZ": {
+  "h": "8ce15fcffd",
+  "deals": [
+   {
+    "name": "超级食材单人轻食套餐",
+    "content": "鲜榨果汁+招牌奶咖+轻食沙拉",
+    "price": 29,
+    "orig_price": 39,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "40元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 30,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MBZOD7LM": {
+  "h": "086adbc42e",
+  "deals": [
+   {
+    "name": "双人约会法式臻选套餐",
+    "content": "开胃小点+法式鹅肝+香煎鳕鱼+澳洲和牛+主厨甜品",
+    "price": 1388,
+    "orig_price": 1888,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "800元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 628,
+    "orig_price": 800,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K0SR6GGF": {
+  "h": "343f78f7e4",
+  "deals": [
+   {
+    "name": "农场时令双人餐",
+    "content": "农场番茄炸蛋+紫菜鱼汤煨丝瓜+仲夏茄园+招牌农场番茄康普茶",
+    "price": 198,
+    "orig_price": 278,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人农场聚会套餐，含膏蟹姜花鸡汤",
+    "content": "膏蟹姜花鸡汤+农场番茄炸蛋+紫菜鱼汤煨丝瓜+仲夏茄园+招牌农场番茄康普茶",
+    "price": 398,
+    "orig_price": 568,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LD4OQGNK": {
+  "h": "208fa36f55",
+  "deals": [
+   {
+    "name": "招牌咖啡单人套餐",
+    "content": "招牌拿铁+牛角可颂+手工曲奇",
+    "price": 24,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFL7S9QZ": {
+  "h": "157634a475",
+  "deals": [
+   {
+    "name": "地道潮味双人餐",
+    "content": "小炒黄牛肉+潮汕卤水拼盘+蚝烙+砂锅粥",
+    "price": 288,
+    "orig_price": 398,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会潮菜套餐，含小龙虾",
+    "content": "小炒黄牛肉+麻辣小龙虾+潮汕卤水拼盘+羊肉煲+蚝烙+砂锅粥",
+    "price": 588,
+    "orig_price": 828,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LDR5GPZ4": {
+  "h": "b7180a3fbf",
+  "deals": [
+   {
+    "name": "港式茶餐厅单人餐",
+    "content": "干炒牛河+菠萝油+港式奶茶",
+    "price": 68,
+    "orig_price": 88,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "午市特惠超值双人套餐",
+    "content": "干炒牛河+菠萝油+咖喱鱼蛋+西多士+港式奶茶×2",
+    "price": 138,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0H125A3PY": {
+  "h": "8f86e20623",
+  "deals": [
+   {
+    "name": "招牌牛肉意面单人餐",
+    "content": "招牌牛肉意面+田园沙拉+美式咖啡",
+    "price": 98,
+    "orig_price": 138,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人下午茶套餐",
+    "content": "招牌牛肉意面+番茄意面+下午茶甜点拼盘+咖啡×2",
+    "price": 198,
+    "orig_price": 278,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JATANENE": {
+  "h": "41f9fd51fd",
+  "deals": [
+   {
+    "name": "2人优选意式套餐",
+    "content": "意式前菜拼盘+黑松露意面+玛格丽特披萨+提拉米苏",
+    "price": 498,
+    "orig_price": 698,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "500元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 398,
+    "orig_price": 500,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L1BZZ1AN": {
+  "h": "c9f8b027d1",
+  "deals": [
+   {
+    "name": "单人咖啡甜品套餐",
+    "content": "手冲单品咖啡+冰滴咖啡+巴斯克芝士蛋糕",
+    "price": 59,
+    "orig_price": 82,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MBXUZ6HF": {
+  "h": "d98e296a69",
+  "deals": [
+   {
+    "name": "【新店开业】双人臻选套餐",
+    "content": "白切鸡+清蒸鲈鱼+蒜蓉炒时蔬+老火例汤",
+    "price": 238,
+    "orig_price": 328,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会套餐，包间可用",
+    "content": "白切鸡+清蒸石斑鱼+避风塘炒虾+蜜汁叉烧+蒜蓉炒时蔬+老火例汤",
+    "price": 468,
+    "orig_price": 658,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LBB5K5J6": {
+  "h": "62a4220f1f",
+  "deals": [
+   {
+    "name": "滋养燕窝单人套餐",
+    "content": "冰糖炖燕窝+木瓜炖燕窝+红枣桂圆茶",
+    "price": 88,
+    "orig_price": 128,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38J29W": {
+  "h": "553bbf3ce2",
+  "deals": [
+   {
+    "name": "超值单人餐",
+    "content": "新奥尔良烤鸡腿堡+吮指原味鸡1块+蛋挞1个+中杯可乐",
+    "price": 29,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "欢享双人餐，随时退、过期自动退",
+    "content": "新奥尔良烤鸡腿堡2个+新奥尔良烤翅2块+吮指原味鸡2块+蛋挞2个+中杯可乐2杯",
+    "price": 55,
+    "orig_price": 82,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J3M5EVPW": {
+  "h": "6bf99fcb8c",
+  "deals": [
+   {
+    "name": "招牌果茶豆花单人餐",
+    "content": "黄皮果茶+招牌豆花+黄油小料",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0H0JDU6CW": {
+  "h": "287e89bedc",
+  "deals": [
+   {
+    "name": "【酒店臻选】双人精致西餐套餐",
+    "content": "香煎和牛西冷+黑松露野菌意面+凯撒沙拉+法式洋葱汤+甜品拼盘",
+    "price": 428,
+    "orig_price": 598,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "200元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 158,
+    "orig_price": 200,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K64KJYPR": {
+  "h": "9cfe1a2680",
+  "deals": [
+   {
+    "name": "咖啡轻食单人餐",
+    "content": "拿铁+黄油可颂+手工曲奇",
+    "price": 25,
+    "orig_price": 36,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 24,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFK9DZVI": {
+  "h": "4f8ec46036",
+  "deals": [
+   {
+    "name": "单人主厨臻选套餐",
+    "content": "先付+金枪鱼大腹刺身+极上马粪海胆+招牌和牛寿喜烧+茶碗蒸豆腐+时令甜品",
+    "price": 1688,
+    "orig_price": 2388,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人奢享和牛海胆套餐，包间可用",
+    "content": "金枪鱼刺身拼盘+极上马粪海胆+招牌和牛寿喜烧+炸豆腐+日式料理寿司拼+时令甜品",
+    "price": 3388,
+    "orig_price": 4688,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFK9FU4V": {
+  "h": "371f4d2873",
+  "deals": [
+   {
+    "name": "手冲咖啡单人套餐",
+    "content": "精品手冲咖啡+黄油可颂+手工曲奇",
+    "price": 39,
+    "orig_price": 56,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LDRZBLSM": {
+  "h": "82f9dc8507",
+  "deals": [
+   {
+    "name": "甜甜圈单人下午茶",
+    "content": "经典原味甜甜圈+巧克力甜甜圈+美式咖啡",
+    "price": 19,
+    "orig_price": 28,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 21,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L0RC6HJW": {
+  "h": "f54cfc3be8",
+  "deals": [
+   {
+    "name": "炭火料理双人约会套餐",
+    "content": "炭烤和牛+炭火鸡肉串拼盘+炭烤时蔬+烤饭团+日式味噌汤",
+    "price": 588,
+    "orig_price": 828,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人炭火聚会套餐，包间可用",
+    "content": "炭烤和牛拼盘+炭火串烧拼盘+炭烤海鲜+炭烤时蔬+烤饭团+日式味噌汤",
+    "price": 1188,
+    "orig_price": 1688,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3SS2COF": {
+  "h": "f005bc6803",
+  "deals": [
+   {
+    "name": "烘焙单人下午茶",
+    "content": "牛角可颂+肉松小贝+美式咖啡",
+    "price": 18,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 15,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3GHHWVO": {
+  "h": "a607020076",
+  "deals": [
+   {
+    "name": "咖啡司康单人套餐",
+    "content": "拿铁+美式咖啡+原味司康",
+    "price": 32,
+    "orig_price": 45,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "40元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 29,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L1TL41Z4": {
+  "h": "61630731d3",
+  "deals": [
+   {
+    "name": "咖啡甜点单人套餐",
+    "content": "招牌拿铁+巴斯克芝士蛋糕+黄油可颂",
+    "price": 38,
+    "orig_price": 55,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L0J7GKBF": {
+  "h": "ec1a54e24e",
+  "deals": [
+   {
+    "name": "招牌果子单人套餐",
+    "content": "野草莓之地+凤梨椰海+开心牛油果酸酪",
+    "price": 19,
+    "orig_price": 28,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 15,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L34SG2VT": {
+  "h": "97d6cde250",
+  "deals": [
+   {
+    "name": "人气茶饮单人套餐",
+    "content": "招牌鲜奶茶+手打柠檬茶+小料任选",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "25元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 18,
+    "orig_price": 25,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3MUJXHC": {
+  "h": "998365a0ba",
+  "deals": [
+   {
+    "name": "创意融合菜双人餐",
+    "content": "黑松露烧鹅+芝士焗龙虾+香煎鹅肝+时令蔬菜+创意甜品",
+    "price": 398,
+    "orig_price": 568,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会融合菜套餐，包间可用",
+    "content": "黑松露烧鹅+芝士焗龙虾+香煎鹅肝+招牌融合菜小炒+时令蔬菜+创意甜品",
+    "price": 788,
+    "orig_price": 1088,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3DL62P8": {
+  "h": "dadf737558",
+  "deals": [
+   {
+    "name": "意式冰淇淋单人套餐",
+    "content": "双球意式冰淇淋杯+华夫甜筒+气泡水",
+    "price": 32,
+    "orig_price": 45,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "40元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 29,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L0G74QV5": {
+  "h": "5914e9d904",
+  "deals": [
+   {
+    "name": "西班牙风情双人餐",
+    "content": "伊比利亚火腿拼盘+西班牙海鲜饭+蒜香橄榄油虾+西班牙土豆饼+加泰罗尼亚焦糖布丁",
+    "price": 398,
+    "orig_price": 598,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人欢聚西班牙餐套餐，含墨鱼汁海鲜饭",
+    "content": "伊比利亚火腿拼盘+墨鱼汁海鲜饭+炭烤战斧牛排+蒜香橄榄油虾+西班牙土豆饼+加泰罗尼亚焦糖布丁",
+    "price": 788,
+    "orig_price": 1188,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFKTCUVV": {
+  "h": "308fbaf3bc",
+  "deals": [
+   {
+    "name": "白羊座Emoji蛋糕单人下午茶",
+    "content": "白羊座Emoji小蛋糕+手作曲奇+美式咖啡",
+    "price": 118,
+    "orig_price": 158,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3FH5VKR": {
+  "h": "a70eb23c09",
+  "deals": [
+   {
+    "name": "精细潮菜双人餐",
+    "content": "潮汕卤水拼盘+冻红蟹+生腌虾蛄+橄榄菜炒芥兰+砂锅粥",
+    "price": 388,
+    "orig_price": 588,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人潮味家宴套餐，包间可用",
+    "content": "卤水鹅肉拼盘+冻花蟹+潮汕鱼饭+潮式蚝烙+护国菜+砂锅虾蟹粥",
+    "price": 768,
+    "orig_price": 1158,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MUA516YE": {
+  "h": "e732316709",
+  "deals": [
+   {
+    "name": "姆明单人下午茶",
+    "content": "姆明造型松饼+拿铁+水果杯",
+    "price": 29,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2J76PD4": {
+  "h": "a1ec450184",
+  "deals": [
+   {
+    "name": "单人烘焙早午餐",
+    "content": "黄油可颂+肉桂卷+美式咖啡",
+    "price": 59,
+    "orig_price": 88,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "80元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 62,
+    "orig_price": 80,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCB6DN": {
+  "h": "197b889ef8",
+  "deals": [
+   {
+    "name": "单人品茶套餐",
+    "content": "招牌冷萃乌龙+茶香小点拼盘+时令水果",
+    "price": 32,
+    "orig_price": 45,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "40元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 32,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I0OC4OU2": {
+  "h": "3ee1ab7d28",
+  "deals": [
+   {
+    "name": "主厨季节Omakase单人套餐",
+    "content": "季节刺身拼+金枪鱼大腹握寿司+鱿鱼握寿司+海胆手卷+茶碗蒸+冷面",
+    "price": 1288,
+    "orig_price": 1688,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人臻选Omakase套餐",
+    "content": "季节刺身拼+金枪鱼三部位握寿司+鱿鱼握寿司+海胆手卷+炙烤料理+冷面",
+    "price": 2588,
+    "orig_price": 3388,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LRB6LJL2": {
+  "h": "de1ae3a2d1",
+  "deals": [
+   {
+    "name": "单人shortcake甜品套餐",
+    "content": "经典草莓shortcake+季节水果shortcake+美式咖啡",
+    "price": 35,
+    "orig_price": 48,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2TK2SZB": {
+  "h": "72a51211e6",
+  "deals": [
+   {
+    "name": "2人优选超值意大利餐套餐",
+    "content": "海鲜拼盘+云南黑松露菌菇烩饭+秘制甜辣鸡翅+慢炖牛尾肉酱超宽面",
+    "price": 228,
+    "orig_price": 338,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚意式套餐，含澳洲和牛眼肉",
+    "content": "海鲜拼盘+澳洲和牛眼肉+云南黑松露菌菇烩饭+慢炖牛尾肉酱超宽面+秘制甜辣鸡翅",
+    "price": 468,
+    "orig_price": 698,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAU1P": {
+  "h": "ba9da89cad",
+  "deals": [
+   {
+    "name": "单人汉堡套餐",
+    "content": "招牌芝士牛肉堡+松露薯条+汽水",
+    "price": 59,
+    "orig_price": 88,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人汉堡分享餐",
+    "content": "招牌芝士牛肉堡+经典牛肉堡+松露薯条+香辣鸡翅+汽水2杯",
+    "price": 128,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LG97XFYE": {
+  "h": "e5440579ca",
+  "deals": [
+   {
+    "name": "单人品茗套餐",
+    "content": "凤凰单丛一泡+手作茶点+时令水果",
+    "price": 38,
+    "orig_price": 58,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAH6N": {
+  "h": "f46e550246",
+  "deals": [
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "200元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 158,
+    "orig_price": 200,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JUV1GD4J": {
+  "h": "0ce494a800",
+  "deals": [
+   {
+    "name": "单人工作餐",
+    "content": "招牌卤肉饭+清炒时蔬+卤蛋+冻柠檬茶",
+    "price": 29,
+    "orig_price": 39,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "午市超值双人工作餐",
+    "content": "招牌卤肉饭+黑椒鸡腿饭+清炒时蔬+卤蛋+冻柠檬茶",
+    "price": 55,
+    "orig_price": 76,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3SB2FO0": {
+  "h": "ae39677e01",
+  "deals": [
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "200元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 158,
+    "orig_price": 200,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAH6E": {
+  "h": "c99817ec67",
+  "deals": [
+   {
+    "name": "单人潮汕甜汤套餐",
+    "content": "鸭母捻+绿豆爽+反沙芋",
+    "price": 19,
+    "orig_price": 28,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LK2DQHKL": {
+  "h": "de86309906",
+  "deals": [
+   {
+    "name": "单人茶饮小食套餐",
+    "content": "熟成乌龙鲜奶茶+芋泥麻薯+黑糖珍珠加料",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 23,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2J77CQD": {
+  "h": "a75702b2af",
+  "deals": [
+   {
+    "name": "单人咖啡甜点套餐",
+    "content": "手冲单品咖啡+比利时华夫饼+柠檬磅蛋糕",
+    "price": 42,
+    "orig_price": 58,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0IUXMDDJ0": {
+  "h": "3666d43f65",
+  "deals": [
+   {
+    "name": "2人优选西班牙风味套餐",
+    "content": "西班牙海鲜饭+伊比利亚火腿拼盘+蒜香虾+芝士拼盘+桑格利亚",
+    "price": 328,
+    "orig_price": 468,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚西餐套餐，包间可用",
+    "content": "西班牙海鲜饭+伊比利亚火腿拼盘+炭烤战斧牛排+蒜香虾+芝士拼盘+巴斯克芝士蛋糕",
+    "price": 588,
+    "orig_price": 868,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFLHOVC8": {
+  "h": "6536a848cc",
+  "deals": [
+   {
+    "name": "单人茶饮套餐",
+    "content": "茉莉奶绿+黑糖珍珠+芋圆",
+    "price": 11,
+    "orig_price": 15,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "15元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 11,
+    "orig_price": 15,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LR37F0VM": {
+  "h": "ceba072d42",
+  "deals": [
+   {
+    "name": "单人黑糖饮品套餐",
+    "content": "黑糖珍珠鲜奶+黑糖布丁+珍珠加量",
+    "price": 12,
+    "orig_price": 16,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 13,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFI5UVUP": {
+  "h": "dd1ced7568",
+  "deals": [
+   {
+    "name": "板烧美味三件套",
+    "content": "板烧鸡腿堡+中薯条+中可乐",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "家有金桶（汉堡版）3人餐",
+    "content": "巨无霸+麦辣鸡腿堡+板烧鸡腿堡+麦辣鸡翅4块+大薯条+可乐3杯",
+    "price": 69,
+    "orig_price": 99,
+    "people": 3,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFIBGHOD": {
+  "h": "2d189b6ddc",
+  "deals": [
+   {
+    "name": "单人咖啡下午茶套餐",
+    "content": "大杯拿铁+经典提拉米苏+原味可颂",
+    "price": 26,
+    "orig_price": 38,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人下午茶套餐",
+    "content": "大杯拿铁+大杯美式+经典提拉米苏+原味可颂",
+    "price": 52,
+    "orig_price": 78,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I2JA4REC": {
+  "h": "4168302bd4",
+  "deals": [
+   {
+    "name": "单人冰美式套餐",
+    "content": "冰美式+黄油可颂+海盐曲奇",
+    "price": 25,
+    "orig_price": 36,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 24,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3BHE94L": {
+  "h": "8e4cdb4335",
+  "deals": [
+   {
+    "name": "地道粤味双人餐",
+    "content": "白切走地鸡(半只)+豉汁蒸排骨+避风塘炒虾+蒜蓉炒菜心+例汤",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人家庭欢聚套餐，包间可用",
+    "content": "白切走地鸡(1只)+清蒸鲈鱼+烧鹅拼叉烧+椒盐濑尿虾+上汤时蔬+老火靓汤",
+    "price": 268,
+    "orig_price": 398,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KG2CWVBB": {
+  "h": "2180f1ce62",
+  "deals": [
+   {
+    "name": "单人羊杂套餐",
+    "content": "羊杂汤+白吉馍+凉皮",
+    "price": 26,
+    "orig_price": 35,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "西北风味双人餐",
+    "content": "小酥肉+羊杂汤+油泼面+肉夹馍",
+    "price": 49,
+    "orig_price": 72,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J01U22AG": {
+  "h": "c34f53e37d",
+  "deals": [
+   {
+    "name": "单人霸气果茶套餐",
+    "content": "霸气芝士葡萄+芝士软欧包+宝藏茶冻加料",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFF6RVZ5": {
+  "h": "d096cebfc8",
+  "deals": [
+   {
+    "name": "双人臻选私房套餐",
+    "content": "花胶炖鸡汤+清蒸石斑鱼+脆皮乳鸽+私房小炒皇+上汤时蔬",
+    "price": 368,
+    "orig_price": 528,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "6人商务宴请套餐，包间可用",
+    "content": "鲍汁扣花胶+清蒸东星斑+脆皮乳鸽+白切走地鸡+XO酱炒带子+上汤时蔬",
+    "price": 988,
+    "orig_price": 1488,
+    "people": 6,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFKU6RTL": {
+  "h": "9dd6021d07",
+  "deals": [
+   {
+    "name": "单人自选快餐",
+    "content": "自选两荤+自选一素+白米饭+例汤",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人自选快餐",
+    "content": "自选三荤+自选两素+白米饭2份+例汤2份",
+    "price": 43,
+    "orig_price": 60,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0GDDPQYO8": {
+  "h": "172dc26cfe",
+  "deals": [
+   {
+    "name": "单人小面套餐",
+    "content": "酸菜卤肉面+爆浆豆腐串(2串)+琥珀冰粉",
+    "price": 18,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "地道川味双人餐",
+    "content": "酸菜卤肉面+老麻抄手+爆浆豆腐串(2串)+琥珀冰粉2份",
+    "price": 33,
+    "orig_price": 48,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K3H15U2L": {
+  "h": "8e1846e3c0",
+  "deals": [
+   {
+    "name": "单人牛肉面套餐",
+    "content": "招牌牛肉面+加肉一份+卤蛋+凉拌小菜",
+    "price": 29,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "西北风味双人餐",
+    "content": "招牌牛肉面2碗+凉拌牛腱子+烤羊肉串(4串)+老酸奶2杯",
+    "price": 56,
+    "orig_price": 82,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0IAZZQWN8": {
+  "h": "7edfb80324",
+  "deals": [
+   {
+    "name": "【示例数据】单人鲜果分子果汁套餐",
+    "content": "牛油果酸奶奶昔+鲜切水果杯+手工曲奇",
+    "price": 26,
+    "orig_price": 38,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 24,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJ7UKHX": {
+  "h": "4fd58a4965",
+  "deals": [
+   {
+    "name": "【示例数据】多肉葡萄+提拉米苏单人套餐",
+    "content": "多肉葡萄+提拉米苏·浓巧+小料加料一份",
+    "price": 28,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 25,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKFHU2KE": {
+  "h": "cb17364e60",
+  "deals": [
+   {
+    "name": "【示例数据】招牌蒸菜双人餐",
+    "content": "剁椒蒸鱼头+粉蒸肉+蒸水蛋+小炒黄牛肉+米饭2份",
+    "price": 68,
+    "orig_price": 98,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】3-4人湘味蒸菜聚餐套餐",
+    "content": "剁椒鱼头+梅菜扣肉+粉蒸排骨+农家小炒肉+蒸水蛋+米饭4份",
+    "price": 128,
+    "orig_price": 188,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0G10CEZNL": {
+  "h": "fdc0deb960",
+  "deals": [
+   {
+    "name": "【示例数据】虾仁水饺单人餐",
+    "content": "虾仁三鲜手工水饺(12只)+卤肉饭+凉拌黄瓜",
+    "price": 29,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】水饺酸辣粉双人餐",
+    "content": "虾仁三鲜手工水饺(12只)×2+酸辣粉+卤肉饭+凉拌小菜",
+    "price": 56,
+    "orig_price": 79,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KKROYRCD": {
+  "h": "db5228952f",
+  "deals": [
+   {
+    "name": "【示例数据】牛油果轻食单人餐",
+    "content": "牛油果鸡胸能量碗+牛油果奶昔+时令水果杯",
+    "price": 33,
+    "orig_price": 48,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】2人牛油果优选套餐",
+    "content": "牛油果虾仁沙拉+牛油果芝士焗饭+香煎鸡胸能量碗+牛油果奶昔×2",
+    "price": 66,
+    "orig_price": 98,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MDLRMIB2": {
+  "h": "91ac8d2ccb",
+  "deals": [
+   {
+    "name": "【示例数据】单人当季鲜切果盒",
+    "content": "西瓜+哈密瓜+芒果+葡萄",
+    "price": 13,
+    "orig_price": 19,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】15元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 12,
+    "orig_price": 15,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KDF16HA3": {
+  "h": "4a05a31eaf",
+  "deals": [
+   {
+    "name": "【示例数据】单人招牌饮品套餐",
+    "content": "招牌柠檬茶+鲜果茶+小料加料一份",
+    "price": 18,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 16,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MBAK8U7R": {
+  "h": "7acbe4669e",
+  "deals": [
+   {
+    "name": "【示例数据】麻辣烫单人餐",
+    "content": "肥牛卷+午餐肉+鱼丸+宽粉+时蔬拼盘",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】麻辣拌+麻辣烫双人餐",
+    "content": "麻辣拌+麻辣烫+肥牛卷+虾滑+酸梅汤×2",
+    "price": 42,
+    "orig_price": 62,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38JKVA": {
+  "h": "066a89a1ec",
+  "deals": [
+   {
+    "name": "【示例数据】招牌砂锅粥双人餐",
+    "content": "虾蟹砂锅粥+烧麦+豉汁鸡爪+茶叶蛋×2",
+    "price": 98,
+    "orig_price": 148,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】3-4人砂锅粥家庭欢聚套餐",
+    "content": "虾蟹砂锅粥+生滚牛肉粥+烧麦+豉汁鸡爪+茶叶蛋+白灼时蔬",
+    "price": 188,
+    "orig_price": 278,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MD59YIHK": {
+  "h": "f3d9ea471f",
+  "deals": [
+   {
+    "name": "【示例数据】重庆小面单人餐",
+    "content": "重庆小面(二两)+卤蛋+红糖冰粉",
+    "price": 16,
+    "orig_price": 23,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】地道川味双人餐",
+    "content": "豌杂面+红烧牛肉面+红糖冰粉+卤蛋×2+凉拌小菜",
+    "price": 32,
+    "orig_price": 46,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KDHDJRE3": {
+  "h": "f79b87da5d",
+  "deals": [
+   {
+    "name": "【示例数据】生椰拿铁单人券",
+    "content": "生椰拿铁(大杯)",
+    "price": 8,
+    "orig_price": 12,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】10元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 8,
+    "orig_price": 10,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFKPGIIJ": {
+  "h": "2c107dab56",
+  "deals": [
+   {
+    "name": "【示例数据】双人臻选私房菜套餐",
+    "content": "私房招牌烧鹅+清蒸东星斑+XO酱炒带子+上汤时蔬+老火靓汤",
+    "price": 298,
+    "orig_price": 428,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】4人私房宴请套餐，包间可用",
+    "content": "私房招牌烧鹅+清蒸石斑鱼+椒盐濑尿虾+避风塘炒蟹+老火靓汤+上汤时蔬",
+    "price": 598,
+    "orig_price": 888,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38RKK2": {
+  "h": "0b44c30143",
+  "deals": [
+   {
+    "name": "【示例数据】午市特惠超值双人套餐",
+    "content": "白切鸡+豉汁蒸排骨+清炒时蔬+例汤+米饭2份",
+    "price": 79,
+    "orig_price": 118,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 80,
+    "orig_price": 100,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J3Y5CS53": {
+  "h": "284709b37d",
+  "deals": [
+   {
+    "name": "【示例数据】单人下午茶蛋糕套餐",
+    "content": "提拉米苏切块+芒果慕斯切块+美式咖啡",
+    "price": 32,
+    "orig_price": 46,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 24,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0M6JCFHCD": {
+  "h": "99717ca6e2",
+  "deals": [
+   {
+    "name": "【示例数据】双人品茗套餐",
+    "content": "凤凰单丛一壶+桂花糕+绿豆糕+瓜子果盘",
+    "price": 128,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "【示例数据】4人茶聚套餐，包间可用",
+    "content": "大红袍一壶+普洱一壶+精选茶点四款+坚果果盘",
+    "price": 238,
+    "orig_price": 358,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LRT1AND1": {
+  "h": "1595e1a253",
+  "deals": [
+   {
+    "name": "招牌黄皮酸奶单人杯",
+    "content": "黄皮酸奶1杯+紫米加料+椰果加料",
+    "price": 13,
+    "orig_price": 18,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 14,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MBKKP3MO": {
+  "h": "69e7342d0a",
+  "deals": [
+   {
+    "name": "轻体果茶单人套餐",
+    "content": "满杯百香果茶+芋圆加料+轻食沙拉杯",
+    "price": 17,
+    "orig_price": 24,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 15,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LDAR6L56": {
+  "h": "3d0626f0de",
+  "deals": [
+   {
+    "name": "湘味超值单人餐",
+    "content": "小炒黄牛肉+米饭+例汤+小菜",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "地道湘味双人餐",
+    "content": "剁椒鱼头+辣椒炒肉+手撕包菜+米饭2份",
+    "price": 46,
+    "orig_price": 68,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I2OSPWQK": {
+  "h": "596c5d3220",
+  "deals": [
+   {
+    "name": "单人下午茶套餐",
+    "content": "美式咖啡+可颂+蓝莓麦芬",
+    "price": 28,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 24,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJ4TNY9": {
+  "h": "f0c2ec4375",
+  "deals": [
+   {
+    "name": "招牌牛肉饭单人餐",
+    "content": "招牌牛肉饭+卤蛋+青菜+例汤",
+    "price": 21,
+    "orig_price": 29,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "牛肉超值双人餐",
+    "content": "招牌牛肉饭2份+凉拌牛肉+卤蛋2个+例汤2份",
+    "price": 42,
+    "orig_price": 58,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38W1UM": {
+  "h": "845483a571",
+  "deals": [
+   {
+    "name": "粤式早茶双人臻选套餐",
+    "content": "虾饺+蒸凤爪+榴莲酥+锅贴+芝麻鸡",
+    "price": 168,
+    "orig_price": 248,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚粤菜套餐，包间可用",
+    "content": "芝麻鸡+虾饺+蒸凤爪+榴莲酥+锅贴+清炒时蔬",
+    "price": 368,
+    "orig_price": 528,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFF5XK8Z": {
+  "h": "293df678df",
+  "deals": [
+   {
+    "name": "素食单人餐",
+    "content": "家常素菜3样+米饭+杨枝甘露",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "素食双人餐",
+    "content": "家常素菜4样+米饭2份+杨枝甘露2份",
+    "price": 45,
+    "orig_price": 62,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LDUCCGZH": {
+  "h": "60bcd51174",
+  "deals": [
+   {
+    "name": "徽味双人餐",
+    "content": "红烧臭鳜鱼+虎皮毛豆腐+黄山烧饼+清炒时蔬",
+    "price": 108,
+    "orig_price": 158,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会徽菜套餐",
+    "content": "红烧臭鳜鱼+徽州一品锅+虎皮毛豆腐+笋干烧肉+黄山烧饼+清炒时蔬",
+    "price": 208,
+    "orig_price": 298,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MBX9ZLDI": {
+  "h": "605dcffcf6",
+  "deals": [
+   {
+    "name": "招牌糖水单人餐",
+    "content": "杨枝甘露+双皮奶+芋圆加料",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 24,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0M6H7COTP": {
+  "h": "dfe09ba4cc",
+  "deals": [
+   {
+    "name": "招牌烧烤双人餐",
+    "content": "岩烤大海虾+烤鸡腿+香糯烤猪蹄+椒盐蚕蛹+炸蚂蚱",
+    "price": 108,
+    "orig_price": 158,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会烧烤套餐",
+    "content": "岩烤大海虾+香糯烤猪蹄2份+烤鸡腿2份+炸蚂蚱+椒盐蚕蛹+羊肉串20串",
+    "price": 218,
+    "orig_price": 318,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L22HZJSX": {
+  "h": "d700a5cfdb",
+  "deals": [
+   {
+    "name": "早餐单人套餐",
+    "content": "美式咖啡+酸种面包+可颂",
+    "price": 29,
+    "orig_price": 42,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "40元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 30,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K3F6B8PC": {
+  "h": "83c8a421e4",
+  "deals": [
+   {
+    "name": "化州剪牛杂单人餐",
+    "content": "化州剪牛杂+米粉+青菜+饮料",
+    "price": 26,
+    "orig_price": 36,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "牛杂超值双人餐",
+    "content": "化州剪牛杂（大份）+牛腩+米粉2份+青菜+饮料2瓶",
+    "price": 55,
+    "orig_price": 78,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J0GDBMCI": {
+  "h": "48b8b8244d",
+  "deals": [
+   {
+    "name": "泡菜粉单人餐",
+    "content": "泡菜粉+卤蛋+酸梅汤",
+    "price": 10,
+    "orig_price": 14,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "泡菜粉双人餐",
+    "content": "泡菜粉2份+卤蛋2个+小菜",
+    "price": 19,
+    "orig_price": 26,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3ASUJEP": {
+  "h": "4af25adb58",
+  "deals": [
+   {
+    "name": "三明治单人早餐",
+    "content": "招牌三明治+美式咖啡+小份薯块",
+    "price": 16,
+    "orig_price": 24,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "三明治双人套餐",
+    "content": "招牌三明治2份+美式咖啡+拿铁",
+    "price": 29,
+    "orig_price": 42,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MA7R220E": {
+  "h": "ec5b29f48f",
+  "deals": [
+   {
+    "name": "单人超牛自助火锅",
+    "content": "鲜切牛肉+牛舌+毛肚+虾滑+时蔬拼盘+饮品甜品自助",
+    "price": 79,
+    "orig_price": 118,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人超牛自助火锅",
+    "content": "鲜切牛肉+牛舌+毛肚+虾滑+时蔬拼盘+饮品甜品自助",
+    "price": 158,
+    "orig_price": 236,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MDZU85OF": {
+  "h": "726adbbf1c",
+  "deals": [
+   {
+    "name": "手工披萨单人超值餐",
+    "content": "手工披萨（8寸）+招牌甜甜圈+薯条+可乐",
+    "price": 49,
+    "orig_price": 68,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "2人优选披萨甜甜圈套餐",
+    "content": "手工披萨（10寸）+招牌甜甜圈2个+香烤鸡翅+薯条+饮品2杯",
+    "price": 99,
+    "orig_price": 148,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFLLIXOW": {
+  "h": "e8894426d0",
+  "deals": [
+   {
+    "name": "港式大排档双人餐",
+    "content": "椒盐九肚鱼+豉汁蒸排骨+干炒牛河+白灼菜心",
+    "price": 79,
+    "orig_price": 118,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会大排档套餐",
+    "content": "椒盐濑尿虾+豉汁蒸排骨+干炒牛河+姜葱炒花甲+啫啫鸡煲+白灼菜心",
+    "price": 158,
+    "orig_price": 238,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LR5SAYQ3": {
+  "h": "5003f683ea",
+  "deals": [
+   {
+    "name": "300元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 239,
+    "orig_price": 300,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "春暖花开单人下午茶套餐",
+    "content": "春暖花开蛋糕+巧克力慕斯+下午茶点心拼盘+花果茶",
+    "price": 268,
+    "orig_price": 368,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFHQFE4L": {
+  "h": "d66cded0d4",
+  "deals": [
+   {
+    "name": "榴莲披萨单人套餐",
+    "content": "榴莲披萨（6寸）+香烤鸡肉+奶昔",
+    "price": 59,
+    "orig_price": 89,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人约会披萨套餐",
+    "content": "榴莲披萨（9寸）+双拼芝士披萨+香烤鸡翅+奶昔2杯",
+    "price": 118,
+    "orig_price": 176,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I1TZ71YE": {
+  "h": "333e903eaf",
+  "deals": [
+   {
+    "name": "地道东北烧烤双人餐",
+    "content": "烤鸡架+羊肉串10串+烤五花肉+东北麻辣烫+烤韭菜",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人撸串欢聚套餐",
+    "content": "烤鸡架2份+羊肉串20串+烤五花肉+东北麻辣烫+锅包肉+烤茄子",
+    "price": 268,
+    "orig_price": 398,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MDTSBHR5": {
+  "h": "ec3919a383",
+  "deals": [
+   {
+    "name": "【新店开业】新豫菜双人臻选套餐",
+    "content": "糖醋软熘鱼焙面+道口烧鸡+羊肉烩面+炒凉粉+时令青菜",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚豫菜套餐",
+    "content": "糖醋软熘鱼焙面+道口烧鸡+羊肉烩面+开封灌汤包+炒凉粉+铁锅蛋",
+    "price": 238,
+    "orig_price": 348,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I0BZDE9B": {
+  "h": "72d9299560",
+  "deals": [
+   {
+    "name": "2人优选地中海风味套餐",
+    "content": "炭烤牛排+地中海香草烤鸡+奶油蘑菇汤+希腊沙拉+鹰嘴豆泥配皮塔饼",
+    "price": 228,
+    "orig_price": 328,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人聚会地中海套餐，含招牌石板牛肉",
+    "content": "石板牛肉+地中海香草烤鸡+松露蘑菇烩饭+奶油蘑菇汤+希腊沙拉+鹰嘴豆泥配皮塔饼",
+    "price": 428,
+    "orig_price": 618,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFF5TNT5": {
+  "h": "cd0929c30e",
+  "deals": [
+   {
+    "name": "招牌猪脚饭单人餐",
+    "content": "隆江猪脚饭+卤蛋+例汤",
+    "price": 16,
+    "orig_price": 22,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "烧腊双人餐",
+    "content": "隆江猪脚饭+叉烧烧鹅双拼饭+卤蛋+白灼青菜+例汤",
+    "price": 32,
+    "orig_price": 46,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MBHRILMV": {
+  "h": "57d5213399",
+  "deals": [
+   {
+    "name": "鲍汁黄焖鸡单人餐",
+    "content": "鲍汁黄焖鸡（小份）+豆皮+金针菇+米饭",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "鲍汁黄焖鸡双人餐",
+    "content": "鲍汁黄焖鸡（大份）+豆皮+金针菇+米饭2份+饮料2瓶",
+    "price": 39,
+    "orig_price": 56,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K0ARWM4Z": {
+  "h": "3e877989d7",
+  "deals": [
+   {
+    "name": "招牌泡菜粉单人餐",
+    "content": "招牌泡菜粉+卤蛋+饮品",
+    "price": 15,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "泡菜粉双人餐",
+    "content": "招牌泡菜粉2份+酸辣凤爪+卤蛋2个+饮品2杯",
+    "price": 29,
+    "orig_price": 40,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0H26C07G8": {
+  "h": "d66ae61d14",
+  "deals": [
+   {
+    "name": "精品牛肉面单人餐",
+    "content": "精品牛肉面+肉夹馍+凉拌小菜",
+    "price": 18,
+    "orig_price": 25,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "西北风味双人餐",
+    "content": "牛肉炒刀削面+牛肉凉拌面+肉夹馍2个+凉拌小菜",
+    "price": 36,
+    "orig_price": 50,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K06P8L3P": {
+  "h": "b7ec7fc0e5",
+  "deals": [
+   {
+    "name": "兰州牛肉面单人餐",
+    "content": "兰州牛肉面+加肉+卤蛋+凉拌小菜",
+    "price": 17,
+    "orig_price": 23,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "牛肉面双人餐",
+    "content": "兰州牛肉面+牛肉拌面+卤蛋2个+凉拌小菜",
+    "price": 33,
+    "orig_price": 46,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KG0L3CHD": {
+  "h": "5962fb05ce",
+  "deals": [
+   {
+    "name": "潮汕鱼粥双人餐",
+    "content": "潮汕鱼粥（双人份）+卤水拼盘+蚝烙+炒芥兰",
+    "price": 88,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人潮汕风味欢聚套餐",
+    "content": "潮汕鱼粥（大份）+卤水鹅拼盘+蚝烙+普宁炸豆腐+生腌虾+炒芥兰",
+    "price": 168,
+    "orig_price": 248,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JD2G95VL": {
+  "h": "48bea89bff",
+  "deals": [
+   {
+    "name": "地道重庆老火锅双人餐",
+    "content": "牛油锅底+鲜毛肚+鸭肠+鲜黄喉+嫩牛肉+素菜拼盘",
+    "price": 128,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会老火锅套餐",
+    "content": "九宫格牛油锅底+鲜毛肚+鸭肠+鲜黄喉+麻辣牛肉+素菜拼盘",
+    "price": 248,
+    "orig_price": 368,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKJG153J": {
+  "h": "dd1a3e19a1",
+  "deals": [
+   {
+    "name": "单人咖啡下午茶套餐",
+    "content": "拿铁+牛角可颂+燕麦曲奇",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 16,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFGHBESH": {
+  "h": "21d3e7ffb9",
+  "deals": [
+   {
+    "name": "超值单人快餐",
+    "content": "叉烧+卤蛋+时蔬+米饭+例汤",
+    "price": 16,
+    "orig_price": 22,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "午市特惠双人餐",
+    "content": "烧鸭+豉汁排骨+时蔬+米饭2份+例汤2份",
+    "price": 35,
+    "orig_price": 46,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JKGH683T": {
+  "h": "e6eaa1721d",
+  "deals": [
+   {
+    "name": "地道新疆双人餐",
+    "content": "大盘鸡(小份)+干煸炒面+羊肉串4串+凉拌皮辣红+酸奶",
+    "price": 88,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人大盘鸡欢聚套餐",
+    "content": "大盘土鸡+干煸炒面+拌面+羊肉串10串+凉拌皮辣红+烤馕",
+    "price": 168,
+    "orig_price": 238,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LK2LRRBX": {
+  "h": "4d5ff63390",
+  "deals": [
+   {
+    "name": "招牌猪杂粉单人餐",
+    "content": "猪杂粉+卤蛋+烫青菜+豆浆",
+    "price": 12,
+    "orig_price": 16,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "猪杂粉双人餐",
+    "content": "猪杂粉2碗+卤蛋2个+烫青菜+豆浆2杯",
+    "price": 25,
+    "orig_price": 32,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J6Y6TIR2": {
+  "h": "093e76960b",
+  "deals": [
+   {
+    "name": "人气饮品任选一杯",
+    "content": "生椰拿铁/柠檬茶/杨枝甘露/果茶 四选一",
+    "price": 11,
+    "orig_price": 16,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "15元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 12,
+    "orig_price": 15,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFKJT47T": {
+  "h": "c4ee09cbff",
+  "deals": [
+   {
+    "name": "湖南土菜双人餐",
+    "content": "鲜炒黄牛肉+土大蒜炒土腊肉+家常时蔬+米饭2份",
+    "price": 118,
+    "orig_price": 168,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚套餐",
+    "content": "鲜炒黄牛肉+鲍鱼辣椒炒肉+茶油老姜炒鸡+土大蒜炒土腊肉+家常时蔬+米饭4份",
+    "price": 228,
+    "orig_price": 318,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KRGMMHTU": {
+  "h": "8666144615",
+  "deals": [
+   {
+    "name": "园区工作餐单人套餐",
+    "content": "家常小炒肉+清炒时蔬+米饭+例汤",
+    "price": 18,
+    "orig_price": 25,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "家常菜双人餐",
+    "content": "家常小炒肉+番茄炒蛋+清炒时蔬+米饭2份+例汤2份",
+    "price": 38,
+    "orig_price": 52,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFIWUTX7": {
+  "h": "5f6def1f5a",
+  "deals": [
+   {
+    "name": "双人品茗套餐，包间可用",
+    "content": "凤凰单丛一壶+茶点拼盘+鲜果盘+坚果拼盘+茶位2位",
+    "price": 198,
+    "orig_price": 288,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 78,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J1BRP1ST": {
+  "h": "f0511fcb69",
+  "deals": [
+   {
+    "name": "石磨肠粉单人餐",
+    "content": "鲜肉鸡蛋肠粉+卤蛋+豆浆",
+    "price": 9,
+    "orig_price": 12,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "石磨肠粉双人餐",
+    "content": "牛肉肠粉+鲜虾肠粉+卤蛋+豆浆2杯",
+    "price": 18,
+    "orig_price": 24,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MGJ7CN2V": {
+  "h": "b874f03ea9",
+  "deals": [
+   {
+    "name": "招牌龙虾双人餐",
+    "content": "麻辣龙虾2斤+凉拌黄瓜+炒米粉+饮料2瓶",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人龙虾聚会套餐",
+    "content": "麻辣龙虾2斤+蒜蓉龙虾2斤+口味虾尾+凉菜拼盘+炒面+饮料4瓶",
+    "price": 268,
+    "orig_price": 388,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFF4JZ28": {
+  "h": "7308034f84",
+  "deals": [
+   {
+    "name": "肥肠桂林米粉单人餐",
+    "content": "肥肠桂林米粉+卤蛋+酸豆角+豆浆",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "桂林米粉双人餐",
+    "content": "招牌桂林米粉+肥肠米粉+卤蛋2个+饮料2瓶",
+    "price": 39,
+    "orig_price": 52,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LBPLHSGE": {
+  "h": "d3d41e3cc6",
+  "deals": [
+   {
+    "name": "招牌猪脚饭单人餐",
+    "content": "隆江猪脚饭+卤蛋+青菜+例汤",
+    "price": 18,
+    "orig_price": 25,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "猪脚饭双人餐",
+    "content": "隆江猪脚饭2份+卤鸭腿+青菜+例汤2份",
+    "price": 38,
+    "orig_price": 50,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I1Z7NWON": {
+  "h": "9268d30f1b",
+  "deals": [
+   {
+    "name": "地道重庆火锅双人餐",
+    "content": "牛油锅底+现切黄牛肉+毛肚拼盘+鸭血+土豆片+纯麻油碟2份",
+    "price": 89,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人市井火锅聚会套餐",
+    "content": "牛油锅底+现切黄牛肉2份+毛肚拼盘+鸭血+土豆片+纯麻油碟4份",
+    "price": 178,
+    "orig_price": 258,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KKX5YLHP": {
+  "h": "a64fccd80b",
+  "deals": [
+   {
+    "name": "贵州酸汤火锅双人餐",
+    "content": "红酸汤锅底+鲜切牛肉+毛肚+豆腐+时蔬拼盘+糍粑",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人酸汤牛肉聚会套餐",
+    "content": "红酸汤锅底+鲜切牛肉2份+牛肉丸+毛肚+时蔬拼盘+糍粑",
+    "price": 248,
+    "orig_price": 348,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0H3DRTH9W": {
+  "h": "f300794ac9",
+  "deals": [
+   {
+    "name": "地道川味双人餐",
+    "content": "辣子鸡+酸辣土豆丝+卤鸡爪+家常小炒+杨枝甘露2杯",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人小酒馆聚会套餐",
+    "content": "辣子鸡+酸辣土豆丝+卤鸡爪+家常小炒+水煮牛肉+杨枝甘露4杯",
+    "price": 248,
+    "orig_price": 348,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFME5EC2": {
+  "h": "672dc4af24",
+  "deals": [
+   {
+    "name": "烧烤双人约会套餐",
+    "content": "烤鸡脆骨+香辣猪蹄+烤生蚝4只+烤毛肚+烤韭菜",
+    "price": 148,
+    "orig_price": 208,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人烧烤聚会套餐",
+    "content": "烤羊排+烤鸡脆骨+香辣猪蹄+烤生蚝8只+烤毛肚+烤馒头片",
+    "price": 288,
+    "orig_price": 398,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0G219BLKS": {
+  "h": "e22d92aa1f",
+  "deals": [
+   {
+    "name": "鲜切牛肉单人餐",
+    "content": "清汤牛骨锅底+鲜切嫩肉+手打牛肉丸+时蔬拼盘+干炒牛河",
+    "price": 49,
+    "orig_price": 69,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "地道潮汕牛肉火锅双人餐",
+    "content": "清汤牛骨锅底+鲜切吊龙+鲜切嫩肉+手打牛肉丸+干炒牛河+时蔬拼盘",
+    "price": 98,
+    "orig_price": 148,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFHKRLM1": {
+  "h": "ea14c059d6",
+  "deals": [
+   {
+    "name": "午市特惠单人套餐",
+    "content": "辣椒炒肉+清炒时蔬+米饭+例汤",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "超值家常双人餐",
+    "content": "辣椒炒肉+番茄炒蛋+清炒时蔬+米饭2份+例汤",
+    "price": 39,
+    "orig_price": 56,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L30ZK34P": {
+  "h": "47fe0de24f",
+  "deals": [
+   {
+    "name": "20元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 16,
+    "orig_price": 20,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "麻辣烫麻辣拌双人餐",
+    "content": "招牌麻辣烫+麻辣拌+午餐肉+鱼豆腐+酸梅汤2杯",
+    "price": 36,
+    "orig_price": 50,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "real:B0L36Z9ZP4": {
+  "h": "b0ee6dfc65",
+  "deals": []
+ },
+ "real:B0K07KBF65": {
+  "h": "79dfa1ea4e",
+  "deals": [
+   {
+    "name": "100 元代金券",
+    "price": 50,
+    "orig_price": 100,
+    "people": null,
+    "src": "小红书 2026-07",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0FFIR6826": {
+  "h": "826aa7c7c6",
+  "deals": [
+   {
+    "name": "100 元代金券",
+    "price": 50,
+    "orig_price": 100,
+    "people": null,
+    "src": "小红书 2026-07",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0JRTL7DRI": {
+  "h": "bf562c120a",
+  "deals": [
+   {
+    "name": "20 元代金券",
+    "price": 10,
+    "orig_price": 20,
+    "people": null,
+    "src": "小红书 2026-07",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0LRFO8UDL": {
+  "h": "62efbdc9fc",
+  "deals": []
+ },
+ "real:B0L6HZG5I2": {
+  "h": "b59a4e3aa8",
+  "deals": []
+ },
+ "real:B0L2HCBD0U": {
+  "h": "18496e7bff",
+  "deals": [
+   {
+    "name": "檸香椰子冰萃",
+    "price": null,
+    "orig_price": null,
+    "people": null,
+    "src": "小红书 2026-08",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0MUY7R0QG": {
+  "h": "2c13ff78fb",
+  "deals": []
+ },
+ "real:B0L2OAVRI1": {
+  "h": "4ccff4a732",
+  "deals": []
+ },
+ "real:B0LKL799OZ": {
+  "h": "32ef805598",
+  "deals": []
+ },
+ "real:B0L2HCBD2C": {
+  "h": "2bfad9b991",
+  "deals": []
+ },
+ "real:B0FFL7S9QZ": {
+  "h": "184cdcc0b7",
+  "deals": [
+   {
+    "name": "双人套餐",
+    "price": null,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-08",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0J3U5Z4WL": {
+  "h": "daaae23f81",
+  "deals": [
+   {
+    "name": "二人餐",
+    "price": null,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-06",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0FFLMSJSX": {
+  "h": "caace9d247",
+  "deals": [
+   {
+    "name": "午市套餐",
+    "price": null,
+    "orig_price": null,
+    "people": null,
+    "src": "小红书 2026-09",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0K0YLKTUY": {
+  "h": "9548f01dd3",
+  "deals": [
+   {
+    "name": "2人套餐",
+    "price": 599,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-10",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0MUJASAXX": {
+  "h": "86c91dbcc1",
+  "deals": []
+ },
+ "real:B0FFKVBAKS": {
+  "h": "bd5d7cd117",
+  "deals": [
+   {
+    "name": "单人套餐",
+    "price": 159,
+    "orig_price": null,
+    "people": 1,
+    "src": "小红书 2026-09",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0LDAHFXKT": {
+  "h": "2ea3d3e1cd",
+  "deals": [
+   {
+    "name": "双人套餐",
+    "price": null,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-09",
+    "synthetic": false
+   },
+   {
+    "name": "多人套餐",
+    "price": null,
+    "orig_price": null,
+    "people": null,
+    "src": "小红书 2026-09",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0L2BZJJJN": {
+  "h": "ffad6afdb2",
+  "deals": [
+   {
+    "name": "面+汤+甜点",
+    "price": 9.9,
+    "orig_price": null,
+    "people": null,
+    "src": "小红书 2026-01",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0L025NBZE": {
+  "h": "3f3d996643",
+  "deals": []
+ },
+ "syn:B0J0R9KUUE": {
+  "h": "c9bc2fa09a",
+  "deals": [
+   {
+    "name": "渔船海鲜双人餐",
+    "content": "蟹肉炒饭+葱油饼+渔船鸡汤+椒盐鱿鱼+白灼时蔬",
+    "price": 268,
+    "orig_price": 398,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚海鲜套餐，包间可用",
+    "content": "蟹肉炒饭+葱油饼+渔船鸡汤+椒盐鱿鱼+避风塘炒蟹+白灼时蔬",
+    "price": 528,
+    "orig_price": 788,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KBNAJ31Y": {
+  "h": "ad59ba2758",
+  "deals": [
+   {
+    "name": "2人优选越南风味套餐",
+    "content": "越式烤面包+越南牛肉河粉+鲜虾春卷+香茅烤鸡+越式滴漏咖啡",
+    "price": 238,
+    "orig_price": 336,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "150元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 118,
+    "orig_price": 150,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MUGXPBNX": {
+  "h": "65f6e231bd",
+  "deals": [
+   {
+    "name": "单人关东煮面屋套餐",
+    "content": "招牌关东煮拼盘+酱油拉面+溏心蛋+乌龙茶",
+    "price": 35,
+    "orig_price": 49,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人暖心关东煮套餐",
+    "content": "豪华关东煮拼盘+酱油拉面+咖喱乌冬面+日式炸鸡块+乌龙茶2杯",
+    "price": 69,
+    "orig_price": 98,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JAARJY6P": {
+  "h": "cc2a4c9c83",
+  "deals": [
+   {
+    "name": "单人茶室下午茶套餐",
+    "content": "招牌原叶茶+茶点拼盘+桂花糕",
+    "price": 35,
+    "orig_price": 48,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L1B9Z9VH": {
+  "h": "edcf54abe7",
+  "deals": [
+   {
+    "name": "单人精选西餐套餐",
+    "content": "岸板小食拼盘+意式肉酱面+凯撒沙拉+饮品",
+    "price": 79,
+    "orig_price": 112,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人约会西餐套餐",
+    "content": "岸板拼盘+黑椒西冷牛排+意式肉酱面+凯撒沙拉+饮品2杯",
+    "price": 158,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K117PCJI": {
+  "h": "9c07747df9",
+  "deals": [
+   {
+    "name": "单人咖啡甜点套餐",
+    "content": "招牌拿铁coffee+美式coffee+提拉米苏",
+    "price": 35,
+    "orig_price": 48,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KAPUJZE4": {
+  "h": "79dcaf8787",
+  "deals": [
+   {
+    "name": "双人韩式烤肉套餐",
+    "content": "韩式烤五花肉+海鲜葱饼+石锅拌饭+辣炒年糕+大酱汤",
+    "price": 198,
+    "orig_price": 288,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会韩国料理套餐",
+    "content": "韩式烤五花肉+部队火锅+海鲜葱饼+石锅拌饭+辣炒年糕+大酱汤",
+    "price": 398,
+    "orig_price": 588,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LU47ZM97": {
+  "h": "f89b5478a4",
+  "deals": [
+   {
+    "name": "单人招牌拉面套餐",
+    "content": "豚骨叉烧拉面+溏心蛋+日式煎饺+乌龙茶",
+    "price": 39,
+    "orig_price": 56,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人拉面超值套餐",
+    "content": "豚骨叉烧拉面+酱油拉面+日式煎饺+日式炸鸡块+乌龙茶2杯",
+    "price": 79,
+    "orig_price": 112,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L06ZMA0Y": {
+  "h": "c305c3376f",
+  "deals": [
+   {
+    "name": "地道江西风味双人餐",
+    "content": "江西小炒肉+藜蒿炒腊肉+南昌拌粉+瓦罐汤",
+    "price": 128,
+    "orig_price": 186,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人江西家常菜套餐",
+    "content": "江西小炒肉+藜蒿炒腊肉+莲花血鸭+南昌拌粉+清炒时蔬+瓦罐汤",
+    "price": 258,
+    "orig_price": 378,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KUN5LBX0": {
+  "h": "ade5c9d7c5",
+  "deals": [
+   {
+    "name": "单人牛肉拉面套餐",
+    "content": "招牌牛肉拉面+凉拌牛肉+卤蛋+酸梅汤",
+    "price": 36,
+    "orig_price": 49,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人清真拉面套餐",
+    "content": "招牌牛肉拉面2碗+凉拌牛肉+孜然羊肉串+凉拌黄瓜+酸梅汤2杯",
+    "price": 72,
+    "orig_price": 98,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJIMQ3Q": {
+  "h": "194f5b54a2",
+  "deals": [
+   {
+    "name": "单人轻食套餐",
+    "content": "招牌水果茶+gaga超级沙拉+特色辣烤鸡翅",
+    "price": 79,
+    "orig_price": 108,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人约会套餐",
+    "content": "招牌水果茶+炸鱼炸薯条+gaga超级沙拉+特色辣烤鸡翅+芒果绵绵冰",
+    "price": 168,
+    "orig_price": 238,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAU26": {
+  "h": "99bda162c6",
+  "deals": [
+   {
+    "name": "单人招牌茶饮套餐",
+    "content": "招牌鲜萃茶饮+水果茶+手作茶点",
+    "price": 49,
+    "orig_price": 68,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFIINSAQ": {
+  "h": "7421d44d2a",
+  "deals": [
+   {
+    "name": "双人广式早茶套餐",
+    "content": "金腿咸水角+紫薯菓+避风塘芋头糕+柠香牛肉球+招牌陈醋浸凤爪",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚早茶套餐",
+    "content": "金腿咸水角+紫薯菓+避风塘芋头糕+柠香牛肉球+招牌陈醋浸凤爪+鲜虾饺皇",
+    "price": 288,
+    "orig_price": 418,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKJZ1FYN": {
+  "h": "8e58988cf2",
+  "deals": [
+   {
+    "name": "招牌手擀面单人餐",
+    "content": "招牌手擀面+卤蛋+凉拌小菜+豆浆",
+    "price": 26,
+    "orig_price": 36,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "超值手擀面双人餐",
+    "content": "招牌手擀面2碗+卤肉拼盘+凉拌黄瓜+卤蛋2个",
+    "price": 49,
+    "orig_price": 68,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAU1A": {
+  "h": "329aef680c",
+  "deals": [
+   {
+    "name": "午市特惠单人面套餐",
+    "content": "招牌牛肉面+卤牛肉+凉拌木耳+酸梅汤",
+    "price": 39,
+    "orig_price": 52,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人优选面馆套餐",
+    "content": "招牌牛肉面+番茄肥牛面+卤牛肉+凉拌木耳+酸梅汤2杯",
+    "price": 79,
+    "orig_price": 108,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LRA4ZCUB": {
+  "h": "8fd41c994d",
+  "deals": [
+   {
+    "name": "深夜食堂双人串烧套餐",
+    "content": "招牌串烧拼盘+烤生蚝6只+烤鸡翅+烤牛舌+盐水毛豆+生啤2杯",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LRFO8UDL": {
+  "h": "0a6358235d",
+  "deals": [
+   {
+    "name": "金字招牌小龙虾双人餐",
+    "content": "金字招牌麻辣小龙虾+口味虾+老长沙臭豆腐+米饭2份",
+    "price": 128,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人湘味聚会套餐",
+    "content": "金字招牌麻辣小龙虾+口味虾+老长沙臭豆腐+小炒黄牛肉+擂辣椒皮蛋+米饭4份",
+    "price": 258,
+    "orig_price": 368,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L6HZG5I2": {
+  "h": "6cbe8982c8",
+  "deals": [
+   {
+    "name": "现炒痛风锅双人餐",
+    "content": "招牌现炒痛风锅（双人份）+鲜虾+生蚝+花甲+凉拌小菜+米饭2份",
+    "price": 138,
+    "orig_price": 196,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人海鲜痛风锅聚会套餐",
+    "content": "招牌现炒痛风锅（大份）+大闸蟹+鲜虾+生蚝+花甲+米饭4份",
+    "price": 268,
+    "orig_price": 388,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JGU1APPN": {
+  "h": "3a7c1159f8",
+  "deals": [
+   {
+    "name": "招牌牛杂单人餐",
+    "content": "招牌牛杂（中份）+萝卜+米粉+酸梅汤",
+    "price": 25,
+    "orig_price": 35,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "牛杂双人餐",
+    "content": "招牌牛杂（大份）+牛腩+萝卜+米粉2份+酸梅汤2杯",
+    "price": 49,
+    "orig_price": 68,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K30UL5S6": {
+  "h": "7e89b61a33",
+  "deals": [
+   {
+    "name": "双人约会烤肉套餐",
+    "content": "招牌牛舌+雪花牛肉+厚切五花肉+韩式拌饭+泡菜拼盘+大酱汤",
+    "price": 218,
+    "orig_price": 318,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会烤肉套餐",
+    "content": "招牌牛舌+雪花牛肉拼盘+厚切五花肉+调味牛小排+海鲜葱饼+大酱汤",
+    "price": 428,
+    "orig_price": 628,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MD649W0P": {
+  "h": "9e94d97552",
+  "deals": [
+   {
+    "name": "横膈膜烧肉双人餐",
+    "content": "招牌横膈膜烧肉+秘制牛舌+和风五花肉+石锅拌饭+味噌汤",
+    "price": 158,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 82,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0HK0HBMSC": {
+  "h": "67000ec9bf",
+  "deals": [
+   {
+    "name": "砂锅粥宵夜双人餐",
+    "content": "招牌砂锅粥+烤羊排+炒米粉+白灼菜心",
+    "price": 148,
+    "orig_price": 208,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚套餐",
+    "content": "海鲜砂锅粥（大）+烤羊排+炒米粉+椒盐濑尿虾+白灼菜心+卤水拼盘",
+    "price": 288,
+    "orig_price": 398,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAH7B": {
+  "h": "2ac35370d5",
+  "deals": [
+   {
+    "name": "双人臻选火锅套餐",
+    "content": "牛油锅底+鲜切牛肉+毛肚+鸭肠+虾滑+蔬菜拼盘",
+    "price": 218,
+    "orig_price": 318,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人火锅聚餐套餐",
+    "content": "鸳鸯锅底+鲜切牛肉+毛肚+黄喉+虾滑+蔬菜拼盘",
+    "price": 398,
+    "orig_price": 568,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKDCNJ7F": {
+  "h": "cc24119c5e",
+  "deals": [
+   {
+    "name": "鲜牛肉拌川单人餐",
+    "content": "鲜牛肉拌川+鲜牛肉汤+卤蛋+凉拌小菜",
+    "price": 35,
+    "orig_price": 48,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "杭州拌川双人餐",
+    "content": "鲜牛肉拌川2份+鲜牛肉汤+卤蛋2个+凉拌小菜",
+    "price": 69,
+    "orig_price": 96,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0H377D1LS": {
+  "h": "81134ac624",
+  "deals": [
+   {
+    "name": "招牌一碗面单人餐",
+    "content": "招牌一碗面+溏心蛋+卤味小拼+饮料",
+    "price": 29,
+    "orig_price": 39,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "面王超值双人餐",
+    "content": "招牌一碗面+招牌炒面+溏心蛋2个+凉拌小菜+饮料2杯",
+    "price": 59,
+    "orig_price": 82,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JA15J1PB": {
+  "h": "071f18b26e",
+  "deals": [
+   {
+    "name": "地道川味双人餐",
+    "content": "重庆辣子鸡+担担面+水煮牛肉+蒜蓉时蔬+米饭2份",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人川味聚会套餐",
+    "content": "重庆辣子鸡+担担面+水煮鱼+麻婆豆腐+夫妻肺片+蒜蓉时蔬",
+    "price": 248,
+    "orig_price": 348,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0HR9K4U3J": {
+  "h": "78473f3063",
+  "deals": [
+   {
+    "name": "大排档烤肉双人餐",
+    "content": "招牌厚切五花肉+调味猪颈肉+烤牛肉+大酱汤+泡菜饼",
+    "price": 178,
+    "orig_price": 258,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会烤肉套餐",
+    "content": "招牌厚切五花肉+调味猪颈肉+烤牛肋条+猪皮+部队锅+泡菜饼",
+    "price": 358,
+    "orig_price": 518,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J245NAAS": {
+  "h": "5e96b9aafc",
+  "deals": [
+   {
+    "name": "招牌拉面单人餐",
+    "content": "招牌豚骨拉面+溏心蛋+日式煎饺+饮料",
+    "price": 42,
+    "orig_price": 58,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "拉面双人餐",
+    "content": "招牌豚骨拉面+味噌拉面+日式煎饺+炸鸡块+饮料2杯",
+    "price": 82,
+    "orig_price": 116,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0M61LKE66": {
+  "h": "394cd56ce7",
+  "deals": [
+   {
+    "name": "双人臻选三文鱼海鲜套餐",
+    "content": "法罗三文鱼刺身+甜虾刺身+活赤贝刺身+法虾+三文鱼腩寿司",
+    "price": 198,
+    "orig_price": 298,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0HR4H0105": {
+  "h": "91ab96d24d",
+  "deals": [
+   {
+    "name": "招牌鳗鱼饭单人餐",
+    "content": "招牌鳗鱼饭+鳗鱼饭团+味噌汤+日式小菜",
+    "price": 89,
+    "orig_price": 128,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人约会鳗鱼套餐",
+    "content": "鳗鱼饭×2+肥牛锅+鲍鱼+鳗鱼饭团",
+    "price": 168,
+    "orig_price": 248,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JD0MLXSR": {
+  "h": "8c0aeb520a",
+  "deals": [
+   {
+    "name": "双人优选素食套餐",
+    "content": "招牌秘制豆腐+时令素菜+素烧鹅+菌菇素汤",
+    "price": 148,
+    "orig_price": 218,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚素食套餐",
+    "content": "招牌秘制豆腐+时令素菜+素烧鹅+菌菇素汤+素点心拼盘+素食炒饭",
+    "price": 288,
+    "orig_price": 428,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJ396YQ": {
+  "h": "764ff527d8",
+  "deals": [
+   {
+    "name": "叉烧拉面单人餐",
+    "content": "豚骨叉烧拉面+溏心蛋+日式煎饺",
+    "price": 39,
+    "orig_price": 58,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "深夜食堂双人餐",
+    "content": "叉烧拉面×2+日式炸猪排+日式煎饺+饮品×2",
+    "price": 79,
+    "orig_price": 118,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KK1SE7OO": {
+  "h": "b2ec1fbb63",
+  "deals": [
+   {
+    "name": "地道大排档海鲜双人餐",
+    "content": "椒盐濑尿虾+蒜蓉粉丝蒸扇贝+白灼基围虾+炒时蔬",
+    "price": 298,
+    "orig_price": 438,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会海鲜大排档套餐",
+    "content": "椒盐濑尿虾+姜葱炒花蟹+蒜蓉粉丝蒸扇贝+白灼基围虾+炒时蔬+海鲜砂锅粥",
+    "price": 588,
+    "orig_price": 868,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCB6EC": {
+  "h": "e574560ddd",
+  "deals": [
+   {
+    "name": "单人和牛烧肉套餐",
+    "content": "和牛上肋眼+和牛牛舌+厚切牛五花+石锅拌饭",
+    "price": 488,
+    "orig_price": 688,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人臻选和牛烧肉套餐",
+    "content": "和牛上肋眼+和牛牛舌+厚切牛五花+和牛寿喜烧+石锅拌饭",
+    "price": 998,
+    "orig_price": 1388,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAMR0": {
+  "h": "1f1cb6648e",
+  "deals": [
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "200元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 158,
+    "orig_price": 200,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L0MR9LWF": {
+  "h": "d16fd36f28",
+  "deals": [
+   {
+    "name": "单人主厨Omakase套餐",
+    "content": "先付+季节刺身拼盘+握寿司8贯+烧物+汤物+甜品",
+    "price": 528,
+    "orig_price": 788,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人主厨Omakase约会套餐",
+    "content": "先付+季节刺身拼盘+握寿司8贯+烧物+汤物+甜品",
+    "price": 998,
+    "orig_price": 1488,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAMRD": {
+  "h": "0131eff92f",
+  "deals": [
+   {
+    "name": "双人优选素食套餐",
+    "content": "招牌秘制豆腐+时令素菜+素烧鹅+菌菇素汤",
+    "price": 168,
+    "orig_price": 248,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2BZJD33": {
+  "h": "b2b90a8190",
+  "deals": [
+   {
+    "name": "招牌能量碗单人餐",
+    "content": "鸡胸肉能量碗+溏心蛋+鲜榨果汁",
+    "price": 26,
+    "orig_price": 36,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "轻食双人餐",
+    "content": "鸡胸肉能量碗+牛肉能量碗+溏心蛋×2+鲜榨果汁×2",
+    "price": 56,
+    "orig_price": 78,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MUY7R0QG": {
+  "h": "f1bb0d6e78",
+  "deals": [
+   {
+    "name": "双人臻选日料套餐",
+    "content": "刺身拼盘+握寿司拼盘+日式烤鳗鱼+天妇罗+味噌汤",
+    "price": 298,
+    "orig_price": 428,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCB0BM": {
+  "h": "7577929160",
+  "deals": [
+   {
+    "name": "和牛船面单人餐",
+    "content": "招牌和牛船面+泰式炸鸡翅+泰式奶茶",
+    "price": 59,
+    "orig_price": 88,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人优选船面套餐",
+    "content": "招牌和牛船面×2+泰式炸鸡翅+越式春卷+泰式奶茶×2",
+    "price": 128,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L0RU5CGX": {
+  "h": "d66b3d568b",
+  "deals": [
+   {
+    "name": "招牌甜品单人餐",
+    "content": "招牌芒果糯米饭+椰奶西米露+手工布丁",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "30元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 21,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0M6OCMB78": {
+  "h": "d3b8106837",
+  "deals": [
+   {
+    "name": "猛火热炒双人餐",
+    "content": "冬阴功虾+马来参巴空心菜+海南鸡+菠萝炒饭",
+    "price": 199,
+    "orig_price": 288,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会东南亚热炒套餐",
+    "content": "冬阴功虾+咖喱蟹+泰式柠檬鱼+马来参巴空心菜+海南鸡+菠萝炒饭",
+    "price": 398,
+    "orig_price": 588,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KGFAY78V": {
+  "h": "dd3d75332a",
+  "deals": [
+   {
+    "name": "牛腩泰面单人餐",
+    "content": "牛腩泰面+炸鸡腿+特色小吃+饮品",
+    "price": 49,
+    "orig_price": 69,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人优选泰面套餐",
+    "content": "三文鱼泰面+牛腩泰面+炸鸡腿+烤五花肉+特色小吃",
+    "price": 108,
+    "orig_price": 158,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I1FCMX6H": {
+  "h": "5c05bd2281",
+  "deals": [
+   {
+    "name": "单人双球意式冰淇淋套餐",
+    "content": "开心果冰淇淋+榛子巧克力冰淇淋+华夫脆筒",
+    "price": 29,
+    "orig_price": 39,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 35,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAU1E": {
+  "h": "44c7dbbe0c",
+  "deals": [
+   {
+    "name": "单人招牌酸奶碗套餐",
+    "content": "招牌酸奶碗+紫米酸奶+燕麦脆",
+    "price": 25,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "40元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 28,
+    "orig_price": 40,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MD6P9YQ4": {
+  "h": "70527db0a5",
+  "deals": [
+   {
+    "name": "双人优选烤肉套餐",
+    "content": "招牌五花肉+雪花牛肋条+调味牛小排+石锅拌饭+大酱汤+时令小菜",
+    "price": 198,
+    "orig_price": 288,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人聚会烤肉套餐",
+    "content": "招牌五花肉+雪花牛肋条+调味牛小排+秘制猪颈肉+海鲜葱饼+大酱汤",
+    "price": 398,
+    "orig_price": 568,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2OAVRI1": {
+  "h": "07c32f4bd4",
+  "deals": [
+   {
+    "name": "双人约会韩式套餐",
+    "content": "韩式麻辣小龙虾+芝士部队锅+韩式炸鸡+石锅拌饭",
+    "price": 188,
+    "orig_price": 268,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKL799OZ": {
+  "h": "25e92741b3",
+  "deals": [
+   {
+    "name": "单人关东寿喜锅套餐",
+    "content": "单人份寿喜锅+时蔬拼盘+乌冬面+温泉蛋+米饭",
+    "price": 79,
+    "orig_price": 108,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人臻选寿喜锅套餐",
+    "content": "安格斯肥牛寿喜锅+和牛拼盘+时蔬拼盘+乌冬面+温泉蛋×2",
+    "price": 158,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCBD2C": {
+  "h": "612d4205aa",
+  "deals": [
+   {
+    "name": "地道川味双人餐",
+    "content": "水煮牛肉+宫保鸡丁+麻婆豆腐+干煸四季豆+米饭×2",
+    "price": 238,
+    "orig_price": 338,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会川菜套餐",
+    "content": "藤椒鱼+毛血旺+回锅肉+宫保鸡丁+麻婆豆腐+米饭×4",
+    "price": 468,
+    "orig_price": 668,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0IUCR74HD": {
+  "h": "10edcf087d",
+  "deals": [
+   {
+    "name": "单人鳗鱼饭套餐",
+    "content": "鳗鱼饭+日式炸豆腐+味噌汤+小菜",
+    "price": 69,
+    "orig_price": 98,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人日式料理套餐",
+    "content": "鳗鱼饭+日式炸豆腐+豚骨拉面+刺身拼盘+味噌汤×2",
+    "price": 158,
+    "orig_price": 218,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0HR4SZ76Z": {
+  "h": "e7e8c0d2ae",
+  "deals": [
+   {
+    "name": "单人臻选Omakase套餐",
+    "content": "季节刺身+和牛寿喜烧+特色握寿司+茶碗蒸+甜品",
+    "price": 1488,
+    "orig_price": 1988,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人尊享和牛料理套餐",
+    "content": "季节刺身拼盘+A5和牛料理+特色握寿司+茶碗蒸+时令汤品+甜品",
+    "price": 2888,
+    "orig_price": 3888,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCB0CC": {
+  "h": "641351c4d5",
+  "deals": [
+   {
+    "name": "单人招牌煎饺套餐",
+    "content": "招牌猪肉煎饺(6只)+味噌汤+日式小菜",
+    "price": 32,
+    "orig_price": 45,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人煎饺超值套餐",
+    "content": "招牌猪肉煎饺+虾仁煎饺+鸡肉煎饺+日式炸鸡块+味噌汤×2",
+    "price": 69,
+    "orig_price": 98,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCB0C3": {
+  "h": "214115f8dd",
+  "deals": [
+   {
+    "name": "单人主厨精选套餐",
+    "content": "季节刺身拼盘+握寿司8贯+天妇罗拼盘+茶碗蒸+甜品",
+    "price": 368,
+    "orig_price": 498,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人约会日料套餐",
+    "content": "豪华刺身拼盘+握寿司16贯+天妇罗拼盘+和牛烧物+茶碗蒸×2+甜品×2",
+    "price": 728,
+    "orig_price": 988,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MA26NVLK": {
+  "h": "c5fae0d53f",
+  "deals": [
+   {
+    "name": "单人白切鸡饭套餐",
+    "content": "白切鸡(1/4只)+时蔬+米饭+例汤",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人白切超值套餐",
+    "content": "白切鸡(半只)+白切猪肚+时蔬+米饭×2+例汤",
+    "price": 45,
+    "orig_price": 62,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFJYMJRQ": {
+  "h": "a85d465ae6",
+  "deals": [
+   {
+    "name": "双人港式点心套餐",
+    "content": "虾饺皇+蟹黄干蒸烧卖+蜜汁叉烧包+鲜虾肠粉+流沙包",
+    "price": 128,
+    "orig_price": 178,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 72,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LDLCTT7V": {
+  "h": "b474b517bb",
+  "deals": [
+   {
+    "name": "双人新疆风味套餐",
+    "content": "莲香大盘鸡+羊肉抓饭+烤羊肉串×4+凉拌皮带面",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人西域欢聚套餐",
+    "content": "莲香大盘鸡+手抓羊肉+羊肉抓饭+烤羊肉串×10+新疆凉皮",
+    "price": 268,
+    "orig_price": 388,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J3MM9YAZ": {
+  "h": "dd03b1487a",
+  "deals": [
+   {
+    "name": "单人拌面烤串套餐",
+    "content": "过油肉拌面+红柳烤羊肉串×2+新疆酸奶",
+    "price": 49,
+    "orig_price": 68,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人新疆美食套餐",
+    "content": "过油肉拌面+红柳烤羊肉串×6+大盘鸡(小份)+新疆酸奶×2",
+    "price": 108,
+    "orig_price": 158,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K1R172QL": {
+  "h": "283c2bee8d",
+  "deals": [
+   {
+    "name": "超值双人餐",
+    "content": "绿茶烤鸡+面包诱惑+西湖醋鱼+石锅饭",
+    "price": 89,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人家庭欢聚套餐",
+    "content": "绿茶烤鸡+西湖醋鱼+面包诱惑+东坡肉+茶香虾+时蔬",
+    "price": 188,
+    "orig_price": 268,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LDFCWUJB": {
+  "h": "d3a8017813",
+  "deals": [
+   {
+    "name": "炭火烧鸟双人臻选套餐",
+    "content": "招牌一口饭系列+三文鱼牛肉酱蛋包饭+鲜剥白月光甜虾饭+三文鱼波奇饭+炭火烧鸟拼盘",
+    "price": 198,
+    "orig_price": 288,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFHJXG92": {
+  "h": "712b6aae88",
+  "deals": [
+   {
+    "name": "钵钵鸡单人超值餐",
+    "content": "钵钵鸡(20串)+酸辣粉+卤牛肉+冰粉",
+    "price": 36,
+    "orig_price": 52,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "地道川味双人餐",
+    "content": "钵钵鸡(40串)+牛肉+酸辣粉2份+冰粉",
+    "price": 68,
+    "orig_price": 98,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFH0HUJW": {
+  "h": "3628ca729b",
+  "deals": [
+   {
+    "name": "湘味招牌双人餐",
+    "content": "秘制口味虾+擂辣椒皮蛋+小炒黄牛肉+白糖桂花糕+米饭2份",
+    "price": 168,
+    "orig_price": 238,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人湘味聚会套餐",
+    "content": "秘制口味虾+剁椒鱼头+擂辣椒皮蛋+农家小炒肉+白糖桂花糕+米饭4份",
+    "price": 298,
+    "orig_price": 428,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K2AHY4Z6": {
+  "h": "c29f301356",
+  "deals": [
+   {
+    "name": "泥炉烤肉双人餐",
+    "content": "招牌泥炉烤肉拼盘+秘制五花肉+大酱汤+西塔冷面+米饭2份",
+    "price": 189,
+    "orig_price": 276,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会烤肉套餐",
+    "content": "招牌泥炉烤肉拼盘+雪花牛肉+秘制五花肉+西塔冷面+大酱汤+拌菜拼盘",
+    "price": 368,
+    "orig_price": 528,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F37UQ3F": {
+  "h": "58d1c8923c",
+  "deals": [
+   {
+    "name": "粤式早茶双人臻选套餐，包间可用",
+    "content": "菠菜汁虾饺+xo酱蒸凤爪+飘香榴莲酥+脆皮乳鸽皇+早茶茶位2位",
+    "price": 588,
+    "orig_price": 868,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "500元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 388,
+    "orig_price": 500,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKLL9BNB": {
+  "h": "3ca8212a1b",
+  "deals": [
+   {
+    "name": "小食堂单人简餐",
+    "content": "紫菜鱼汤煨丝瓜+仲夏茄园+米饭+饮品",
+    "price": 58,
+    "orig_price": 78,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "家常双人餐",
+    "content": "紫菜鱼汤煨丝瓜+仲夏茄园+番茄炒蛋+小炒黄牛肉+米饭2份",
+    "price": 118,
+    "orig_price": 168,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFHJMIXO": {
+  "h": "1b0090f37d",
+  "deals": [
+   {
+    "name": "招牌双人优选套餐",
+    "content": "招牌过桥鸭嘴鱼+脆皮乳鸽+紫金酱蒸凤爪+菠菜生煎包+功夫养生茶",
+    "price": 128,
+    "orig_price": 188,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚套餐",
+    "content": "招牌过桥鸭嘴鱼+脆皮乳鸽+紫金酱蒸凤爪+菠菜生煎包+时令蔬菜+功夫养生茶",
+    "price": 258,
+    "orig_price": 368,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KDTCFNNB": {
+  "h": "e75be530d9",
+  "deals": [
+   {
+    "name": "牛杂面单人餐",
+    "content": "麻辣肉酱面+赤焰红油云吞(小份)+小菜",
+    "price": 15,
+    "orig_price": 22,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "面+云吞超值双人餐",
+    "content": "麻辣肉酱面+特色豚豚粉+赤焰红油云吞+麻酱浓香云吞",
+    "price": 29,
+    "orig_price": 42,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LGDSEE2J": {
+  "h": "3ae6a1a76f",
+  "deals": [
+   {
+    "name": "盖码饭单人餐",
+    "content": "辣椒炒肉盖码饭+紫菜蛋花汤+小菜",
+    "price": 22,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "午市特惠超值双人套餐",
+    "content": "辣椒炒肉盖码饭+小炒黄牛肉盖码饭+紫菜蛋花汤2份+凉拌黄瓜",
+    "price": 45,
+    "orig_price": 64,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LU1G5IPG": {
+  "h": "d3824d24f9",
+  "deals": [
+   {
+    "name": "家常小炒双人餐",
+    "content": "农家小炒肉+番茄炒蛋+手撕包菜+紫菜蛋花汤+米饭2份",
+    "price": 88,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会小炒套餐",
+    "content": "农家小炒肉+小炒黄牛肉+干锅花菜+酸菜鱼+手撕包菜+米饭4份",
+    "price": 168,
+    "orig_price": 238,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2Z53EQ3": {
+  "h": "0e090274c5",
+  "deals": [
+   {
+    "name": "招牌螺蛳粉单人餐",
+    "content": "招牌原味螺蛳粉+炸蛋+卤鸭脚+酸梅汤",
+    "price": 22,
+    "orig_price": 30,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "螺香煲双人餐",
+    "content": "鸭脚螺香煲+全聚福螺蛳粉+鲜猪肉老友粉+炸蛋2个",
+    "price": 49,
+    "orig_price": 69,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KDTCHDJX": {
+  "h": "0d8830f530",
+  "deals": [
+   {
+    "name": "韩式料理双人约会套餐",
+    "content": "韩式烤牛肉+芝士年糕+石锅拌饭+大酱汤+泡菜",
+    "price": 88,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人韩式聚会套餐",
+    "content": "芝士部队火锅+韩式烤牛肉+芝士年糕+海鲜葱饼+石锅拌饭2份",
+    "price": 168,
+    "orig_price": 238,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0K2G5DNW3": {
+  "h": "5ae278a81b",
+  "deals": [
+   {
+    "name": "紫菜包饭单人餐",
+    "content": "招牌紫菜包饭+辣炒年糕+鱼饼汤",
+    "price": 16,
+    "orig_price": 24,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "紫菜包饭双人餐",
+    "content": "招牌紫菜包饭2份+芝士年糕+韩式炸鸡块+鱼饼汤",
+    "price": 32,
+    "orig_price": 46,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0JKG77Y2C": {
+  "h": "0925c51ced",
+  "deals": [
+   {
+    "name": "现炒牛肉面单人餐",
+    "content": "现炒牛肉浇头面+卤蛋+小菜",
+    "price": 13,
+    "orig_price": 18,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "浇头面双人餐",
+    "content": "现炒牛肉浇头面+现炒雪菜肉丝面+卤蛋2个+酸梅汤2杯",
+    "price": 26,
+    "orig_price": 36,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0IDRUN80G": {
+  "h": "8b58ca872d",
+  "deals": [
+   {
+    "name": "冒椒牛肉单人餐",
+    "content": "冒椒牛肉+米饭+例汤+小菜",
+    "price": 25,
+    "orig_price": 35,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "冒椒牛肉双人餐",
+    "content": "冒椒牛肉+冒椒毛肚+凉拌木耳+米饭2份",
+    "price": 49,
+    "orig_price": 69,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MUJASAXX": {
+  "h": "0702534901",
+  "deals": [
+   {
+    "name": "地道云贵风味双人餐",
+    "content": "干煸牛肝菌+傣味柠檬手撕鸡+贵州酸汤鱼+菌菇炒饭",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人野生菌家庭欢聚套餐",
+    "content": "野生菌炖鸡汤+干煸牛肝菌+贵州酸汤牛肉+傣味柠檬手撕鸡+菌菇炒饭+时令鲜蔬",
+    "price": 268,
+    "orig_price": 388,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MDJOKJUR": {
+  "h": "2d25d65ae6",
+  "deals": [
+   {
+    "name": "招牌烧鹅腿饭单人餐",
+    "content": "烧鹅腿饭+老火例汤+白灼菜心",
+    "price": 19,
+    "orig_price": 26,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "39元烧鹅叉烧双人餐",
+    "content": "例牌烧鹅+蜜汁叉烧+白灼菜心+白米饭2份+老火例汤2份",
+    "price": 39,
+    "orig_price": 56,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFI5COXF": {
+  "h": "f10a87492b",
+  "deals": [
+   {
+    "name": "顺德风味超值双人餐",
+    "content": "健康黑豆腐+顺德煎焗拼盘+三色簸箕蒸缩骨鱼+白灼时蔬",
+    "price": 108,
+    "orig_price": 158,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会套餐，含簸箕海鲜拼盘",
+    "content": "簸箕海鲜拼盘+锦绣熟食拼盘+三色簸箕蒸缩骨鱼+顺德煎焗拼盘+健康黑豆腐+时令蔬菜",
+    "price": 218,
+    "orig_price": 328,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0LKTUWEKY": {
+  "h": "e41c6cc48d",
+  "deals": [
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "单人酸种早午餐套餐",
+    "content": "招牌酸种面包拼盘+牛油果班尼迪克蛋+田园沙拉+美式咖啡",
+    "price": 98,
+    "orig_price": 148,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAU1M": {
+  "h": "7acd794775",
+  "deals": [
+   {
+    "name": "单人咖啡+小蛋糕下午茶",
+    "content": "美式/拿铁任选1杯+招牌小蛋糕+手工曲奇",
+    "price": 36,
+    "orig_price": 52,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "50元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 39,
+    "orig_price": 50,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L3PDGO6P": {
+  "h": "609cb74399",
+  "deals": [
+   {
+    "name": "招牌越南粉单人餐",
+    "content": "招牌牛肉越南粉+越式炸春卷+越南冰滴咖啡",
+    "price": 49,
+    "orig_price": 72,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "万象城越式风味双人餐",
+    "content": "招牌生牛肉河粉+鸡肉越南粉+越式炸春卷+鲜虾米纸卷+柠檬茶2杯",
+    "price": 99,
+    "orig_price": 148,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCAU1G": {
+  "h": "6972d04698",
+  "deals": [
+   {
+    "name": "现炸天妇罗单人定食",
+    "content": "招牌大虾天妇罗+时蔬天妇罗拼+白米饭+味噌汤",
+    "price": 69,
+    "orig_price": 98,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "2人优选天妇罗套餐",
+    "content": "大虾天妇罗+星鳗天妇罗+时蔬天妇罗拼+天丼2份+味噌汤2份",
+    "price": 138,
+    "orig_price": 198,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0M6CNT55K": {
+  "h": "06d77133d7",
+  "deals": [
+   {
+    "name": "双人约会牛排套餐",
+    "content": "西冷牛排+薯条+凯撒沙拉+精选咖啡2杯",
+    "price": 88,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 79,
+    "orig_price": 100,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L025NBZE": {
+  "h": "7da1719f18",
+  "deals": [
+   {
+    "name": "鲜烫米线单人餐",
+    "content": "招牌鲜烫米线+凉拌小菜+云南酸梅汤",
+    "price": 23,
+    "orig_price": 32,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "云南米线超值双人餐",
+    "content": "招牌鲜烫米线2份+云南炸洋芋+凉拌木瓜丝+酸梅汤2杯",
+    "price": 45,
+    "orig_price": 64,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MDRHBMCC": {
+  "h": "d03c1a9104",
+  "deals": [
+   {
+    "name": "招牌螺蛳粉单人餐",
+    "content": "招牌螺蛳粉+炸蛋+酸梅汤",
+    "price": 26,
+    "orig_price": 36,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "螺蛳粉双人餐，含卤猪脚",
+    "content": "招牌螺蛳粉2份+炸蛋2个+卤猪脚+酸梅汤2杯",
+    "price": 52,
+    "orig_price": 76,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L0ODHYA1": {
+  "h": "7bb8a2414d",
+  "deals": [
+   {
+    "name": "粤式臻选双人套餐",
+    "content": "白切走地鸡+烧味双拼+清蒸时令鱼+上汤时蔬+老火靓汤",
+    "price": 168,
+    "orig_price": 248,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚粤菜套餐，包间可用",
+    "content": "脆皮烧鹅+白切走地鸡+清蒸海鲈鱼+蒜蓉蒸扇贝+老火靓汤+上汤时蔬",
+    "price": 328,
+    "orig_price": 488,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCBD21": {
+  "h": "1ef0d50039",
+  "deals": [
+   {
+    "name": "150元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 118,
+    "orig_price": 150,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人慢活Brunch套餐",
+    "content": "班尼迪克蛋+牛油果酸种吐司+慢烤牛小排+松饼+特调饮品2杯",
+    "price": 238,
+    "orig_price": 358,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "real:B0M6M5UWCU": {
+  "h": "b94ef5c3e3",
+  "deals": [
+   {
+    "name": "100 元代金券",
+    "price": 68,
+    "orig_price": 100,
+    "people": null,
+    "src": "抖音 2026-03",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0IRU768LT": {
+  "h": "fb08c7153f",
+  "deals": [
+   {
+    "name": "双人餐",
+    "price": 138,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-07",
+    "synthetic": false
+   }
+  ]
+ },
+ "real:B0L2HCAU1M": {
+  "h": "bfbc2427e7",
+  "deals": []
+ },
+ "real:B0L2HCAMR0": {
+  "h": "dfbe2c0aaf",
+  "deals": [
+   {
+    "name": "双人套餐",
+    "price": 258,
+    "orig_price": null,
+    "people": 2,
+    "src": "小红书 2026-05",
+    "synthetic": false
+   }
+  ]
+ },
+ "syn:B0KGXMSYWM": {
+  "h": "e7b22e0a50",
+  "deals": [
+   {
+    "name": "单人招牌臊子面套餐",
+    "content": "岐山臊子面+米皮+酸梅汤",
+    "price": 29,
+    "orig_price": 39,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人陕西风味超值餐",
+    "content": "岐山臊子面x2+米皮+酸梅汤x2",
+    "price": 59,
+    "orig_price": 88,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MDGHQUI1": {
+  "h": "66e53c01da",
+  "deals": [
+   {
+    "name": "双人臻选西餐套餐",
+    "content": "招牌牛排+烤鸡+意大利面+时蔬沙拉+饮品x2",
+    "price": 199,
+    "orig_price": 269,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人聚会分享套餐",
+    "content": "招牌牛排x2+烤鸡+意大利面+时蔬沙拉+饮品x4",
+    "price": 399,
+    "orig_price": 539,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0MRGAM62E": {
+  "h": "c17a1e900c",
+  "deals": [
+   {
+    "name": "双人约会韩式套餐",
+    "content": "韩式炸鸡+部队锅+石锅拌饭+辣炒年糕+饮品x2",
+    "price": 98,
+    "orig_price": 128,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人韩式欢聚套餐",
+    "content": "韩式炸鸡+部队锅+石锅拌饭x2+辣炒年糕+海鲜饼+饮品x4",
+    "price": 168,
+    "orig_price": 229,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0I637Y03K": {
+  "h": "e018c8eff3",
+  "deals": [
+   {
+    "name": "双人臻选牛排套餐",
+    "content": "招牌牛排+奶油牛肉+时蔬沙拉+甜品+饮品x2",
+    "price": 399,
+    "orig_price": 539,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人下午茶套餐",
+    "content": "下午茶甜点拼盘+奶油蛋糕+水果拼盘+咖啡或茶x2",
+    "price": 298,
+    "orig_price": 399,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0HBPCCZYN": {
+  "h": "a0e3696dc1",
+  "deals": [
+   {
+    "name": "单人招牌咖啡套餐",
+    "content": "绵绵饼美式+炭烧橙子+柠檬苏打美式",
+    "price": 29,
+    "orig_price": 39,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "100元代金券",
+    "content": "全场通用，酒水除外",
+    "price": 31,
+    "orig_price": 100,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0FFLDD659": {
+  "h": "c106ae6da2",
+  "deals": [
+   {
+    "name": "双人早茶点心套餐",
+    "content": "广州荔湾艇仔粥+干炒牛河+凤爪+油条+点心拼盘",
+    "price": 139,
+    "orig_price": 189,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人家庭欢聚粤菜套餐",
+    "content": "广州荔湾艇仔粥+干炒牛河+凤爪+点心拼盘+油条+时蔬",
+    "price": 268,
+    "orig_price": 359,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B02F38TE2T": {
+  "h": "b6722ca35b",
+  "deals": [
+   {
+    "name": "双人粤式点心套餐",
+    "content": "金翠虾饺皇+凤爪+酥皮糯米鸡+泰国榴莲酥+榴莲雪媚娘",
+    "price": 168,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人家庭欢聚酒楼套餐",
+    "content": "金翠虾饺皇+凤爪+酥皮糯米鸡+泰国榴莲酥+榴莲雪媚娘+时令蔬菜",
+    "price": 318,
+    "orig_price": 428,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0KGUC30VO": {
+  "h": "58e7ab09c7",
+  "deals": [
+   {
+    "name": "双人臻选海鲜套餐",
+    "content": "双椒水库大鱼头+水煮龙趸鱼片+金奖冻澳洲鲍（大）/只+时蔬+米饭x2",
+    "price": 198,
+    "orig_price": 268,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人商务宴请套餐",
+    "content": "榄角酱焗东星斑+双椒水库大鱼头+蚝皇扣澳洲鲍鱼/大只+水煮龙趸鱼片+时蔬+主食",
+    "price": 368,
+    "orig_price": 498,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L2HCB0D5": {
+  "h": "a071bfc065",
+  "deals": [
+   {
+    "name": "双人闽菜臻选套餐",
+    "content": "佛跳墙+海蛎煎+荔枝肉+沙茶面+时蔬",
+    "price": 258,
+    "orig_price": 348,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "4人闽菜家庭欢聚套餐",
+    "content": "佛跳墙+姜母鸭+海蛎煎+荔枝肉+沙茶面+时蔬",
+    "price": 498,
+    "orig_price": 668,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0L0F984AW": {
+  "h": "b3645df4ab",
+  "deals": [
+   {
+    "name": "双人广西风味套餐",
+    "content": "酸笋炒牛肉+柠檬鸭+老友粉+时蔬+米饭x2",
+    "price": 168,
+    "orig_price": 228,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "3-4人广西菜欢聚套餐",
+    "content": "柠檬鸭+荔浦芋扣肉+酸笋炒牛肉+老友粉+桂林米粉+时蔬",
+    "price": 328,
+    "orig_price": 438,
+    "people": 4,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ },
+ "syn:B0J37CWN8Q": {
+  "h": "b566d400b8",
+  "deals": [
+   {
+    "name": "单人烧腊饭套餐",
+    "content": "招牌烧腊饭+例汤+青菜",
+    "price": 25,
+    "orig_price": 35,
+    "people": 1,
+    "src": "合成",
+    "synthetic": true
+   },
+   {
+    "name": "双人烧腊超值餐",
+    "content": "烧腊拼盘+烧腊饭x2+例汤x2+青菜",
+    "price": 49,
+    "orig_price": 68,
+    "people": 2,
+    "src": "合成",
+    "synthetic": true
+   }
+  ]
+ }
+}

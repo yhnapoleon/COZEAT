@@ -1,0 +1,30 @@
+# LiteLLM 网关：Coze Studio 只认 OpenAI 协议，这里统一转发。
+# Coze 里 base_url 填 http://host.docker.internal:4000/v1，api_key 填 LITELLM_MASTER_KEY。
+model_list:
+  # 测试期主模型。当前 Claude 模型不接受非默认的 temperature / top_p / top_k，
+  # Coze 的 LLM 节点每次都会带 temperature，所以在这里显式丢掉。
+  - model_name: claude-opus-5-5
+    litellm_params:
+      model: anthropic/claude-opus-5-5
+      api_key: os.environ/ANTHROPIC_API_KEY
+      additional_drop_params: ["temperature", "top_p", "top_k"]
+
+  # DeepSeek V4.1 Flash（2026-10-17 起是 1017 版，API 名 deepseek-flash）。10-20 起当主模型；
+  # 默认开推理（effort high），实测决策、槽位类请求 2–4 秒，effort low 不更快。
+  - model_name: deepseek-flash
+    litellm_params:
+      model: deepseek/deepseek-flash
+      api_key: os.environ/DEEPSEEK_API_KEY
+
+  # 豆包（火山方舟）。README 声明支持；model 换成方舟控制台里开通的模型 id 即可。
+  - model_name: doubao
+    litellm_params:
+      model: volcengine/doubao-seed-2-1-pro-260915
+      api_key: os.environ/ARK_API_KEY
+
+litellm_settings:
+  drop_params: true
+  request_timeout: 180
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

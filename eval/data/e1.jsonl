@@ -1,0 +1,179 @@
+{"id": "s01", "tags": ["含糊", "单说地名"], "query": "海岸城", "intent": "rec", "intent_ok": ["rec", "hot", "deal"], "ask": "intent", "src": "seed", "split": "dev"}
+{"id": "s02", "tags": ["含糊", "单说地名"], "query": "深圳湾万象城呢", "intent": "rec", "intent_ok": ["rec", "hot", "deal"], "ask": "intent", "src": "seed", "split": "dev"}
+{"id": "s03", "tags": ["含糊"], "query": "随便", "intent": "rec", "intent_ok": ["rec", "chat"], "ask": "intent", "ask_ok": ["intent", "slot", ""], "src": "seed", "split": "test"}
+{"id": "s04", "tags": ["含糊"], "query": "有啥", "intent": "rec", "intent_ok": ["rec", "hot", "chat"], "ask": "intent", "ask_ok": ["intent", "slot"], "src": "seed", "split": "test"}
+{"id": "s05", "tags": ["含糊"], "query": "嗯……不知道", "intent": "chat", "intent_ok": ["chat", "rec"], "ask": "intent", "ask_ok": ["intent", "slot"], "src": "seed", "split": "dev"}
+{"id": "s06", "tags": ["缺条件"], "query": "饿了", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {}, "src": "seed", "split": "dev"}
+{"id": "s07", "tags": ["缺条件"], "query": "想吃点好的", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {}, "src": "seed", "split": "dev"}
+{"id": "s08", "tags": ["缺条件", "口味"], "query": "想吃清淡点的", "intent": "rec", "ask": "slot", "slots": {"taste": ["清淡"]}, "src": "seed", "split": "test"}
+{"id": "s09", "tags": ["缺条件"], "query": "人均一百以内", "intent": "rec", "intent_ok": ["rec", "deal"], "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {"budget_max": 100}, "src": "seed", "split": "dev"}
+{"id": "s10", "tags": ["上下文", "回答追问"], "query": "海岸城吧", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。"}, "intent": "rec", "ask": "", "slots": {"area": "海岸城"}, "src": "seed", "split": "dev"}
+{"id": "s11", "tags": ["上下文", "回答追问"], "query": "火锅", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。"}, "intent": "rec", "ask": "", "slots": {"category": "火锅"}, "src": "seed", "split": "dev"}
+{"id": "s12", "tags": ["上下文", "回答追问", "已知缺口"], "query": "都行，你看着办", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。", "prev_slots": {"taste": "清淡"}}, "intent": "rec", "ask": "", "slots": {"taste": ["清淡"]}, "src": "seed", "split": "dev"}
+{"id": "s13", "tags": ["上下文", "反馈"], "query": "换个便宜点的", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅", "budget_max": 150}, "shown": ["火璽·堯(南山店)", "翠焱火锅(南山Kaledo概念店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)"]}, "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "火锅", "budget_max": "*", "budget_min": "*"}, "fb": {"label": "reject", "target": 0}, "src": "seed", "split": "test"}
+{"id": "s14", "tags": ["上下文", "反馈", "改口"], "query": "不要火锅了，换成日料", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅"}, "shown": ["潮汕大目牛肉火锅(海岸城店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)", "芈重山老火锅(南山保利店)"]}, "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理"}, "fb": {"label": "reject", "target": 0}, "src": "seed", "split": "test"}
+{"id": "s15", "tags": ["上下文", "指代"], "query": "第二家怎么去", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅"}, "shown": ["潮汕大目牛肉火锅(海岸城店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)", "芈重山老火锅(南山保利店)"]}, "intent": "nav", "ask": "", "fb": {"label": "accept", "target": 2}, "src": "seed", "split": "dev"}
+{"id": "s16", "tags": ["上下文", "指代"], "query": "第一家和第三家哪个好", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅"}, "shown": ["潮汕大目牛肉火锅(海岸城店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)", "芈重山老火锅(南山保利店)"]}, "intent": "cmp", "ask": "", "fb": {"label": "neutral", "target": 0}, "src": "seed", "split": "dev"}
+{"id": "s17", "tags": ["上下文", "反馈", "选定"], "query": "第二家就它了", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅"}, "shown": ["潮汕大目牛肉火锅(海岸城店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)", "芈重山老火锅(南山保利店)"]}, "intent": "rec", "intent_ok": ["rec", "deal", "cmp", "chat"], "ask": "", "route": "acc", "fb": {"label": "accept", "target": 2}, "src": "seed", "split": "dev"}
+{"id": "s18", "tags": ["上下文", "反馈"], "query": "这几家都不太想去", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "日料"}, "shown": ["寿司郎(海岸城店)", "摩打食堂(海岸城购物中心店)", "SOKO SOKO(海岸城店)"]}, "intent": "rec", "intent_ok": ["rec", "chat"], "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理"}, "fb": {"label": "reject", "target": 0}, "src": "seed", "split": "test"}
+{"id": "s19", "tags": ["上下文", "已知缺口"], "query": "寿司郎有团购吗", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "日料"}, "shown": ["寿司郎(海岸城店)", "摩打食堂(海岸城购物中心店)", "SOKO SOKO(海岸城店)"]}, "intent": "deal", "intent_ok": ["deal", "cmp"], "ask": "", "src": "seed", "split": "dev"}
+{"id": "s20", "tags": ["上下文", "指代"], "query": "第一家有什么套餐", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "日料"}, "shown": ["寿司郎(海岸城店)", "摩打食堂(海岸城购物中心店)", "SOKO SOKO(海岸城店)"]}, "intent": "deal", "ask": "", "src": "seed", "split": "dev"}
+{"id": "s21", "tags": ["意图边界"], "query": "小炳胜要排队吗", "intent": "cmp", "intent_ok": ["cmp", "faq"], "ask": "", "src": "seed", "split": "test"}
+{"id": "s22", "tags": ["上下文", "意图边界"], "query": "它家几点关门", "ctx": {"stage": "accepted", "prev_slots": {"area": "海岸城", "category": "粤菜"}, "shown": ["小炳胜(海岸城店)"]}, "intent": "cmp", "intent_ok": ["cmp", "faq", "chat"], "ask": "", "src": "seed", "split": "dev"}
+{"id": "s23", "tags": ["意图边界", "偏好"], "query": "我不吃香菜", "intent": "pm", "intent_ok": ["pm", "rec"], "ask": "", "ask_ok": ["", "slot"], "src": "seed", "split": "dev"}
+{"id": "s24", "tags": ["偏好"], "query": "记住我不吃香菜", "intent": "pm", "ask": "", "src": "seed", "split": "test"}
+{"id": "s25", "tags": ["偏好"], "query": "以后别给我推荐辣的", "intent": "pm", "ask": "", "src": "seed", "split": "dev"}
+{"id": "s26", "tags": ["口味", "忌口"], "query": "我对海鲜过敏，海岸城有什么能吃的", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "taste": ["海鲜过敏|不吃海鲜|对海鲜过敏"]}, "src": "seed", "split": "dev"}
+{"id": "s27", "tags": ["偏好"], "query": "忘掉我之前说的预算", "intent": "pm", "ask": "", "src": "seed", "split": "test"}
+{"id": "s28", "tags": ["偏好"], "query": "你都记了我哪些口味", "intent": "pm", "ask": "", "src": "seed", "split": "dev"}
+{"id": "s29", "tags": ["FAQ"], "query": "团购券过期了还能退吗", "intent": "faq", "ask": "", "src": "seed", "split": "dev"}
+{"id": "s30", "tags": ["套餐"], "query": "海岸城有什么团购", "intent": "deal", "ask": "", "slots": {"area": "海岸城"}, "src": "seed", "split": "test"}
+{"id": "s31", "tags": ["套餐"], "query": "海岸城双人火锅套餐有吗", "intent": "deal", "ask": "", "slots": {"area": "海岸城", "category": "火锅", "people": 2}, "src": "seed", "split": "dev"}
+{"id": "s32", "tags": ["意图边界"], "query": "海岸城最火的火锅是哪家", "intent": "hot", "intent_ok": ["hot", "rec"], "ask": "", "src": "seed", "split": "dev"}
+{"id": "s33", "tags": ["榜单"], "query": "南山必吃榜有哪些", "intent": "hot", "ask": "", "src": "seed", "split": "test"}
+{"id": "s34", "tags": ["对比"], "query": "陶陶居和炳胜哪家好", "intent": "cmp", "ask": "", "src": "seed", "split": "dev"}
+{"id": "s35", "tags": ["对比"], "query": "陶陶居怎么样", "intent": "cmp", "ask": "", "src": "seed", "split": "test"}
+{"id": "s36", "tags": ["路线"], "query": "从科技园去海岸城要多久", "intent": "nav", "ask": "", "src": "seed", "split": "dev"}
+{"id": "s37", "tags": ["路线"], "query": "海岸城离深圳湾万象城远吗", "intent": "nav", "ask": "", "src": "seed", "split": "dev"}
+{"id": "s38", "tags": ["闲聊"], "query": "今天好累啊", "intent": "chat", "ask": "", "src": "seed", "split": "dev"}
+{"id": "s39", "tags": ["闲聊"], "query": "你是谁", "intent": "chat", "intent_ok": ["chat", "faq"], "ask": "", "src": "seed", "split": "dev"}
+{"id": "s40", "tags": ["意图边界", "FAQ"], "query": "帮我订个座", "intent": "faq", "intent_ok": ["faq", "chat"], "ask": "", "ask_ok": ["", "intent"], "src": "seed", "split": "dev"}
+{"id": "s41", "tags": ["多意图"], "query": "海岸城附近有什么好吃的，顺便看看有没有团购", "intent": "rec", "intent_ok": ["rec", "deal"], "ask": "", "slots": {"area": "海岸城"}, "src": "seed", "split": "test"}
+{"id": "s42", "tags": ["多意图", "场景"], "query": "推荐个约会的地方，最好有团购", "intent": "rec", "intent_ok": ["rec", "deal"], "ask": "slot", "ask_ok": ["slot", ""], "slots": {"scene": "约会", "people": "*"}, "src": "seed", "split": "test"}
+{"id": "s43", "tags": ["多条件"], "query": "科技园附近人均50左右的快餐，一个人吃", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "快餐", "budget_max": [50, 60], "people": 1, "scene": "*", "budget_min": [40, 0]}, "src": "seed", "split": "dev"}
+{"id": "s44", "tags": ["多条件", "场景", "口味"], "query": "带爸妈吃饭，不要太油，后海那边", "intent": "rec", "ask": "", "slots": {"area": "后海", "scene": "带老人", "taste": ["不要太油|少油|不油腻|清淡"], "people": "*"}, "src": "seed", "split": "test"}
+{"id": "s45", "tags": ["多条件", "场景"], "query": "公司团建十几个人，南山科技园，川菜湘菜都行", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "川菜|湘菜|川湘菜", "scene": "聚餐", "people": "*"}, "src": "seed", "split": "dev"}
+{"id": "s46", "tags": ["口语", "口味"], "query": "辣一点的，海岸城", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "taste": ["辣|辣一点"]}, "src": "seed", "split": "dev"}
+{"id": "s47", "tags": ["否定", "缺条件"], "query": "不想吃辣也不想吃火锅", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {"taste": ["不辣|不想吃辣|不吃辣"]}, "src": "seed", "split": "dev"}
+{"id": "s48", "tags": ["多条件", "预算歧义"], "query": "预算两百，四个人，万象城，吃点粤菜", "intent": "rec", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "category": "粤菜", "budget_max": [50, 200], "people": 4}, "src": "seed", "split": "dev"}
+{"id": "s49", "tags": ["多条件"], "query": "海岸城人均80左右的日料", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理", "budget_max": [90, 96, 100], "budget_min": [60, 64, 65, 70]}, "src": "seed", "split": "dev"}
+{"id": "s50", "tags": ["上下文", "回答澄清"], "query": "找餐厅", "ctx": {"stage": "clarify", "pending_q": "没太明白你想做什么：是想找附近的餐厅、看热门榜单，还是查怎么去？说一句就行，比如“海岸城附近的火锅”“海岸城有什么热门店”。", "prev_slots": {"area": "海岸城"}}, "intent": "rec", "ask": "", "slots": {"area": "海岸城"}, "src": "seed", "split": "test"}
+{"id": "s51", "tags": ["上下文", "回答澄清"], "query": "看看榜单吧", "ctx": {"stage": "clarify", "pending_q": "没太明白你想做什么：是想找附近的餐厅、看热门榜单，还是查怎么去？说一句就行，比如“海岸城附近的火锅”“海岸城有什么热门店”。", "prev_slots": {"area": "海岸城"}}, "intent": "hot", "ask": "", "src": "seed", "split": "dev"}
+{"id": "g001", "src": "gen", "tags": ["rec", "完整礼貌的一句话"], "query": "请问后海附近有什么火锅店推荐吗？", "intent": "rec", "ask": "", "slots": {"area": "后海", "category": "火锅"}, "split": "dev"}
+{"id": "g002", "src": "gen", "tags": ["rec", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，后海这边有什么越南菜推荐吗？", "intent": "rec", "ask": "", "slots": {"area": "后海", "category": "越南菜|越南"}, "split": "dev"}
+{"id": "g003", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "南山科技园这边有什么椰子鸡推荐呀？", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "椰子鸡"}, "split": "test"}
+{"id": "g004", "src": "gen", "tags": ["rec", "口语短句"], "query": "后海有啥越南菜？", "intent": "rec", "ask": "", "slots": {"area": "后海", "category": "越南菜|越南"}, "split": "test"}
+{"id": "g005", "src": "gen", "tags": ["rec", "完整礼貌的一句话"], "query": "您好，请问后海附近有哪些火锅店比较推荐？", "intent": "rec", "ask": "", "slots": {"area": "后海", "category": "火锅"}, "split": "dev"}
+{"id": "g006", "src": "gen-edited", "tags": ["rec", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "周末在家闲着，深圳湾万象城有啥火锅推荐吗？", "intent": "rec", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "category": "火锅"}, "split": "dev"}
+{"id": "g007", "src": "gen", "tags": ["rec", "打字随意，可以省略主语、少标点"], "query": "海岸城日料人均60以内 有推荐没", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理", "budget_max": 60}, "split": "dev"}
+{"id": "g008", "src": "gen", "tags": ["rec", "口语短句"], "query": "后海那边人均六十以内的面馆有吗", "intent": "rec", "ask": "", "slots": {"area": "后海", "category": "面馆|面|拉面", "budget_max": 60}, "split": "test"}
+{"id": "g009", "src": "gen", "tags": ["rec", "口语短句"], "query": "海岸城茶餐厅人均120以内有推荐吗", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "茶餐厅", "budget_max": 120}, "split": "dev"}
+{"id": "g010", "src": "gen", "tags": ["rec", "口语短句"], "query": "深圳湾万象城湘菜人均80以内有啥推荐", "intent": "rec", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "category": "湘菜|湖南菜", "budget_max": 80}, "split": "dev"}
+{"id": "g011", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "海岸城日料人均60以内有啥推荐呀", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理", "budget_max": 60}, "split": "test"}
+{"id": "g012", "src": "gen", "tags": ["rec", "口语短句"], "query": "海岸城韩餐三个人吃有啥推荐", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "韩餐|韩国料理|韩料", "people": 3}, "split": "test"}
+{"id": "g013", "src": "gen", "tags": ["rec", "口语短句"], "query": "科技园这边四个人吃火锅，有啥推荐？", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "火锅", "people": 4}, "split": "dev"}
+{"id": "g014", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "科技园这边3个人吃川菜，推荐一下呗。", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "川菜|四川菜", "people": 3}, "split": "dev"}
+{"id": "g015", "src": "gen-edited", "tags": ["rec", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "开完会了，海岸城6个人吃茶餐厅去哪家好？", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "茶餐厅", "people": 6}, "split": "dev"}
+{"id": "g016", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "海岸城约会去哪吃呀？", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "scene": "约会", "people": "*"}, "split": "dev"}
+{"id": "g017", "src": "gen", "tags": ["rec", "口语短句"], "query": "深圳湾万象城商务吃饭有啥推荐？", "intent": "rec", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "scene": "商务", "people": "*"}, "split": "test"}
+{"id": "g018", "src": "gen", "tags": ["rec", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班有点饿，后海过生日去哪吃？", "intent": "rec", "ask": "", "slots": {"area": "后海", "scene": "生日", "people": "*"}, "split": "dev"}
+{"id": "g019", "src": "gen", "tags": ["rec", "完整礼貌的一句话"], "query": "请问海岸城附近适合带老人吃饭的餐厅有哪些？", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "scene": "带老人", "people": "*"}, "split": "dev"}
+{"id": "g020", "src": "gen", "tags": ["rec", "打字随意，可以省略主语、少标点"], "query": "后海 想吃辣 哪家好", "intent": "rec", "ask": "", "slots": {"area": "后海", "taste": ["辣|想吃辣|辣的|吃辣|重辣"]}, "split": "dev"}
+{"id": "g021", "src": "gen", "tags": ["rec", "打字随意，可以省略主语、少标点"], "query": "海岸城 想吃辣 有啥店", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "taste": ["辣|想吃辣|辣的|吃辣|重辣"]}, "split": "test"}
+{"id": "g022", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "南山科技园少油的有啥推荐嘛", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "taste": ["少油|不油腻|不要太油|清淡"]}, "split": "dev"}
+{"id": "g023", "src": "gen", "tags": ["rec", "口语短句"], "query": "科技园这边少油的有啥推荐？", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "taste": ["少油|不油腻|不要太油|清淡"]}, "split": "dev"}
+{"id": "g024", "src": "gen", "tags": ["rec", "完整礼貌的一句话"], "query": "请问可以推荐几家火锅店吗？", "intent": "rec", "ask": "", "slots": {"category": "火锅"}, "split": "test"}
+{"id": "g025", "src": "gen", "tags": ["rec", "打字随意，可以省略主语、少标点"], "query": "粤菜吃哪家", "intent": "rec", "ask": "", "slots": {"category": "粤菜|广东菜"}, "split": "dev"}
+{"id": "g026", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "想吃韩餐呀，有推荐嘛", "intent": "rec", "ask": "", "slots": {"category": "韩餐|韩国料理|韩料"}, "split": "dev"}
+{"id": "g027", "src": "gen", "tags": ["rec", "口语短句"], "query": "椰子鸡哪家好吃", "intent": "rec", "ask": "", "slots": {"category": "椰子鸡"}, "split": "test"}
+{"id": "g028", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "南山科技园3人吃清淡韩餐，人均150以内呗", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "韩餐|韩国料理|韩料", "budget_max": 150, "people": 3, "taste": ["清淡|口味淡|淡一点"]}, "split": "dev"}
+{"id": "g029", "src": "gen", "tags": ["rec", "打字随意，可以省略主语、少标点"], "query": "南山科技园4人 清淡韩餐 人均60以内", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "韩餐|韩国料理|韩料", "budget_max": 60, "people": 4, "taste": ["清淡|口味淡|淡一点"]}, "split": "dev"}
+{"id": "g030", "src": "gen", "tags": ["rec", "打字随意，可以省略主语、少标点"], "query": "深圳湾万象城3人 清淡茶餐厅 人均100以内", "intent": "rec", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "category": "茶餐厅", "budget_max": 100, "people": 3, "taste": ["清淡|口味淡|淡一点"]}, "split": "test"}
+{"id": "g032", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "找个人均80以内的吃饭地方呗", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {"budget_max": 80}, "split": "dev"}
+{"id": "g033", "src": "gen", "tags": ["rec", "打字随意，可以省略主语、少标点"], "query": "找吃饭的地 人均300以内", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {"budget_max": 300}, "split": "test"}
+{"id": "g034", "src": "gen", "tags": ["rec", "打字随意，可以省略主语、少标点"], "query": "商务吃饭 找不辣的", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {"scene": "商务", "people": "*", "taste": ["不辣|不要辣|不吃辣|不能吃辣|别太辣|不要太辣"]}, "split": "dev"}
+{"id": "g035", "src": "gen", "tags": ["rec", "带语气词（呀、呗、嘛、哈）"], "query": "聚餐吃点少油的呗", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {"scene": "聚餐", "people": "*", "taste": ["少油|不油腻|不要太油|清淡"]}, "split": "test"}
+{"id": "g036", "src": "gen", "tags": ["deal", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，南山科技园烧烤团购有吗", "intent": "deal", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "烧烤"}, "split": "dev"}
+{"id": "g037", "src": "gen-edited", "tags": ["deal", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "唉，有没有三人套餐团购？", "intent": "deal", "ask": "slot", "ask_ok": ["slot", "intent", ""], "slots": {"people": 3}, "split": "dev"}
+{"id": "g038", "src": "gen", "tags": ["deal", "完整礼貌的一句话"], "query": "请问后海这边有没有优惠券可以领？", "intent": "deal", "ask": "", "slots": {"area": "后海"}, "split": "dev"}
+{"id": "g039", "src": "gen", "tags": ["deal", "口语短句"], "query": "有茶餐厅代金券吗？", "intent": "deal", "ask": "", "slots": {"category": "茶餐厅"}, "split": "dev"}
+{"id": "g040", "src": "gen", "tags": ["deal", "带语气词（呀、呗、嘛、哈）"], "query": "南山科技园有双人餐嘛，人均三百以内哈。", "intent": "deal", "ask": "", "slots": {"area": "科技园|南山科技园", "budget_max": 300, "people": 2}, "split": "dev"}
+{"id": "g041", "src": "gen-edited", "tags": ["deal", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "发工资了，想找两人吃的划算套餐。", "intent": "deal", "ask": "slot", "ask_ok": ["slot", "intent", ""], "slots": {"people": 2}, "split": "test"}
+{"id": "g042", "src": "gen", "tags": ["deal", "打字随意，可以省略主语、少标点"], "query": "深圳湾万象城烧烤团购有吗", "intent": "deal", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "category": "烧烤"}, "split": "test"}
+{"id": "g043", "src": "gen", "tags": ["deal", "完整礼貌的一句话"], "query": "请问有什么套餐可以推荐吗？", "intent": "deal", "ask": "slot", "ask_ok": ["slot", "intent", ""], "slots": {}, "split": "dev"}
+{"id": "g044", "src": "gen", "tags": ["deal", "口语短句"], "query": "深圳湾万象城有啥优惠券？", "intent": "deal", "ask": "", "slots": {"area": "万象城|深圳湾万象城"}, "split": "test"}
+{"id": "g045", "src": "gen", "tags": ["deal", "打字随意，可以省略主语、少标点"], "query": "湘菜代金券 四人能用的有吗", "intent": "deal", "ask": "", "slots": {"category": "湘菜|湖南菜", "people": 4}, "split": "dev"}
+{"id": "g046", "src": "gen", "tags": ["deal", "带语气词（呀、呗、嘛、哈）"], "query": "深圳湾万象城有双人餐呗，人均一百五以内呀。", "intent": "deal", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "budget_max": 150, "people": 2}, "split": "dev"}
+{"id": "g047", "src": "gen", "tags": ["deal", "打字随意，可以省略主语、少标点"], "query": "有没有划算套餐 推荐一下", "intent": "deal", "ask": "slot", "ask_ok": ["slot", "intent", ""], "slots": {}, "split": "dev"}
+{"id": "g048", "src": "gen", "tags": ["cmp", "完整礼貌的一句话"], "query": "请问至正潮菜这家店口碑怎么样？", "intent": "cmp", "ask": "", "split": "dev"}
+{"id": "g049", "src": "gen", "tags": ["cmp", "打字随意，可以省略主语、少标点"], "query": "炳胜品味跟SOKO SOKO哪家性价比高点", "intent": "cmp", "ask": "", "split": "dev"}
+{"id": "g050", "src": "gen-edited", "tags": ["cmp", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "朋友推荐的，至正潮菜环境怎么样", "intent": "cmp", "ask": "", "split": "test"}
+{"id": "g051", "src": "gen", "tags": ["cmp", "口语短句"], "query": "湘小小和八合里哪家更好吃", "intent": "cmp", "ask": "", "split": "dev"}
+{"id": "g052", "src": "gen", "tags": ["cmp", "带语气词（呀、呗、嘛、哈）"], "query": "芈重山老火锅更值得去嘛", "intent": "cmp", "ask": "", "split": "dev"}
+{"id": "g053", "src": "gen", "tags": ["cmp", "完整礼貌的一句话"], "query": "请问湘小小和小炳胜哪家更适合约会？", "intent": "cmp", "ask": "", "split": "dev"}
+{"id": "g054", "src": "gen", "tags": ["cmp", "打字随意，可以省略主语、少标点"], "query": "潮汕大目要排队吗", "intent": "cmp", "ask": "", "split": "dev"}
+{"id": "g055", "src": "gen", "tags": ["cmp", "完整礼貌的一句话"], "query": "请问渝月和SOKO SOKO的招牌菜分别是什么？", "intent": "cmp", "ask": "", "split": "dev"}
+{"id": "g056", "src": "gen", "tags": ["cmp", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，一个锅韩国料理口碑怎么样", "intent": "cmp", "ask": "", "split": "dev"}
+{"id": "g057", "src": "gen", "tags": ["cmp", "带语气词（呀、呗、嘛、哈）"], "query": "陶陶居和摩打食堂哪家性价比高呀", "intent": "cmp", "ask": "", "split": "test"}
+{"id": "g058", "src": "gen", "tags": ["nav", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，潮汕大目怎么去", "intent": "nav", "ask": "", "split": "dev"}
+{"id": "g059", "src": "gen", "tags": ["nav", "口语短句"], "query": "SOKO SOKO多远啊", "intent": "nav", "ask": "", "split": "dev"}
+{"id": "g060", "src": "gen", "tags": ["nav", "完整礼貌的一句话"], "query": "请问去一个锅韩国料理要多久？", "intent": "nav", "ask": "", "split": "dev"}
+{"id": "g061", "src": "gen", "tags": ["nav", "口语短句"], "query": "从公司坐地铁到芈重山老火锅怎么走？", "intent": "nav", "ask": "", "split": "test"}
+{"id": "g062", "src": "gen", "tags": ["nav", "带语气词（呀、呗、嘛、哈）"], "query": "开车去寿司郎方便嘛？", "intent": "nav", "ask": "", "split": "dev"}
+{"id": "g063", "src": "gen", "tags": ["nav", "口语短句"], "query": "从公司走路能到怂火锅吗", "intent": "nav", "ask": "", "split": "dev"}
+{"id": "g064", "src": "gen", "tags": ["nav", "打字随意，可以省略主语、少标点"], "query": "深大地铁站到海岸城怎么去", "intent": "nav", "ask": "", "split": "dev"}
+{"id": "g065", "src": "gen-edited", "tags": ["nav", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚出地铁 后海地铁站到深圳湾万象城多远", "intent": "nav", "ask": "", "split": "dev"}
+{"id": "g066", "src": "gen", "tags": ["nav", "完整礼貌的一句话"], "query": "请问从公司到湘小小大概要多久？", "intent": "nav", "ask": "", "split": "test"}
+{"id": "g067", "src": "gen", "tags": ["nav", "完整礼貌的一句话"], "query": "请问从深大地铁站坐地铁去SOKO SOKO怎么走？", "intent": "nav", "ask": "", "split": "dev"}
+{"id": "g068", "src": "gen-edited", "tags": ["hot", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "第一次来深圳，南山科技园有什么热门店推荐吗？", "intent": "hot", "ask": "", "split": "test"}
+{"id": "g069", "src": "gen", "tags": ["hot", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，想看看海岸城的排行榜", "intent": "hot", "ask": "", "split": "dev"}
+{"id": "g070", "src": "gen", "tags": ["hot", "口语短句"], "query": "海岸城有什么必吃榜", "intent": "hot", "ask": "", "split": "test"}
+{"id": "g071", "src": "gen", "tags": ["hot", "带语气词（呀、呗、嘛、哈）"], "query": "南山科技园有什么网红店呀", "intent": "hot", "ask": "", "split": "dev"}
+{"id": "g072", "src": "gen-edited", "tags": ["hot", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "周末想出去逛逛，海岸城最近很火的店有哪些？", "intent": "hot", "ask": "", "split": "dev"}
+{"id": "g073", "src": "gen", "tags": ["hot", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，南山大家都在去的店有哪些", "intent": "hot", "ask": "", "split": "test"}
+{"id": "g074", "src": "gen", "tags": ["hot", "带语气词（呀、呗、嘛、哈）"], "query": "后海热门店有哪些呀？", "intent": "hot", "ask": "", "split": "dev"}
+{"id": "g075", "src": "gen-edited", "tags": ["hot", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚搬来南山，深圳湾万象城排行榜有哪些", "intent": "hot", "ask": "", "split": "dev"}
+{"id": "g076", "src": "gen", "tags": ["hot", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，后海必吃榜有哪些？", "intent": "hot", "ask": "", "split": "test"}
+{"id": "g077", "src": "gen-edited", "tags": ["hot", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "无聊刷手机，帮我看看网红店", "intent": "hot", "ask": "", "split": "dev"}
+{"id": "g078", "src": "gen", "tags": ["faq", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，团购券过期了还能退吗？", "intent": "faq", "ask": "", "split": "dev"}
+{"id": "g079", "src": "gen", "tags": ["faq", "口语短句"], "query": "退款一般多久到账？", "intent": "faq", "ask": "", "split": "test"}
+{"id": "g080", "src": "gen", "tags": ["faq", "口语短句"], "query": "团购券要提前预约吗？", "intent": "faq", "ask": "", "split": "dev"}
+{"id": "g081", "src": "gen", "tags": ["faq", "打字随意，可以省略主语、少标点"], "query": "能开发票不", "intent": "faq", "ask": "", "split": "test"}
+{"id": "g082", "src": "gen", "tags": ["faq", "带语气词（呀、呗、嘛、哈）"], "query": "两张券能叠加用嘛？", "intent": "faq", "ask": "", "split": "test"}
+{"id": "g083", "src": "gen", "tags": ["faq", "完整礼貌的一句话"], "query": "请问周末和节假日可以使用团购券吗？", "intent": "faq", "ask": "", "split": "dev"}
+{"id": "g084", "src": "gen", "tags": ["faq", "口语短句"], "query": "团购券怎么核销啊？", "intent": "faq", "ask": "", "split": "dev"}
+{"id": "g085", "src": "gen", "tags": ["faq", "打字随意，可以省略主语、少标点"], "query": "买错套餐了能换不", "intent": "faq", "ask": "", "split": "dev"}
+{"id": "g086", "src": "gen", "tags": ["faq", "完整礼貌的一句话"], "query": "请问一张双人套餐券可以几个人使用？", "intent": "faq", "ask": "", "split": "dev"}
+{"id": "g087", "src": "gen", "tags": ["faq", "口语短句"], "query": "包间还另外收费吗", "intent": "faq", "ask": "", "split": "test"}
+{"id": "g088", "src": "gen-edited", "tags": ["faq", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚看到一个券上写的，随时退是什么意思", "intent": "faq", "ask": "", "split": "test"}
+{"id": "g089", "src": "gen", "tags": ["faq", "打字随意，可以省略主语、少标点"], "query": "券能转给朋友用不", "intent": "faq", "ask": "", "split": "dev"}
+{"id": "g090", "src": "gen", "tags": ["pm", "完整礼貌的一句话"], "query": "请帮我记住我不吃香菜。", "intent": "pm", "ask": "", "split": "dev"}
+{"id": "g091", "src": "gen-edited", "tags": ["pm", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "对了，记一下我人均一般不超过一百", "intent": "pm", "ask": "", "split": "test"}
+{"id": "g092", "src": "gen", "tags": ["pm", "完整礼貌的一句话"], "query": "请记住我常在科技园上班。", "intent": "pm", "ask": "", "split": "test"}
+{"id": "g093", "src": "gen", "tags": ["pm", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班好饿，记住我吃素", "intent": "pm", "ask": "", "split": "dev"}
+{"id": "g094", "src": "gen-edited", "tags": ["pm", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "最近口味变了，忘掉我说过的不吃辣吧", "intent": "pm", "ask": "", "split": "dev"}
+{"id": "g095", "src": "gen", "tags": ["pm", "口语短句"], "query": "把常去海岸城那条忘掉", "intent": "pm", "ask": "", "split": "dev"}
+{"id": "g096", "src": "gen", "tags": ["pm", "带语气词（呀、呗、嘛、哈）"], "query": "你都记了我哪些偏好呀", "intent": "pm", "ask": "", "split": "dev"}
+{"id": "g097", "src": "gen", "tags": ["pm", "打字随意，可以省略主语、少标点"], "query": "我现在能吃辣了 改下偏好", "intent": "pm", "ask": "", "split": "test"}
+{"id": "g098", "src": "gen", "tags": ["pm", "带语气词（呀、呗、嘛、哈）"], "query": "记住哈，我对花生过敏", "intent": "pm", "ask": "", "split": "test"}
+{"id": "g099", "src": "gen", "tags": ["pm", "完整礼貌的一句话"], "query": "请问你记得我的预算额度是多少吗？", "intent": "pm", "ask": "", "split": "dev"}
+{"id": "g100", "src": "gen", "tags": ["chat", "完整礼貌的一句话"], "query": "请问今天天气怎么样？", "intent": "chat", "ask": "", "split": "dev"}
+{"id": "g101", "src": "gen", "tags": ["chat", "口语短句"], "query": "讲个笑话呗", "intent": "chat", "ask": "", "split": "dev"}
+{"id": "g102", "src": "gen", "tags": ["chat", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班，谢谢你啊", "intent": "chat", "ask": "", "split": "test"}
+{"id": "g103", "src": "gen", "tags": ["chat", "打字随意，可以省略主语、少标点"], "query": "嗨 在吗", "intent": "chat", "ask": "", "split": "dev"}
+{"id": "g104", "src": "gen", "tags": ["chat", "带语气词（呀、呗、嘛、哈）"], "query": "今天工作累死了呀", "intent": "chat", "ask": "", "split": "dev"}
+{"id": "g105", "src": "gen", "tags": ["chat", "完整礼貌的一句话"], "query": "请问有什么好看的电影推荐吗？", "intent": "chat", "ask": "", "split": "test"}
+{"id": "g106", "src": "gen", "tags": ["chat", "打字随意，可以省略主语、少标点"], "query": "帮我写个周报 谢了", "intent": "chat", "ask": "", "split": "dev"}
+{"id": "g107", "src": "gen", "tags": ["chat", "先说一点无关背景（如刚下班、好饿）再提要求"], "query": "刚下班，你叫什么名字呀", "intent": "chat", "ask": "", "split": "dev"}
+{"id": "d01", "tags": ["委托", "第一轮"], "query": "吃什么都行，你看着办", "intent": "rec", "ask": "", "slots": {}, "src": "seed-1021", "split": "test"}
+{"id": "d02", "tags": ["委托", "第一轮"], "query": "你推荐吧，人均别超过80", "intent": "rec", "ask": "", "slots": {"budget_max": 80}, "src": "seed-1021", "split": "test"}
+{"id": "d03", "tags": ["委托", "第一轮", "场景"], "query": "两个人约会，地方你定", "intent": "rec", "ask": "", "slots": {"people": 2, "scene": "约会"}, "src": "seed-1021", "split": "test"}
+{"id": "d04", "tags": ["委托", "回答追问"], "query": "随便吧", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。", "prev_slots": {}}, "intent": "rec", "ask": "", "slots": {}, "src": "seed-1021", "split": "test"}
+{"id": "d05", "tags": ["委托", "回答追问"], "query": "都可以，听你的", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。", "prev_slots": {"budget_max": 100}}, "intent": "rec", "ask": "", "slots": {"budget_max": 100}, "src": "seed-1021", "split": "test"}
+{"id": "d06", "tags": ["回答追问", "仍没给条件"], "query": "不知道诶，想吃点热乎的", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。", "prev_slots": {}}, "intent": "rec", "ask": "", "slots": {}, "src": "seed-1021", "split": "test"}
+{"id": "r01", "tags": ["范围", "品类展开"], "query": "万象城人均一两百的西餐", "intent": "rec", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "category": "西餐", "budget_min": 100, "budget_max": 200}, "src": "seed-1021b", "split": "test"}
+{"id": "r02", "tags": ["范围", "品类展开"], "query": "海岸城附近步行十分钟内的火锅", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "火锅", "dist_max": 800}, "src": "seed-1021b", "split": "test"}
+{"id": "r03", "tags": ["范围", "品类展开"], "query": "科技园人均两百以上的日料，商务宴请用", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "日料|日本料理", "budget_min": 200, "scene": "商务"}, "src": "seed-1021b", "split": "test"}
+{"id": "r04", "tags": ["范围", "品类展开"], "query": "海岸城附近想吃意面", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "意面|意大利|意式"}, "src": "seed-1021b", "split": "test"}
+{"id": "r05", "tags": ["范围", "品类展开"], "query": "后海一公里以内有什么好吃的甜品", "intent": "rec", "ask": "", "slots": {"area": "后海", "category": "甜品", "dist_max": 1000}, "src": "seed-1021b", "split": "test"}
+{"id": "r06", "tags": ["范围", "品类展开"], "query": "人均100左右，在海岸城吃粤菜", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "粤菜", "budget_min": 80, "budget_max": 120}, "src": "seed-1021b", "split": "test"}
+{"id": "r07", "tags": ["范围", "品类展开"], "query": "不想走太远，深圳湾万象城附近喝个咖啡", "intent": "rec", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "category": "咖啡", "dist_max": [800, 1000, 1500]}, "src": "seed-1021b", "split": "test"}
+{"id": "r08", "tags": ["范围", "品类展开"], "query": "科技园一百多块钱的烤肉", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "烤肉", "budget_min": 100, "budget_max": 150}, "src": "seed-1021b", "split": "test"}
+{"id": "r09", "tags": ["范围"], "query": "海岸城人均三五百的日料", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理", "budget_min": 300, "budget_max": 500}, "src": "seed-1021b", "split": "test"}
+{"id": "r10", "tags": ["范围"], "query": "最多两百块，科技园吃川菜", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "川菜", "budget_max": 200}, "src": "seed-1021b", "split": "test"}
+{"id": "n01", "tags": ["要求"], "query": "海岸城想找家不用排队的火锅", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "火锅", "need": ["不用排队|不排队|排队"]}, "src": "seed-1021c", "split": "test"}
+{"id": "n02", "tags": ["要求"], "query": "科技园有没有量大一点的快餐，一个人吃", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "快餐", "people": 1, "scene": "*", "need": ["量大|分量"]}, "src": "seed-1021c", "split": "test"}
+{"id": "n03", "tags": ["要求"], "query": "深圳湾万象城约会，想找能拍照的西餐", "intent": "rec", "ask": "", "slots": {"area": "深圳湾万象城|万象城", "category": "西餐", "scene": "约会", "need": ["拍照"]}, "src": "seed-1021c", "split": "test"}
+{"id": "n04", "tags": ["要求"], "query": "海岸城附近吊龙新鲜的牛肉火锅", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "牛肉火锅|潮汕牛肉火锅|火锅", "need": ["吊龙新鲜|吊龙|新鲜"]}, "src": "seed-1021c", "split": "test"}
+{"id": "n05", "tags": ["要求"], "query": "海岸城人均一百以内的火锅", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "火锅", "budget_max": 100, "need": []}, "src": "seed-1021c", "split": "test"}
+{"id": "n06", "tags": ["要求"], "query": "后海安静点、适合聊天的咖啡店", "intent": "rec", "ask": "", "slots": {"area": "后海", "category": "咖啡|咖啡店|咖啡厅", "need": ["安静", "聊天"], "scene": "*"}, "src": "seed-1021c", "split": "test"}

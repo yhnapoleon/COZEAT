@@ -1,0 +1,51 @@
+{"id": "s01", "tags": ["含糊", "单说地名"], "query": "海岸城", "intent": "rec", "intent_ok": ["rec", "hot", "deal"], "ask": "intent"}
+{"id": "s02", "tags": ["含糊", "单说地名"], "query": "深圳湾万象城呢", "intent": "rec", "intent_ok": ["rec", "hot", "deal"], "ask": "intent"}
+{"id": "s03", "tags": ["含糊"], "query": "随便", "intent": "rec", "intent_ok": ["rec", "chat"], "ask": "intent", "ask_ok": ["intent", "slot"]}
+{"id": "s04", "tags": ["含糊"], "query": "有啥", "intent": "rec", "intent_ok": ["rec", "hot", "chat"], "ask": "intent", "ask_ok": ["intent", "slot"]}
+{"id": "s05", "tags": ["含糊"], "query": "嗯……不知道", "intent": "chat", "intent_ok": ["chat", "rec"], "ask": "intent", "ask_ok": ["intent", "slot"]}
+{"id": "s06", "tags": ["缺条件"], "query": "饿了", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {}}
+{"id": "s07", "tags": ["缺条件"], "query": "想吃点好的", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {}}
+{"id": "s08", "tags": ["缺条件", "口味"], "query": "想吃清淡点的", "intent": "rec", "ask": "slot", "slots": {"taste": ["清淡"]}}
+{"id": "s09", "tags": ["缺条件"], "query": "人均一百以内", "intent": "rec", "intent_ok": ["rec", "deal"], "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {"budget_max": 100}}
+{"id": "s10", "tags": ["上下文", "回答追问"], "query": "海岸城吧", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。"}, "intent": "rec", "ask": "", "slots": {"area": "海岸城"}}
+{"id": "s11", "tags": ["上下文", "回答追问"], "query": "火锅", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。"}, "intent": "rec", "ask": "", "slots": {"category": "火锅"}}
+{"id": "s12", "tags": ["上下文", "回答追问", "已知缺口"], "query": "都行，你看着办", "ctx": {"stage": "collect", "pending_q": "想在哪一带吃，想吃点什么？比如：海岸城吃火锅、深圳湾万象城吃西餐。", "prev_slots": {"taste": "清淡"}}, "intent": "rec", "ask": "", "slots": {"taste": ["清淡"]}}
+{"id": "s13", "tags": ["上下文", "反馈"], "query": "换个便宜点的", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅", "budget_max": 150}, "shown": ["火璽·堯(南山店)", "翠焱火锅(南山Kaledo概念店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)"]}, "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "火锅", "budget_max": "*"}, "fb": {"label": "reject", "target": 0}}
+{"id": "s14", "tags": ["上下文", "反馈", "改口"], "query": "不要火锅了，换成日料", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅"}, "shown": ["潮汕大目牛肉火锅(海岸城店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)", "芈重山老火锅(南山保利店)"]}, "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理"}, "fb": {"label": "reject", "target": 0}}
+{"id": "s15", "tags": ["上下文", "指代"], "query": "第二家怎么去", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅"}, "shown": ["潮汕大目牛肉火锅(海岸城店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)", "芈重山老火锅(南山保利店)"]}, "intent": "nav", "ask": "", "fb": {"label": "accept", "target": 2}}
+{"id": "s16", "tags": ["上下文", "指代"], "query": "第一家和第三家哪个好", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅"}, "shown": ["潮汕大目牛肉火锅(海岸城店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)", "芈重山老火锅(南山保利店)"]}, "intent": "cmp", "ask": "", "fb": {"label": "neutral", "target": 0}}
+{"id": "s17", "tags": ["上下文", "反馈", "选定"], "query": "第二家就它了", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "火锅"}, "shown": ["潮汕大目牛肉火锅(海岸城店)", "八合里潮汕鲜牛肉火锅(深圳海岸城店)", "芈重山老火锅(南山保利店)"]}, "intent": "rec", "intent_ok": ["rec", "deal", "cmp", "chat"], "ask": "", "route": "acc", "fb": {"label": "accept", "target": 2}}
+{"id": "s18", "tags": ["上下文", "反馈"], "query": "这几家都不太想去", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "日料"}, "shown": ["寿司郎(海岸城店)", "摩打食堂(海岸城购物中心店)", "SOKO SOKO(海岸城店)"]}, "intent": "rec", "intent_ok": ["rec", "chat"], "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理"}, "fb": {"label": "reject", "target": 0}}
+{"id": "s19", "tags": ["上下文", "已知缺口"], "query": "寿司郎有团购吗", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "日料"}, "shown": ["寿司郎(海岸城店)", "摩打食堂(海岸城购物中心店)", "SOKO SOKO(海岸城店)"]}, "intent": "deal", "intent_ok": ["deal", "cmp"], "ask": ""}
+{"id": "s20", "tags": ["上下文", "指代"], "query": "第一家有什么套餐", "ctx": {"stage": "recommend", "prev_slots": {"area": "海岸城", "category": "日料"}, "shown": ["寿司郎(海岸城店)", "摩打食堂(海岸城购物中心店)", "SOKO SOKO(海岸城店)"]}, "intent": "deal", "ask": ""}
+{"id": "s21", "tags": ["意图边界"], "query": "小炳胜要排队吗", "intent": "cmp", "intent_ok": ["cmp", "faq"], "ask": ""}
+{"id": "s22", "tags": ["上下文", "意图边界"], "query": "它家几点关门", "ctx": {"stage": "accepted", "prev_slots": {"area": "海岸城", "category": "粤菜"}, "shown": ["小炳胜(海岸城店)"]}, "intent": "cmp", "intent_ok": ["cmp", "faq", "chat"], "ask": ""}
+{"id": "s23", "tags": ["意图边界", "偏好"], "query": "我不吃香菜", "intent": "pm", "intent_ok": ["pm", "rec"], "ask": "", "ask_ok": ["", "slot"]}
+{"id": "s24", "tags": ["偏好"], "query": "记住我不吃香菜", "intent": "pm", "ask": ""}
+{"id": "s25", "tags": ["偏好"], "query": "以后别给我推荐辣的", "intent": "pm", "ask": ""}
+{"id": "s26", "tags": ["口味", "忌口"], "query": "我对海鲜过敏，海岸城有什么能吃的", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "taste": ["海鲜过敏|不吃海鲜|对海鲜过敏"]}}
+{"id": "s27", "tags": ["偏好"], "query": "忘掉我之前说的预算", "intent": "pm", "ask": ""}
+{"id": "s28", "tags": ["偏好"], "query": "你都记了我哪些口味", "intent": "pm", "ask": ""}
+{"id": "s29", "tags": ["FAQ"], "query": "团购券过期了还能退吗", "intent": "faq", "ask": ""}
+{"id": "s30", "tags": ["套餐"], "query": "海岸城有什么团购", "intent": "deal", "ask": "", "slots": {"area": "海岸城"}}
+{"id": "s31", "tags": ["套餐"], "query": "海岸城双人火锅套餐有吗", "intent": "deal", "ask": "", "slots": {"area": "海岸城", "category": "火锅", "people": 2}}
+{"id": "s32", "tags": ["意图边界"], "query": "海岸城最火的火锅是哪家", "intent": "hot", "intent_ok": ["hot", "rec"], "ask": ""}
+{"id": "s33", "tags": ["榜单"], "query": "南山必吃榜有哪些", "intent": "hot", "ask": ""}
+{"id": "s34", "tags": ["对比"], "query": "陶陶居和炳胜哪家好", "intent": "cmp", "ask": ""}
+{"id": "s35", "tags": ["对比"], "query": "陶陶居怎么样", "intent": "cmp", "ask": ""}
+{"id": "s36", "tags": ["路线"], "query": "从科技园去海岸城要多久", "intent": "nav", "ask": ""}
+{"id": "s37", "tags": ["路线"], "query": "海岸城离深圳湾万象城远吗", "intent": "nav", "ask": ""}
+{"id": "s38", "tags": ["闲聊"], "query": "今天好累啊", "intent": "chat", "ask": ""}
+{"id": "s39", "tags": ["闲聊"], "query": "你是谁", "intent": "chat", "intent_ok": ["chat", "faq"], "ask": ""}
+{"id": "s40", "tags": ["意图边界", "FAQ"], "query": "帮我订个座", "intent": "faq", "intent_ok": ["faq", "chat"], "ask": "", "ask_ok": ["", "intent"]}
+{"id": "s41", "tags": ["多意图"], "query": "海岸城附近有什么好吃的，顺便看看有没有团购", "intent": "rec", "intent_ok": ["rec", "deal"], "ask": "", "slots": {"area": "海岸城"}}
+{"id": "s42", "tags": ["多意图", "场景"], "query": "推荐个约会的地方，最好有团购", "intent": "rec", "intent_ok": ["rec", "deal"], "ask": "slot", "ask_ok": ["slot", ""], "slots": {"scene": "约会", "people": "*"}}
+{"id": "s43", "tags": ["多条件"], "query": "科技园附近人均50左右的快餐，一个人吃", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "快餐", "budget_max": 50, "people": 1, "scene": "*"}}
+{"id": "s44", "tags": ["多条件", "场景", "口味"], "query": "带爸妈吃饭，不要太油，后海那边", "intent": "rec", "ask": "", "slots": {"area": "后海", "scene": "带老人", "taste": ["不要太油|少油|不油腻|清淡"], "people": "*"}}
+{"id": "s45", "tags": ["多条件", "场景"], "query": "公司团建十几个人，南山科技园，川菜湘菜都行", "intent": "rec", "ask": "", "slots": {"area": "科技园|南山科技园", "category": "川菜|湘菜|川湘菜", "scene": "聚餐", "people": "*"}}
+{"id": "s46", "tags": ["口语", "口味"], "query": "辣一点的，海岸城", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "taste": ["辣|辣一点"]}}
+{"id": "s47", "tags": ["否定", "缺条件"], "query": "不想吃辣也不想吃火锅", "intent": "rec", "ask": "slot", "ask_ok": ["slot", "intent"], "slots": {"taste": ["不辣|不想吃辣|不吃辣"]}}
+{"id": "s48", "tags": ["多条件", "预算歧义"], "query": "预算两百，四个人，万象城，吃点粤菜", "intent": "rec", "ask": "", "slots": {"area": "万象城|深圳湾万象城", "category": "粤菜", "budget_max": [50, 200], "people": 4}}
+{"id": "s49", "tags": ["多条件"], "query": "海岸城人均80左右的日料", "intent": "rec", "ask": "", "slots": {"area": "海岸城", "category": "日料|日本料理", "budget_max": [80, 90, 100]}}
+{"id": "s50", "tags": ["上下文", "回答澄清"], "query": "找餐厅", "ctx": {"stage": "clarify", "pending_q": "没太明白你想做什么：是想找附近的餐厅、看热门榜单，还是查怎么去？说一句就行，比如“海岸城附近的火锅”“海岸城有什么热门店”。", "prev_slots": {"area": "海岸城"}}, "intent": "rec", "ask": "", "slots": {"area": "海岸城"}}
+{"id": "s51", "tags": ["上下文", "回答澄清"], "query": "看看榜单吧", "ctx": {"stage": "clarify", "pending_q": "没太明白你想做什么：是想找附近的餐厅、看热门榜单，还是查怎么去？说一句就行，比如“海岸城附近的火锅”“海岸城有什么热门店”。", "prev_slots": {"area": "海岸城"}}, "intent": "hot", "ask": ""}
