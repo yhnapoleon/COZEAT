@@ -31,7 +31,7 @@ import canvas as cv  # noqa: E402
 import flow_code as fc  # noqa: E402
 from build_subflows import RECALL_IN, SUBS, UNDERSTAND_OUT  # noqa: E402
 from coze_client import Coze  # noqa: E402
-from workflow_api import publish_workflow, save_workflow, summarize_process, test_run  # noqa: E402
+from workflow_api import create_workflow, publish_workflow, save_workflow, summarize_process, test_run  # noqa: E402
 from common.env import need  # noqa: E402
 
 IDS_FILE = ROOT / "lifeagent_ids.json"
@@ -203,6 +203,11 @@ def main():
     c = Coze()
     c.login()
     ids = json.loads(IDS_FILE.read_text(encoding="utf-8"))
+    if "cf_main" not in ids.setdefault("workflows", {}):
+        # 从头搭时主干还不存在：建一个对话流（flow_mode 3），id 记进 lifeagent_ids.json
+        ids["workflows"]["cf_main"] = create_workflow(c, "cf_main", "主干对话流：理解、分流、找店、对比、路线、榜单、FAQ、记忆", flow_mode=3)
+        IDS_FILE.write_text(json.dumps(ids, ensure_ascii=False, indent=1), encoding="utf-8")
+        print("建主干对话流", ids["workflows"]["cf_main"])
     wid = ids["workflows"]["cf_main"]
 
     def save(draft_subs: bool):

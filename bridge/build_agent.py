@@ -13,7 +13,9 @@ sys.path.insert(0, str(HERE))
 from coze_client import Coze  # noqa: E402
 
 IDS_FILE = HERE.parent / "lifeagent_ids.json"
-MODEL_TYPE = "100003"  # DeepSeek V4.1 Flash 经网关（10-20 起）；100002 是 Claude Opus 5.5
+sys.path.insert(0, str(HERE.parent))
+from flow_code import MODEL_TYPE as _MT  # noqa: E402  智能体模型和工作流节点用同一个（bridge/flow_code.py）
+MODEL_TYPE = str(_MT)
 
 PROLOGUE = "你好，我是深圳本地生活推荐助手。告诉我你在哪、想吃什么、几个人、预算多少，我帮你挑店和团购。"
 SUGGESTED = ["海岸城附近人均 100 以内的火锅", "两个人约会，南山有什么氛围好的西餐", "带老人吃饭，清淡一点的粤菜"]

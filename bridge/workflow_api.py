@@ -10,9 +10,10 @@ from coze_client import Coze
 ICON = "default_icon/default_workflow_icon.png"
 
 
-def create_workflow(c: Coze, name: str, desc: str) -> str:
+def create_workflow(c: Coze, name: str, desc: str, flow_mode: int = 0) -> str:
+    """flow_mode 0 是普通工作流，3 是对话流（主干 CF-main）。"""
     body = c.post("/api/workflow_api/create", {
-        "name": name, "desc": desc, "icon_uri": ICON, "space_id": c.space_id(), "flow_mode": 0})
+        "name": name, "desc": desc, "icon_uri": ICON, "space_id": c.space_id(), "flow_mode": flow_mode})
     return str(body["data"]["workflow_id"])
 
 
