@@ -282,6 +282,9 @@ WF-memwrite：  准备 → [要写会话状态吗 → 清/写会话状态 ‖ �
 
 ## 9. 代码结构
 
+**仓库：** https://github.com/yhnapoleon/COZEAT（公开，10-23 首次推送，`Agent1/` 是仓库根）。不入库的见 `.gitignore`：`infra/.env`、`local-account.txt`、`lifeagent_ids.json`、`data/raw/`、`data/browser/`、`data/sidecar/`、`data/processed` 的备份文件、`eval/runs/`、`web/node_modules`、`web/dist`、`demo/videos/`。行尾统一 LF（`.gitattributes`，仓库内 `core.autocrlf=input`）。提交前跑一遍 `git diff --cached | grep -E "sk-|pat_"` 查密钥。
+
+
 ```
 Agent1/
   infra/      make_env.py、docker-compose.yml、litellm.yaml、.env.example；coze-patch/（Coze 检索补丁，10-21 已应用，启动命令见其 README）
