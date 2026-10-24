@@ -101,7 +101,7 @@ def build(ids: dict, space_id: str, draft: bool = False) -> str:
                              cv.out("count", "integer"), cv.out("with_evidence", "integer"), cv.out("geo_fallback", "boolean")],
                             pos=(X + 300, -250)))
     nodes.append(cv.llm_m(n["l2"], "推荐生成", "用户本轮输入：{{query}}\n已知条件：{{slots}}\n用户画像：{{profile}}\n锚点：{{anchor}}\n条件放宽：{{relaxed}}\n候选门店（只能从这里选）：{{candidates}}",
-                          (fc.PROMPTS / "recommend.v8.md").read_text(encoding="utf-8"),
+                          (fc.PROMPTS / "recommend.v9.md").read_text(encoding="utf-8"),
                           [cv.param("query", q), cv.param("slots", u("slots_eff")), cv.param("profile", u("profile_eff")),
                            cv.param("anchor", rc("anchor")), cv.param("candidates", rc("candidates_json")),
                            cv.param("relaxed", rc("relaxed"))],

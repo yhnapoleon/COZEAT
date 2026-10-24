@@ -59,7 +59,7 @@ UNDERSTAND_IN = [("query", "string"), ("prev_slots", "string"), ("shown", "strin
 UNDERSTAND_OUT = [("route", "j1"), ("cid", "j1", "integer"), ("clarify", "j1"), ("clarify_ans", "j1"), ("dec_note", "j1"),
                   ("empty", "j1"), ("question_ans", "c1"),
                   ("ins_items", "j1", "list<string>"), ("del_items", "j1", "list<string>"), ("pm_reply", "j1"),
-                  ("acc_reply", "j1"), ("acc_shown", "j1"),
+                  ("acc_reply", "j1"), ("acc_shown", "j1"), ("excl_ids", "j1"),
                   ("area_q", "c1"), ("kw", "c1"), ("budget", "c1"), ("slots_json", "c1"), ("need_clarify", "c1", "boolean"),
                   ("question", "c1"), ("turn", "c1"), ("scene_tag", "c1"), ("taste", "c1"), ("slots_eff", "c1"),
                   ("profile_note", "c1"), ("profile_eff", "c1"), ("off_ids", "c1"),
@@ -86,7 +86,7 @@ def build_understand(ids: dict) -> str:
                           [cv.out("output")], *M, json_mode=False, max_tokens=4096, pos=(450, 100)))
     # 槽位提取和意图并行：以前在分流之后串行跑，找店一轮多等 2–3 秒；其他意图白跑一次
     nodes.append(cv.llm_m(n["l1"], "槽位提取", "用户本轮输入：{{query}}\n上轮已知条件：{{prev_slots}}",
-                          (fc.PROMPTS / "slot_extract.v7.md").read_text(encoding="utf-8"),
+                          (fc.PROMPTS / "slot_extract.v9.md").read_text(encoding="utf-8"),
                           [cv.param("query", a["query"]), cv.param("prev_slots", a["prev_slots"])],
                           [cv.out("output")], *M, json_mode=False, max_tokens=2048, pos=(450, 300)))
     nodes.append(cv.code(n["j1"], "汇合", [
@@ -96,7 +96,7 @@ def build_understand(ids: dict) -> str:
         cv.param("stage", a["stage"]), cv.param("slot_raw", cv.ref(n["l1"], "output"))],
         [cv.out("route"), cv.out("cid", "integer"), cv.out("clarify"), cv.out("clarify_ans"), cv.out("dec_note"), cv.out("empty"),
          cv.out("ins_items", "list", schema=LS), cv.out("del_items", "list", schema=LS), cv.out("pm_reply"),
-         cv.out("acc_reply"), cv.out("acc_shown")],
+         cv.out("acc_reply"), cv.out("acc_shown"), cv.out("excl_ids")],
         fc.CODE_JOIN, pos=(900, -100)))
     # 合并槽位要等记忆抽取：本轮改口推翻的画像条目（target_id）本轮就不能再当默认值（10-21，问题 2）
     nodes.append(cv.code(n["c1"], "合并槽位", [
@@ -117,7 +117,7 @@ def build_understand(ids: dict) -> str:
 
 
 # ---------------- recall：召回候选并挂上 KB-review 证据 ----------------
-RECALL_IN = ["area_q", "kw", "budget", "scene_tag", "taste", "slots_json", "bmin", "dist_max", "cate_re", "name_re", "dish_re", "dish_w", "kb_q", "kb_on", "kb_w"]
+RECALL_IN = ["area_q", "kw", "budget", "scene_tag", "taste", "slots_json", "bmin", "dist_max", "cate_re", "name_re", "dish_re", "dish_w", "kb_q", "kb_on", "kb_w", "excl_ids"]
 
 
 def evidence_batch(ids: dict, bid: str, title: str, items_ref: dict, size: int, pos) -> tuple[dict, list[str]]:
@@ -165,7 +165,8 @@ def build_recall(ids: dict) -> str:
     nodes.append(cv.code(n["c3"], "裁剪候选", [
         cv.param("rows", cv.ref(n["r1"], "outputList", "list<object>", schema={"type": "object", "schema": fc.ROW_SCHEMA})),
         cv.param("scene", a["scene_tag"]), cv.param("kw", a["kw"]), cv.param("taste", a["taste"]),
-        cv.param("dist_max", a["dist_max"]), cv.param("budget", a["budget"]), cv.param("bmin", a["bmin"]), cv.param("kb_on", a["kb_on"])],
+        cv.param("dist_max", a["dist_max"]), cv.param("budget", a["budget"]), cv.param("bmin", a["bmin"]), cv.param("kb_on", a["kb_on"]),
+        cv.param("excl", a["excl_ids"])],
         [cv.out("candidates_json"), cv.out("count", "integer"), cv.out("cand_items", "list", schema=LS), cv.out("relaxed"),
          cv.out("funnel")],
         fc.CODE_TRIM, pos=(1200, 0)))
@@ -364,7 +365,7 @@ def samples() -> dict:
         "recall": {"area_q": "海岸城", "kw": "火锅", "budget": "100", "scene_tag": "", "taste": "",
                    "slots_json": json.dumps({"area": "海岸城", "category": "火锅", "budget_max": 100}, ensure_ascii=False),
                    "bmin": "0", "dist_max": "0", "cate_re": "[|](火锅)[|]", "name_re": "(火锅|火锅店)", "dish_re": "(火锅)", "dish_w": "1",
-                   "kb_q": "火锅 不用排队", "kb_on": "1", "kb_w": "0"},
+                   "kb_q": "火锅 不用排队", "kb_on": "1", "kb_w": "0", "excl_ids": ""},
         "compare": {"query": "SOKO SOKO 和木槿钰哪个好", "profile": "（空）", "targets_json": json.dumps(targets, ensure_ascii=False),
                     "cand_items": json.dumps(items, ensure_ascii=False)},
         "route": {"to_lng": str(two[0]["lng"]), "to_lat": str(two[0]["lat"]), "to_name": two[0]["name"], "origin": "南山科技园"},

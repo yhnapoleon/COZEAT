@@ -1,6 +1,6 @@
 # 交接文档：抖音本地生活推荐 Agent（实习第二阶段）
 
-> 更新于 2026-10-23（CF-main v0.0.19：画像页、多维量化评分、推荐解释、笔记可信度，见 0.15；网页 Demo 用法在 `demo/README.md`，10-22 的进度在 0.2）。新对话先读这份文件，再按第 2 节读记忆和设计文档。stage1 和 READAR 的交接在 `ByteDance/handover.md`，和本项目无关。
+> 更新于 2026-10-24（CF-main v0.0.21：工程化基建、E6 对话效果调优，见 0.16）。10-23：CF-main v0.0.19 画像页、多维量化评分、推荐解释、笔记可信度，见 0.15；网页 Demo 用法在 `demo/README.md`，10-22 的进度在 0.2）。新对话先读这份文件，再按第 2 节读记忆和设计文档。stage1 和 READAR 的交接在 `ByteDance/handover.md`，和本项目无关。
 
 ## 0. 下一个对话先做什么
 
@@ -10,6 +10,23 @@
 2. **暂停一切真实爬取**（用户 10-21：账号收到警告）。不跑 `etl/xhs_crawl.py`、不下载小红书图片、不用 Claude in Chrome 或 `data/browser/xhs-profile` 打开小红书/点评/抖音页面。测试、修数据、重建知识库只用 `data/` 里已有的；需要新数据先问用户。高德、博查这类 API 照常少量用。
 3. **模型只用 DeepSeek V4.1 Flash，不调 Claude Opus**（用户 10-20：太贵）。Coze 节点、sidecar 决策层、ETL（`common/llm.py`）默认都是 `deepseek-flash`；评测不跑 Claude 对照。
 4. **MVP 优先**：完整链路先做出来，稳定性和"让 DeepSeek 对齐 Claude"以后靠结构设计和 checkpoint 做。
+
+### 0.16 10-24 做完的事（工程化基建、E6 对话效果调优，v0.0.21）
+
+导师 10-24 的评价是"挺好的"，提了三件事：① 工程化基建、依赖管理；② 对话效果调优（30 条以上用例、逐轮调 Prompt、错误归因），多轮对话优化（上下文记忆、澄清机制、卡片 + 自然语言）；③ 之后复盘：整理文档（架构图、配置说明、调优记录），写复盘报告。①② 已做完，③ 的调优记录就是 `docs/TUNING.md`，其余还没做。
+
+1. **依赖管理**：`pyproject.toml` + `uv.lock` + `.python-version`（3.13）。依赖分成基础 / sidecar / demo / etl / dev 五组，直接依赖锁成精确版本，`exclude-newer` 挡住刚发布的包。sidecar 镜像按 `sidecar/requirements.txt`（从 lock 导出、带 hash）安装。本机命令一律 `uv run python -I -X utf8 ...`。
+2. **ruff + pytest + CI**：ruff 只开 E9 和 pyflakes。`tests/` 下是离线测试（117 条：27 个代码节点的编译和 pyflakes、合并槽位、汇合、裁剪候选、合并证据、认店、格式化卡片、品类表、E6 判分规则），不连 Coze 和模型。GitHub Actions 跑 lint、pytest、提及对齐审计、requirements 与 lock 是否一致、前端构建。
+3. **E6 对话效果集**：`eval/e6_run.py`，`eval/data/e6_cases.json` 共 50 条 / 69 轮。规则判分 + DeepSeek 评委，自动归因到层，评委结果有缓存。结果：基线 41/50 → R1（只改 prompt）38、41/50 → R2（改结构）48、49/50。同一版本重跑会翻转 3–5 条，每个版本要跑两次。逐条归因和改动见 `docs/TUNING.md`。
+4. **R1 / R2 改了什么**（版本：CF-main v0.0.21，WF-understand v0.0.9，WF-recall v0.0.8，prompt 用 slot_extract.v9、recommend.v9）：
+   - 意图描述里找餐厅和偏好管理的边界；unclear 题面加正反例；
+   - reject 之后召回排除被拒的店（`excl_ids`）；
+   - "符合"里删掉用户没提的预算；
+   - 召回为空时说明收录范围；
+   - 认店失败时说明库里没有这家店；
+   - 附近够 3 家时不给远的店（场景对得上 3.5 公里，否则 2 公里）；
+   - 追问后的回答退回 Coze 被判成闲聊时，按找店走。
+5. **没修的**见 `docs/TUNING.md` 第 6 节：表外品类被跨店检索当成品类命中、一句两个意图、对比生成算错团购价差、记忆抽取把本次改条件当长期偏好、/decide 尾部延迟。
 
 ### 0.15 10-23 做完的事（画像页、多维评分、推荐解释、笔记可信度，v0.0.19）
 
@@ -110,7 +127,7 @@
 节点源码在 `bridge/flow_code.py`。
    - 只改主干（分流、推荐生成、格式化）：改 `build_cf_main.py` 或 `prompts/` → `build` → `debug_run.py` → `release v0.0.x`。
    - 改子工作流：改 `flow_code.py` 或 `build_subflows.py` → `build_subflows.py build 名字` → `build_cf_main.py build --draft`（主干读子工作流草稿）→ `debug_run.py` → `build_subflows.py release 名字`（版本号自动加 1，写进 `sub_versions`）→ `build_cf_main.py release v0.0.x`（锁新版本）。**不要拿 `--draft` 的画布去发布**，发布版会跟着草稿变。
-   - 最后用 `chat_api.py` 换 user_id 测发布版。当前版本：CF-main **v0.0.19**（下一个 v0.0.20），WF-understand v0.0.7，WF-recall v0.0.7，WF-compare v0.0.3，WF-route v0.0.3，WF-hot、WF-memwrite 各 v0.0.2，WF-faq v0.0.1，WF-consolidate v0.0.6（v0.0.5 误发成和 v0.0.4 相同的内容，`build_memory.py release` 以前不先保存画布，已改）。
+   - 最后用 `chat_api.py` 换 user_id 测发布版。改了理解或召回的，跑 `uv run pytest`，再跑 E6 两次（`eval/e6_run.py`），和上一版逐条比；改了 WF-understand 的再跑 E1。当前版本：CF-main **v0.0.21**（下一个 v0.0.22），WF-understand v0.0.9，WF-recall v0.0.8，WF-compare v0.0.3，WF-route v0.0.3，WF-hot、WF-memwrite 各 v0.0.2，WF-faq v0.0.1，WF-consolidate v0.0.6（v0.0.5 误发成和 v0.0.4 相同的内容，`build_memory.py release` 以前不先保存画布，已改）。
 
 ## 1. 现状（框架 v0.9）
 

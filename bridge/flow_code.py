@@ -20,13 +20,13 @@ MODEL_TYPE, MODEL_NAME = 100003, "DeepSeek V4.1 Flash（经 LiteLLM 网关）"
 SIDECAR = "http://host.docker.internal:8090"
 
 INTENTS = [  # 顺序即 classificationId 1..8、端口 branch_0..branch_7
-    "找餐厅：想找吃饭的地方，问附近有什么好吃的、推荐餐厅",
+    "找餐厅：想找吃饭的地方，问附近有什么好吃的、推荐餐厅；也包括调整上一轮的找店条件（换预算、换地点、换品类、换一批、不想去某家）",
     "选套餐：问团购、套餐、优惠券、双人餐",
     "对比评价：比较两家或几家店，问某家店怎么样、口碑如何",
     "路线规划：问怎么去、多远、要多久",
     "看榜单：问热门、排行榜、必吃榜、心动榜、网红店",
     "FAQ：团购券使用、退款、过期、预约、发票等平台规则问题",
-    "偏好管理：让助手记住或忘掉自己的口味、预算、忌口",
+    "偏好管理：明确要助手长期记住或忘掉自己的口味、预算、忌口（说了记住、以后都、忘掉），或者问记住了哪些偏好；只是这次换个条件不算",
     "闲聊：与吃饭找店无关的话",
 ]
 
@@ -165,6 +165,10 @@ async def main(args: Args) -> Output:
     else:
         cid, src, conf = coze_cid, "coze", 1.0
     unclear = f(un.get("noul"))
+    # 上一轮刚追问过地点和品类（stage=collect），这句多半是在回答追问："嗯，还没想好"被判成闲聊时按找店走，
+    # 由合并槽位的"只问一次"给默认推荐（10-24，E6 b03：/decide 超过 10 秒，退回 Coze 意图节点判成了闲聊）
+    if cid == 8 and (p.get("stage") or "") == "collect":
+        cid = 1
     clarify, clarify_card = "", ""
     # 意图拿不准就先问；上一轮刚追问过（槽位追问或意图澄清）时不再追问，按最可能的走
     if src == "decide" and (conf < TAU or unclear >= TAU) and (p.get("stage") or "") not in ("collect", "clarify"):
@@ -284,12 +288,25 @@ async def main(args: Args) -> Output:
                  or (len(shown) == 1 and (p.get("stage") or "") == "accepted"))):
         route, acc_reply, acc_shown = "dl", "", "[]"
         ins = [x for x in ins if '"kind": "feedback"' not in x]  # 问团购不算选定，不记反馈
+    # 换一批（10-24，E6 c09/c12/c13）：找店时对上轮推荐的 reject，召回时把被拒的店去掉；指了第几家只去那家，没指就去整批
+    excl = []
+    if route == "rec" and shown:
+        for fb in fbs:
+            if not isinstance(fb, dict) or fb.get("label") != "reject":
+                continue
+            try:
+                idx = int(fb.get("idx") or 0)
+            except Exception:
+                idx = 0
+            for t in (shown if idx == 0 else ([shown[idx - 1]] if 0 < idx <= len(shown) else [])):
+                if t.get("amap_id") and str(t.get("amap_id")) not in excl:
+                    excl.append(str(t.get("amap_id")))
     note = (src + " cid=" + str(cid) + " conf=" + str(round(conf, 2)) + " unclear=" + str(round(unclear, 2))
-            + " coze_cid=" + str(coze_cid) + " fb=" + fb_src + ":" + str(len(fbs)))
+            + " coze_cid=" + str(coze_cid) + " fb=" + fb_src + ":" + str(len(fbs)) + (" excl=" + str(len(excl)) if excl else ""))
     # empty 恒为空串，给主干汇总节点各组当最后一项兜底（这个子工作流一定执行，值非 nil）
     return {"route": route, "cid": cid, "clarify": clarify, "clarify_ans": (clarify + NL + clarify_card) if clarify else "",
             "dec_note": note, "ins_items": ins, "del_items": dels,
-            "pm_reply": reply, "acc_reply": acc_reply, "acc_shown": acc_shown, "empty": ""}
+            "pm_reply": reply, "acc_reply": acc_reply, "acc_shown": acc_shown, "excl_ids": ",".join(excl), "empty": ""}
 '''
 
 # D2 意图 + D1 反馈合成一次 /decide 请求（Jev 的 choice / noul 格式），由 HTTP 节点原样 POST
@@ -307,7 +324,7 @@ async def main(args: Args) -> Output:
     qs = {"intent": {"type": "choice", "instructions": "用户这句话想做什么。state 里有 last_question 时，先看这句是不是在回答它",
                      "criteria": __INTENT_CRITERIA__},
           "unclear": {"type": "noul",
-                      "instructions": "这句话太含糊，得先问用户想做什么才能继续。这句是在回答 last_question 时为假"}}
+                      "instructions": "这句话太含糊，得先问用户想做什么才能继续，例如只说了地名（海岸城）、随便、嗯。说清了要找什么的为假（福田的火锅、某某店怎么样），地点不在服务范围也为假。last_shown 不为空（上一轮刚推荐过店）时，只补充或修改一个条件（在海岸城、人均 100 以内、两个人）是在接着找店，为假。这句是在回答 last_question 时为假"}}
     if shown:
         qs["feedback"] = {"type": "choice", "instructions": "用户对 last_shown（上一轮推荐的店）的反应",
                           "criteria": {"accept": "选定、想去、问怎么去、说不错", "reject": "嫌贵、嫌远、不想吃、要换一批",
@@ -617,12 +634,21 @@ async def main(args: Args) -> Output:
     # 逐级放宽：都满足 → 放宽距离 → 放宽预算 → 放宽品类 → 都放宽。距离只在用户说了范围（dist_max）时参与，SQL 本身取 5 公里内。
     # 用户点名了菜、且有店写明做这道菜（kw_hit=2）时，品类条件就是"做这道菜"，同品类但没写这道菜的店不算满足：
     # 宁可在这些店里放宽距离、预算（10-21：画像默认人均 100 把做意面的三家都筛掉，留下的是不卖意面的披萨店）
+    # 换一批：去掉上轮被拒的店（理解阶段的 excl_ids）；全去掉就一家不剩时保留原样
+    excl = set(x for x in str(args.params.get("excl") or "").split(",") if x)
+    n_excl = 0
+    if excl:
+        rest = [c for c in cands if c["amap_id"] not in excl]
+        if rest:
+            n_excl, cands = len(cands) - len(rest), rest
     need = 2 if any(c["_lvl"] >= 2 for c in cands) else 1
     hit = lambda c: c["_lvl"] >= need  # noqa: E731
     near = (lambda c: c["dist_m"] <= dmax) if dmax > 0 else (lambda c: True)
     # 筛选漏斗（网页 Demo 的"为什么是这几家"，10-23）：SQL 召回的店里各条件满足几家
     bmax_q, bmin_q = int(f(args.params.get("budget"))), int(f(args.params.get("bmin")))
     funnel = {"total": len(cands), "conds": []}
+    if n_excl:
+        funnel["excl"] = n_excl
     if kw:
         funnel["conds"].append({"k": "品类", "v": kw, "ok": sum(1 for c in cands if hit(c))})
     if bmin_q or bmax_q < 99999:
@@ -869,6 +895,13 @@ async def main(args: Args) -> Output:
     cands.sort(key=lambda c: c["_rank"])
     for c in cands:
         c.pop("_rank", None)
+    # 附近的店够 3 家时，远的不交给推荐生成（10-24，E6）：场景对得上的店放宽到 3.5 公里（商务宴请可以打车过去，
+    # 只留附近的会推出素食、轻食），对不上的超过 2 公里就不给（换一批后推了 2.8 公里外的川菜）。
+    # 用户说了距离范围时裁剪候选已经按范围筛过，这里不影响
+    near = [c for c in cands if int(c.get("dist_m") or 0) <= (3500 if c.get("scene_ok") else 2000)]
+    if len(near) >= 3 and len(near) < len(cands):
+        funnel["far"] = len(cands) - len(near)
+        cands = near
     # 用户说了场景、对得上的店够 3 家时，只把这些店交给推荐生成（10-21，E5 t02：约会场景下 DeepSeek 挑了没有约会标签的店）
     ok = [c for c in cands if c.get("scene_ok")]
     funnel["evid"] = n
@@ -909,6 +942,15 @@ async def main(args: Args) -> Output:
         return "人均 ¥" + str(int(v)) if v > 0 else "人均未知"
     # 理由为空的条目当作没选：DeepSeek 偶尔在合格的店后面补一个只有 amap_id 和店名的空条目（10-20）
     picks = [x for x in picks if isinstance(x, dict) and x.get("amap_id") in cands and str(x.get("reason") or "").strip()][:3]
+    # "符合"只留用户提过的条件：生效条件里没有预算时去掉"人均 X 内"（10-24，E6 c13：没说预算，三家都写了"✓人均100内"）
+    try:
+        has_budget = any(c.get("k") == "预算" for c in json.loads(p.get("conds_json") or "[]"))
+    except Exception:
+        has_budget = True
+    if not has_budget:
+        for x in picks:
+            if isinstance(x.get("matched"), list):
+                x["matched"] = [m for m in x["matched"] if not re.search(r"人均\s*¥?\s*[0-9]+\s*元?\s*(以内|内|以下)|预算", str(m))]
     # 场景对得上的店排前面（10-21）：推荐生成偶尔把没有场景依据的店放第 1，稳定排序，其余保持模型给的顺序
     picks.sort(key=lambda x: 0 if cands[x["amap_id"]].get("scene_ok", True) else 1)
     for pk in picks:
@@ -958,7 +1000,9 @@ async def main(args: Args) -> Output:
         if p.get("relaxed"):
             answer = str(p.get("relaxed")) + "。" + NL + NL + answer
     else:
-        answer = "在" + anchor + "附近没找到符合条件的店。可以放宽预算、换个品类，或者换个商圈再试。"
+        # 候选为空 = SQL 在锚点 5 公里内一家店都没召回（裁剪候选会逐级放宽到全部），多半是地点不在收录范围（10-24，E6 e01/e11/e12）
+        answer = ("我这里只收录了深圳南山海岸城、深圳湾万象城、科技园一带的店，" + anchor + "附近 5 公里内没有收录的店。"
+                  "在这几个商圈的话可以直接说，比如“海岸城附近的火锅”。")
     # 锚点坐标和召回、算距离用的是同一个（解析坐标节点），网页 Demo 在地图上标锚点和店（10-22）
     def fl(x):
         try:
@@ -1103,6 +1147,13 @@ async def main(args: Args) -> Output:
     ask = ("想比较哪几家？可以直接说店名，比如“小炳胜和陶陶居哪个好”；刚推荐过的也可以说“第一家和第二家比一下”。"
            if route == "cmp" else "想看哪家店的团购？说店名，或者说“第一家有团购吗”。" if route == "dl" else
            "想去哪家店？说店名就行，或者说“第一家怎么去”。也可以带上出发地，比如“从科技园过去”。")
+    # 说了店名但库里没有（10-24，E6 e05/e13）：如实说没收录，不回通用的"想比较哪几家"
+    if go == "ask":
+        m2 = re.search(r"^(?:请问|那|你觉得)?\s*(.{2,16}?)(?:这家店|这家)?(?:怎么样|好不好|好吃吗|如何|值得去吗|评价|口碑|怎么去|怎么走|在哪|有团购|有没有团购|的团购|和|跟|与|哪个好)", q)
+        nm = m2.group(1).strip() if m2 else ""
+        if nm and not re.search(r"第|这|那|它|哪|附近|周边|几家", nm):
+            ask = ("没找到「" + nm + "」的资料。我这里收录的是深圳南山海岸城、深圳湾万象城、科技园一带的店，这家可能不在里面；"
+                   "也可以换个叫法再试，比如只说品牌名。")
 
     t0 = targets[0] if targets else {}
     return {"go": go, "targets_json": json.dumps(targets, ensure_ascii=False), "cand_items": items, "ask": ask,

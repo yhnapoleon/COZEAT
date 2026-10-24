@@ -8,10 +8,11 @@
 | E2 | 知识库召回、切分对照、主干按店取证据 | 112 条查询 + 161 家店 | `reports/E2_e2-base-1021+e2-sem-1021.md` |
 | E3 | 长期记忆终态 | 14 段脚本 | `reports/E3_e3-base-1021.md` |
 | E5 | 端到端人设任务 | 12 个任务 | `reports/E5_e5-base-1021.md` |
+| E6 | 对话效果：典型场景、澄清、多轮上下文、其他意图、边界、长期记忆 | 50 条 / 69 轮 | `reports/E6_e6-base-1024.md`（调优后 `E6_e6-r2-1024.md`） |
 | 品类召回 | 新旧品类匹配离线对照（不调 Coze） | 40 个查询词 | `reports/cate_recall_1021.md` |
 | 跨店召回 | KB-review 跨店检索开/关，答案店进没进候选 | E2 找店 60 条 | `reports/KBX_kbx-1021b.md` |
 
-E4（决策层校准）、E6（个性化）没做；DESIGN 里 E5 的"关掉记忆和决策层"对照版本也没做。
+E4（决策层校准）没做；原计划的 E6（个性化）改成了对话效果集（10-24，导师要求的调优用例）；DESIGN 里 E5 的"关掉记忆和决策层"对照版本也没做。
 
 ## E1
 
@@ -57,6 +58,19 @@ python -I -X utf8 eval/e5_run.py --run 名字 --rescore   # 改了任务条件�
 ```
 
 任务在 `data/e5_tasks.json`：条件分"开口说 / 问到才说 / 只在长期记忆里"三档。DeepSeek 扮用户，最多 4 轮；选中的店从线上 session_state 的 last_shown 取，按 shops.jsonl 判（地点 1 公里内、品类写法、人均 ≤ 上限 × 1.1、场景标签）。
+
+## E6（10-24）
+
+```
+uv run python -I -X utf8 eval/e6_run.py --run 名字 -j 3            # 每条用例一个新 user_id，按脚本逐轮对话，走发布版
+uv run python -I -X utf8 eval/e6_run.py --run 名字 --rescore       # 不重新对话，按存下的回答重判
+uv run python -I -X utf8 eval/e6_run.py --run 名字 --only c05,c06
+```
+
+- 用例在 `data/e6_cases.json`，脚本固定、不用模拟用户，同一版本重跑可比。每轮的期望写法和自动归因规则在 `e6_run.py` 开头。
+- 规则能判的（回答类型、生效条件、店是否满足、指代、正文必须有 / 不能有）用规则判；判不了的写成一句 `judge`，交给 DeepSeek 评委看整段对话。评委和被测是同一个模型，可能偏宽。
+- 生效条件从 shop_list 卡片的 `explain.conds` 读，不读数据库；所以条件检查只在有推荐卡片的轮次有意义。
+- 判分规则本身有离线测试（`tests/test_e6_scoring.py`）。人工结论写在 `data/e6_conclusion.md`，出报告时放在开头。
 
 ## 品类召回、跨店召回（10-21）
 

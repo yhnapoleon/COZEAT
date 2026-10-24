@@ -80,7 +80,7 @@ def test_no_valid_pick_falls_back_to_first_candidate():
 
 def test_no_candidates():
     out = fmt([], [])
-    assert "没找到符合条件的店" in out["answer"]
+    assert "没有收录的店" in out["answer"]
     assert card_of(out["answer"])["items"] == []
 
 
@@ -88,3 +88,18 @@ def test_profile_note_and_relaxed_prefixed():
     out = fmt([cand(1)], [{"amap_id": "B1", "reason": "r"}], profile_note="按你的长期偏好：常去深圳湾", relaxed="符合全部条件的不多，放宽了距离")
     head = out["answer"].split("在海岸城附近")[0]
     assert "放宽了距离" in head and "常去深圳湾" in head
+
+
+def test_no_candidates_says_coverage():
+    # 5 公里内一家都没召回：多半是地点不在收录范围，不能建议"放宽预算"（10-24，E6 e01/e11/e12）
+    out = fmt([], [], anchor="罗湖区")
+    assert "只收录了深圳南山" in out["answer"] and "放宽预算" not in out["answer"]
+
+
+def test_unmentioned_budget_stripped_from_matched():
+    picks = [{"amap_id": "B1", "reason": "r", "matched": ["粤菜", "✓人均100内", "人均 ¥100 以内"]}]
+    card = card_of(fmt([cand(1)], picks)["answer"])
+    assert card["items"][0]["matched"] == ["粤菜"]
+    conds = json.dumps([{"k": "预算", "v": "人均 100 以内"}], ensure_ascii=False)
+    card = card_of(fmt([cand(1)], picks, conds_json=conds)["answer"])
+    assert len(card["items"][0]["matched"]) == 3
