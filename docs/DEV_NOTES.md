@@ -25,28 +25,28 @@
 ## 常用命令
 
 ```
-python -I infra/make_env.py                                   # keys/*.txt → infra/.env（不打印 key）
+uv run python -I infra/make_env.py                                   # keys/*.txt → infra/.env（不打印 key）
 docker compose -f infra/docker-compose.yml --env-file infra/.env up -d --build
-python -I -X utf8 etl/smoke.py                                 # 每个外部 API 调一次
-python -I -X utf8 etl/amap_crawl.py --anchor 海岸城 --radius 1000 --pages 2
-python -I -X utf8 etl/resolve_mentions.py [--offline]          # 提及对齐门店（每次从头算；高德结果缓存在 data/processed/amap_cache.json）
-python -I -X utf8 etl/audit_mentions.py [--kb]                 # 对齐审计 = 管线关卡，有硬性问题退出码 1
-python -I -X utf8 etl/shop_cats.py [--dry-run]                 # 标准品类打标（缓存 data/processed/shop_cats.json，改了品类名才重打）
-python -I -X utf8 eval/cate_recall.py                          # 品类召回离线对照：旧 LIKE vs 标准品类，差异逐条列出
-python -I -X utf8 eval/recall_probe.py "海岸城不用排队的火锅" [--no-kb]   # 调试召回：打印跨店命中、裁剪后 12 家、交给推荐生成的 8 家
-python -I -X utf8 bridge/load_shops.py                         # 草稿表 + 线上表
-python -I -X utf8 bridge/alter_table.py shop [--add 名字:类型:说明]   # 列出或给表加列（会原样带上现有列）
-python -I -X utf8 bridge/load_kb.py [--rebuild]                # KB-review；对齐规则或提及变了用 --rebuild 整库重写
-python -I -X utf8 bridge/build_subflows.py build|run|release [名字...]   # 子工作流；release 调试通过后发布下一个版本
-python -I -X utf8 bridge/build_cf_main.py build --draft        # 主干读子工作流草稿，改子工作流时调试用
-python -I -X utf8 bridge/build_cf_main.py build                # 主干锁 sub_versions 里的发布版
-python -I -X utf8 bridge/build_cf_main.py run "海岸城附近人均100以内的火锅" dev-1
-python -I -X utf8 bridge/build_cf_main.py release v0.0.18      # 锁版本重建、调试一次再发布（当前 v0.0.17）
-python -I -X utf8 bridge/build_memory.py build|run|release v0.0.7   # WF-consolidate（当前 v0.0.6；release 会先重建保存）
-python -I -X utf8 bridge/chat_api.py "深圳湾万象城附近两个人约会，想吃西餐" demo-user conv-1
-python -I -X utf8 bridge/debug_run.py "第一家怎么去" dev-1   # 调试运行，打印关键节点和回答
-python -I -X utf8 bridge/stress_run.py                       # 连跑 24 轮，查对话流挂住
-python -I -X utf8 bridge/mem_consolidate.py demo-user          # 立即整理某个用户的记忆
+uv run python -I -X utf8 etl/smoke.py                                 # 每个外部 API 调一次
+uv run python -I -X utf8 etl/amap_crawl.py --anchor 海岸城 --radius 1000 --pages 2
+uv run python -I -X utf8 etl/resolve_mentions.py [--offline]          # 提及对齐门店（每次从头算；高德结果缓存在 data/processed/amap_cache.json）
+uv run python -I -X utf8 etl/audit_mentions.py [--kb]                 # 对齐审计 = 管线关卡，有硬性问题退出码 1
+uv run python -I -X utf8 etl/shop_cats.py [--dry-run]                 # 标准品类打标（缓存 data/processed/shop_cats.json，改了品类名才重打）
+uv run python -I -X utf8 eval/cate_recall.py                          # 品类召回离线对照：旧 LIKE vs 标准品类，差异逐条列出
+uv run python -I -X utf8 eval/recall_probe.py "海岸城不用排队的火锅" [--no-kb]   # 调试召回：打印跨店命中、裁剪后 12 家、交给推荐生成的 8 家
+uv run python -I -X utf8 bridge/load_shops.py                         # 草稿表 + 线上表
+uv run python -I -X utf8 bridge/alter_table.py shop [--add 名字:类型:说明]   # 列出或给表加列（会原样带上现有列）
+uv run python -I -X utf8 bridge/load_kb.py [--rebuild]                # KB-review；对齐规则或提及变了用 --rebuild 整库重写
+uv run python -I -X utf8 bridge/build_subflows.py build|run|release [名字...]   # 子工作流；release 调试通过后发布下一个版本
+uv run python -I -X utf8 bridge/build_cf_main.py build --draft        # 主干读子工作流草稿，改子工作流时调试用
+uv run python -I -X utf8 bridge/build_cf_main.py build                # 主干锁 sub_versions 里的发布版
+uv run python -I -X utf8 bridge/build_cf_main.py run "海岸城附近人均100以内的火锅" dev-1
+uv run python -I -X utf8 bridge/build_cf_main.py release v0.0.18      # 锁版本重建、调试一次再发布（当前 v0.0.17）
+uv run python -I -X utf8 bridge/build_memory.py build|run|release v0.0.7   # WF-consolidate（当前 v0.0.6；release 会先重建保存）
+uv run python -I -X utf8 bridge/chat_api.py "深圳湾万象城附近两个人约会，想吃西餐" demo-user conv-1
+uv run python -I -X utf8 bridge/debug_run.py "第一家怎么去" dev-1   # 调试运行，打印关键节点和回答
+uv run python -I -X utf8 bridge/stress_run.py                       # 连跑 24 轮，查对话流挂住
+uv run python -I -X utf8 bridge/mem_consolidate.py demo-user          # 立即整理某个用户的记忆
 ```
 
 ## 踩过的坑

@@ -125,39 +125,44 @@ flowchart LR
 
 ## 运行
 
-需要：Docker、本机部署的 Coze Studio v0.5.1（建议打上 `infra/coze-patch` 的检索补丁）、Python 3.11+、Node 22，以及 DeepSeek、高德、博查的 key。
+需要：Docker、本机部署的 Coze Studio v0.5.1（建议打上 `infra/coze-patch` 的检索补丁）、[uv](https://docs.astral.sh/uv/)（会按 `.python-version` 用 Python 3.13）、Node 22，以及 DeepSeek、高德、博查的 key。
+
+Python 依赖在 `pyproject.toml` 里按用途分组（sidecar / demo / etl），版本锁在 `uv.lock`。sidecar 镜像按 `sidecar/requirements.txt` 安装，这个文件从 lock 导出、带 hash；改了依赖要重新导出，命令写在 `sidecar/Dockerfile` 里。
 
 ```bash
+# 0. 装依赖（建 .venv）
+uv sync
+
 # 1. 配置：复制 infra/.env.example 为 infra/.env 并填写
 # 2. 先起 LLM 网关
 docker compose -f infra/docker-compose.yml --env-file infra/.env up -d --build litellm
 
 # 3. 在 Coze Studio 里注册模型，建表和知识库（第一次运行会注册本地账号，存在 local-account.txt；
 #    建表时生成 lifeagent_ids.json，记录所有表、知识库、工作流的 id）
-python -I -X utf8 bridge/register_model.py add deepseek-flash "DeepSeek V4.1 Flash（经 LiteLLM 网关）"
-python -I -X utf8 bridge/build_storage.py
-python -I -X utf8 bridge/build_agent.py create
+uv run python -I -X utf8 bridge/register_model.py add deepseek-flash "DeepSeek V4.1 Flash（经 LiteLLM 网关）"
+uv run python -I -X utf8 bridge/build_storage.py
+uv run python -I -X utf8 bridge/build_agent.py create
 
 # 4. 起 sidecar（它挂载 lifeagent_ids.json，要在上一步之后）
 docker compose -f infra/docker-compose.yml --env-file infra/.env up -d --build sidecar
 
 # 5. 写入数据
-python -I -X utf8 bridge/load_shops.py
-python -I -X utf8 bridge/load_kb.py --rebuild
-python -I -X utf8 bridge/load_faq.py
+uv run python -I -X utf8 bridge/load_shops.py
+uv run python -I -X utf8 bridge/load_kb.py --rebuild
+uv run python -I -X utf8 bridge/load_faq.py
 
 # 6. 建并发布工作流（子工作流 → 记忆整理 → 主干），再把智能体切到对话流模式
-python -I -X utf8 bridge/build_subflows.py release
-python -I -X utf8 bridge/build_memory.py release v0.0.1
-python -I -X utf8 bridge/build_cf_main.py release v0.0.1
-python -I -X utf8 bridge/build_agent.py chatflow
+uv run python -I -X utf8 bridge/build_subflows.py release
+uv run python -I -X utf8 bridge/build_memory.py release v0.0.1
+uv run python -I -X utf8 bridge/build_cf_main.py release v0.0.1
+uv run python -I -X utf8 bridge/build_agent.py chatflow
 
 # 7. 命令行试一句（第一次会创建 COZE_PAT）
-python -I -X utf8 bridge/chat_api.py "海岸城附近人均100以内的火锅" demo-user conv-1
+uv run python -I -X utf8 bridge/chat_api.py "海岸城附近人均100以内的火锅" demo-user conv-1
 
 # 8. 网页 Demo
-cd web && npm install && npm run build && cd ..
-python -I -X utf8 demo/server.py      # http://localhost:8095
+cd web && npm ci && npm run build && cd ..
+uv run python -I -X utf8 demo/server.py      # http://localhost:8095
 ```
 
 `register_model.py add` 会打印模型的 `model_type`，填到 `bridge/flow_code.py` 的 `MODEL_TYPE`（智能体和所有节点都从这里取）。网页 Demo 默认是演示回放（按 → 键逐句放录好的对话），`?mode=live` 是实时对话；录制和自动出视频见 [demo/README.md](demo/README.md)。
@@ -178,6 +183,8 @@ infra/     docker compose、LiteLLM 配置、Coze Studio 检索补丁
 canvases/  生成的画布 JSON（令牌已替换成占位符）
 research/  前期调研：平台能力、数据渠道、编排方式、持续学习、同类开源项目
 data/      处理后的门店、提及、FAQ 数据
+
+pyproject.toml / uv.lock   Python 依赖声明（按 sidecar / demo / etl 分组）和锁文件
 ```
 
 ## 文档

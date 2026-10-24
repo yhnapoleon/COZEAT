@@ -1,0 +1,41 @@
+# 本机脚本（bridge / etl / eval / demo）和 sidecar 共用一份依赖声明。
+# 直接依赖写精确版本（本机实际跑过的），间接依赖锁在 uv.lock；升级用 uv lock --upgrade-package 名字，跑通再提交。
+# 本机：uv sync 装全部分组；sidecar 镜像只装 sidecar 组，见 sidecar/requirements.txt 的生成命令。
+[project]
+name = "cozeat"
+version = "0.0.19"
+description = "COZEAT 本地生活推荐 Agent（Coze Studio 对话流 + sidecar）"
+requires-python = ">=3.13,<3.14"
+# bridge、eval 都要用到的
+dependencies = [
+    "requests==2.32.5",
+    "httpx==0.28.1",
+]
+
+[dependency-groups]
+# sidecar/app：决策代理、地理编码、记忆整理触发
+sidecar = [
+    "fastapi==0.128.0",
+    "uvicorn==0.40.0",
+    "pydantic==2.12.5",
+    "httpx==0.28.1",
+]
+# demo/server.py（网页 Demo 后端）、demo/make_video.py（录屏，另需 ffmpeg 和 playwright install chromium）
+demo = [
+    "fastapi==0.128.0",
+    "uvicorn==0.40.0",
+    "pydantic==2.12.5",
+    "playwright==1.63.0",
+]
+# etl/ugc.py 的模糊匹配；etl/xhs_crawl.py（10-21 起暂停使用）
+etl = [
+    "rapidfuzz==3.14.6",
+    "playwright==1.63.0",
+]
+
+[tool.uv]
+# 还不是可安装的包，uv sync 只装依赖
+package = false
+default-groups = "all"
+# 只解析这个日期之前发布的版本，刚发布的包不进 lock（防投毒；PyPI 上 litellm 1.82.7/1.82.8 出过事）。升级时把日期往后挪
+exclude-newer = "2026-10-17T00:00:00Z"

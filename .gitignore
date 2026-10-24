@@ -17,8 +17,12 @@ eval/runs/
 # 前端构建产物、依赖；录好的视频
 web/node_modules/
 web/dist/
+web/*.tsbuildinfo
 demo/videos/
 demo/scripts/*.bak.json
+
+# Python 虚拟环境（uv sync 生成）
+.venv/
 
 __pycache__/
 *.pyc
