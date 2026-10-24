@@ -25,6 +25,9 @@
 ## 常用命令
 
 ```
+uv sync                                                        # 按 uv.lock 装依赖（.venv）
+uv run ruff check .                                            # lint（语法错、未定义名、没用的导入）
+uv run pytest                                                 # 离线测试：代码节点编译和 pyflakes、合并槽位、卡片、品类表
 uv run python -I infra/make_env.py                                   # keys/*.txt → infra/.env（不打印 key）
 docker compose -f infra/docker-compose.yml --env-file infra/.env up -d --build
 uv run python -I -X utf8 etl/smoke.py                                 # 每个外部 API 调一次

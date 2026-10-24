@@ -1,0 +1,43 @@
+# 只跑离线检查：Coze Studio、sidecar、模型调用在 CI 里起不来，端到端评测在本机跑（eval/README.md）
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.11.0"
+      - name: 装依赖（按 uv.lock，不许改 lock）
+        run: uv sync --frozen
+      - name: lint
+        run: uv run ruff check .
+      - name: 离线测试（代码节点、槽位合并、卡片、品类表）
+        run: uv run pytest
+      - name: 提及对齐审计（管线关卡，用仓库里的缓存，不调高德）
+        run: uv run python -I -X utf8 etl/audit_mentions.py --kb
+      - name: sidecar/requirements.txt 和 uv.lock 一致
+        run: |
+          uv export --frozen --only-group sidecar --no-emit-project -o /tmp/req.txt
+          diff <(grep -v '^#' sidecar/requirements.txt) <(grep -v '^#' /tmp/req.txt)
+
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run build

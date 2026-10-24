@@ -165,6 +165,8 @@ cd web && npm ci && npm run build && cd ..
 uv run python -I -X utf8 demo/server.py      # http://localhost:8095
 ```
 
+改完代码先跑 `uv run ruff check .` 和 `uv run pytest`（只做离线检查，不连 Coze 和模型）。GitHub Actions 在每次推送时跑同样的检查，外加提及对齐审计和前端构建，见 `.github/workflows/ci.yml`。
+
 `register_model.py add` 会打印模型的 `model_type`，填到 `bridge/flow_code.py` 的 `MODEL_TYPE`（智能体和所有节点都从这里取）。网页 Demo 默认是演示回放（按 → 键逐句放录好的对话），`?mode=live` 是实时对话；录制和自动出视频见 [demo/README.md](demo/README.md)。
 
 ## 目录
@@ -184,7 +186,8 @@ canvases/  生成的画布 JSON（令牌已替换成占位符）
 research/  前期调研：平台能力、数据渠道、编排方式、持续学习、同类开源项目
 data/      处理后的门店、提及、FAQ 数据
 
-pyproject.toml / uv.lock   Python 依赖声明（按 sidecar / demo / etl 分组）和锁文件
+pyproject.toml / uv.lock   Python 依赖声明（按 sidecar / demo / etl / dev 分组）和锁文件；ruff、pytest 配置
+tests/     离线测试（代码节点、合并槽位、推荐卡片、品类表）
 ```
 
 ## 文档

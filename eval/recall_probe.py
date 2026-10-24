@@ -58,7 +58,6 @@ def main():
             print("跨店命中", [(x["rank"], x["amap_id"]) for x in kj])
         except ValueError:
             pass
-    shops = {json.loads(l)["amap_id"]: json.loads(l)["name"] for l in (ROOT / "data/processed/shops.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()}
     for k in ("cands_all", "candidates_json"):
         xs = json.loads(o.get(k) or "[]")
         print(k, len(xs))

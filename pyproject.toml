@@ -32,6 +32,10 @@ etl = [
     "rapidfuzz==3.14.6",
     "playwright==1.63.0",
 ]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.17.1",
+]
 
 [tool.uv]
 # 还不是可安装的包，uv sync 只装依赖
@@ -39,3 +43,19 @@ package = false
 default-groups = "all"
 # 只解析这个日期之前发布的版本，刚发布的包不进 lock（防投毒；PyPI 上 litellm 1.82.7/1.82.8 出过事）。升级时把日期往后挪
 exclude-newer = "2026-10-17T00:00:00Z"
+
+[tool.ruff]
+line-length = 200
+target-version = "py313"
+extend-exclude = ["research", "data", "web"]
+
+[tool.ruff.lint]
+# 先只开语法错误和 pyflakes（未定义名、没用的导入和变量）；代码节点源码是字符串，ruff 看不到，由 tests/test_code_nodes.py 编译检查
+select = ["E9", "F"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# 只放离线测试：不连 Coze、sidecar、LLM
+addopts = "-q"
+# 代码节点里的 utcnow() 是给 Coze 沙箱写的，本机 3.13 报弃用，不影响
+filterwarnings = ["ignore:datetime.datetime.utcnow:DeprecationWarning"]

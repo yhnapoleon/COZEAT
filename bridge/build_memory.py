@@ -43,10 +43,8 @@ SQL_STRAT_INS = ("INSERT INTO user_memory (kind, mkey, mvalue, status, support, 
 
 CODE_PREP = r'''
 import json
-import datetime
 async def main(args: Args) -> Output:
     rows = args.params.get("rows") or []
-    now_dt = datetime.datetime.utcnow() + datetime.timedelta(hours=8)  # 沙箱是 UTC，存北京时间
     def num(x, d):
         try:
             return float(x)

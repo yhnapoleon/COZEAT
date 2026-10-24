@@ -49,7 +49,7 @@ def main():
     shops = [json.loads(x) for x in SHOPS.read_text(encoding="utf-8").splitlines() if x.strip()]
     qm = query_map()
     n_std = sum(1 for s in shops if s.get("std_cate"))
-    lines = [f"# 品类召回对照（旧 LIKE vs 标准品类）", "",
+    lines = ["# 品类召回对照（旧 LIKE vs 标准品类）", "",
              f"门店 {len(shops)} 家，打了标准品类的 {n_std} 家。只看品类命中，不算距离和预算。", "",
              "| 查询词 | 旧命中 | 新命中 | 其中点名菜（2 级） | 新增 | 丢掉 |", "|---|---|---|---|---|---|"]
     detail = []
